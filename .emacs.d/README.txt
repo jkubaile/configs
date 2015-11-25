@@ -19,5 +19,6 @@ M-x package-install RET elpy RET
 M-x package-install RET js2-mode RET
 M-x package-install RET ac-js2 RET
 M-x package-install RET auto-complete RET
+M-x package-install RET iedit RET
 
 .emacs.d/ < befüllen
