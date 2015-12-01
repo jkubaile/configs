@@ -1,3 +1,5 @@
+(auto-complete-mode t)
+
 (custom-set-variables
  ;; custom-set-variables was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
@@ -7,14 +9,15 @@
  '(font-use-system-font t)
  '(show-paren-mode t)
  '(tool-bar-mode nil)
+ '(menu-bar-mode t)
  '(uniquify-buffer-name-style (quote forward) nil (uniquify))
  '(background brightwhite)
  '(use-file-dialog nil))
 
 ;; ido mode - better files choosing
 (require 'ido)
-(ido-mode t)
-
+(ido-mode t
+)
 ;; change fontsize with C-+/C--
 (load-library "fontsize")
 
