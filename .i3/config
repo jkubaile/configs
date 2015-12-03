@@ -213,7 +213,7 @@ exec --no-startup-id nm-applet
 
 #### RULES FOR SPECIFIC APPLICATIONS ####
 ## class ist einfach der Titel des Programms im Programmfenster
-for_window [class="Sprachspiel"] floating enable, border normal
+for_window [class="Buddy-Liste"] floating enable, border normal
 
 # for_window [class="Psi+"] floating enable, border normal
-# exec psi-plus
+exec pidgin

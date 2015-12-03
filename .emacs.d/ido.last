@@ -1,0 +1,111 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/home/jku/local/" . "configs/")
+ ("/home/jku/Instances/mcp3/mcp3/solute/webapps/mcp3/main/" . "templates/")
+ ("/home/jku/Instances/mcp3/epflapps-deals/solute/epflapps/deals/models/" . "api/")
+ ("/home/jku/Instances/mcp3/epflapps-deals/solute/epflapps/deals/" . "views/")
+ ("/home/jku/Instances/mcp3/epflapps-deals/solute/epflapps/" . "deals/")
+ ("/home/jku/Instances/mcp3/epflapps-deals/solute/" . "epflapps/")
+ ("/home/jku/Instances/mcp3/epflapps-deals/" . "solute/")
+ ("/home/jku/Instances/mcp3/pyramid_epfl/solute/epfl/" . "components/")
+ ("/home/jku/Instances/mcp3/pyramid_epfl/solute/" . "epfl/")
+ ("/home/jku/Instances/mcp3/pyramid_epfl/" . "solute/")
+ ("/home/jku/Instances/mcp3/mcp3/solute/webapps/mcp3/" . "main/")
+ ("/home/jku/Instances/mcp3/mcp3/solute/webapps/" . "mcp3/")
+ ("/home/jku/Instances/mcp3/mcp3/solute/" . "webapps/")
+ ("/home/jku/Instances/mcp3/mcp3/" . "solute/")
+ ("/home/jku/Instances/mcp3/" . "mcp3/")
+ ("/home/jku/Instances/" . "mcp3/")
+ ("/home/jku/" . "local/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/home/jku/local/configs/"
+ "/home/jku/"
+ "/home/jku/Instances/mcp3/mcp3/solute/webapps/mcp3/main/templates/"
+ "/home/jku/Instances/mcp3/mcp3/conf/"
+ "/home/jku/Instances/mcp3/mcp3/solute/webapps/mcp3/main/"
+ "/home/jku/Instances/mcp3/mcp3/solute/webapps/mcp3/"
+ "/home/jku/Instances/mcp3/epflapps-deals/solute/epflapps/deals/views/"
+ "/home/jku/Instances/mcp3/pyramid_epfl/solute/epfl/"
+ "/home/jku/Instances/mcp3/epflapps-deals/solute/epflapps/deals/models/api/"
+ "/home/jku/Instances/mcp3/epflapps-deals/solute/epflapps/deals/"
+ "/home/jku/Instances/mcp3/pyramid_epfl/solute/epfl/components/"
+ "/home/jku/Schreibtisch/"
+ "/home/jku/.emacs.d/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "dot-bashrc"
+ ".bashrc.jku"
+ ".bashrc"
+ "mcp3_base.html"
+ "mcp3.production.conf"
+ "__init__.py"
+ "create_voucher.py"
+ "create_deal.py"
+ "deals.py"
+ "home.py"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/home/jku/local/configs/" (22111 60028 616359 923000) "../" ".gitignore" ".emacs.d/" ".git/" "./" "dot-bashrc" ".i3/")
+
+ ("/home/jku/local/" (22109 49047 392783 608000) "../" "configs/" "./")
+
+ ("/home/jku/" (22111 60057 620360 17000) "../" ".dbus/" ".bash_logout" ".emacs.d/" ".mozilla/" ".bash_history" ".nv/" ".pylintrc" ".gnome2/" ".pydistutils.cfg" ".virtualenvs/" ".ssh/" "local/" "bin/" ".thunderbird/" ".cache/" ".ICEauthority" ".psqlrc" ".gnome2_private/" "Instances/" ".pypirc" ".pip/" ".pki/" ".aptitude/" ".bashrc.solute-dev" ".gnome/" ".python-eggs/" ".pk.py" ".config/" "Downloads/" "./" ".local/" ".gnupg/" "Schreibtisch/" ".gconf/" ".remmina/" ".profile" "cifs.credentials" ".i3/" ".purple/" ".gstreamer-0.10/" ".bashrc" "GIT/")
+
+ ("/home/jku/Instances/mcp3/mcp3/solute/webapps/mcp3/main/templates/" (22110 47486 548109 136000) "../" "mcp3_base.html" "./")
+
+ ("/home/jku/Instances/mcp3/epflapps-deals/solute/epflapps/deals/views/" (22110 58140 932143 358000) "../" "product_box.py" "__init__.pyc" "create_voucher.pyc" "create_deal.py" "./" "home.pyc" "create_voucher.py" "__init__.py" "product_box.pyc" "create_deal.pyc" "home.py")
+
+ ("/home/jku/Instances/mcp3/epflapps-deals/solute/epflapps/deals/models/api/" (22110 52807 292126 227000) "../" "categories.pyc" "syndication.py" "brands.py" "shops.py" "shops.pyc" "__init__.pyc" "deals.py" "voucher.pyc" "./" "__init__.py" "voucher.py" "categories.py" "brands.pyc" "syndication.pyc" "deals.pyc")
+
+ ("/home/jku/Instances/mcp3/epflapps-deals/solute/epflapps/deals/models/" (22110 52807 284126 227000) "api/" "../" "__init__.pyc" "deals.py" "./" "__init__.py" "deals.pyc")
+
+ ("/home/jku/Instances/mcp3/mcp3/solute/webapps/mcp3/main/" (22110 52767 120126 98000) "../" "connection.py" "static/" "__init__.pyc" "connection.pyc" "./" "__init__.py" "templates/")
+
+ ("/home/jku/Instances/mcp3/epflapps-deals/solute/epflapps/deals/" (22110 55169 352133 813000) "../" "models/" "static/" "__init__.pyc" "views/" "./" "__init__.py")
+
+ ("/home/jku/Instances/mcp3/epflapps-deals/solute/epflapps/" (22110 52498 444125 235000) "../" "deals/" "./" "__init__.py")
+
+ ("/home/jku/Instances/mcp3/epflapps-deals/solute/" (22110 52509 964125 272000) "../" "epflapps/" "__init__.pyc" "./" "__init__.py")
+
+ ("/home/jku/Instances/mcp3/epflapps-deals/" (22110 52510 320125 273000) "../" "solute/" ".gitignore" "README.md" ".git/" "setup.py" "cron/" "scripts/" "MANIFEST.in" "pk.py" ".eggs/" "./" "solute_epflapps_deals.egg-info/" "tests/" "debian/")
+
+ ("/home/jku/Instances/mcp3/" (22110 52751 104126 46000) "../" "epflapps-imageupload/" "epflapps-presearchtool/" "epflapps-seoproductfiltertool/" "mcp3-servicepoint/" "epflapps-queryrelevance/" "epflapps-seo-text-tool/" "epflapps-qltbmaintain/" "epflapps-conversion-pixel-cms/" "epflapps-deals/" "./" "epflapps-seotextstatistics/" "mcp3/" "mcp3-login/" "pyramid_epfl/")
+
+ ("/home/jku/Instances/mcp3/mcp3/conf/" (22110 52286 284124 553000) "../" "mcp3.test.conf" "mcp3-test" "mcp3-development" "mcp3-development.wsgi" "mcp3-production.wsgi" "mcp3-production" "mcp3.development.conf" "./" "mcp3-test.wsgi" "mcp3.production.conf")
+
+ ("/home/jku/.emacs.d/" (22110 49176 196114 563000) "../" "ac-comphist.dat" "backups/" "javascript.el" "README.txt" "auto-save-list/" "testing.el" "packageinstaller.el" "init.el" "elpa/" "places" "ido.last" "fontsize.el" "./" "general.el")
+
+ ("/home/jku/Schreibtisch/" (22110 44661 40100 61000) "../" "./")
+
+ ("/home/jku/Instances/mcp3/mcp3/solute/webapps/" (22110 51011 720120 459000) "../" "__init__.pyc" "./" "__init__.py" "mcp3/")
+
+ ("/home/jku/Instances/mcp3/pyramid_epfl/solute/epfl/" (22110 50723 804119 534000) "../" "validators/" "core/" "components/" "scaffolds/" "static/" "__init__.pyc" "jinja/" "test/" "./" "__init__.py" "templates/")
+
+ ("/home/jku/Instances/mcp3/pyramid_epfl/solute/epfl/components/" (22110 50723 832119 534000) "../" "context_list_layout/" "breadcrumb/" "number_input/" "embedded_video/" "link/" "col_layout/" "placeholder/" "radio/" "password_input/" "progress/" "recursive_tree/" "link_list_layout/" "popover/" "button/" "nav_layout/" "list_layout/" "texteditor/" "text/" "badge/" "paginated_list_layout/" "__init__.pyc" "selectable_list/" "hover_link_list_layout/" "table_layout/" "download/" "checkbox/" "buttonradio/" "box/" "upload/" "codeeditor/" "plain_html/" "login_box/" "image/" "colorpicker/" "tabs_layout/" "stacked_progress/" "text_list/" "toggle/" "colorthief/" "pretty_list_layout/" "./" "textarea/" "__init__.py" "typeahead/" "form/" "diagram/" "text_input/" "select/" "autocomplete_input/" "cardinal_layout/" "carousel/" "dropdown/" "simpletoggle/" "modal_box/" "grouped_link_list_layout/" "datetime_input/")
+
+ ("/home/jku/Instances/mcp3/pyramid_epfl/solute/" (22110 50278 148118 103000) "../" "epfl/" "./" "__init__.py")
+
+ ("/home/jku/Instances/mcp3/pyramid_epfl/" (22110 50284 740118 124000) "../" "solute/" ".gitignore" "license.txt" "README.md" ".git/" "setup.py" "python_solute_epfl.egg-info/" ".eggs/" "./" "docs/" "__init__.py" "conftest.py" "debian/")
+
+ ("/home/jku/Instances/mcp3/mcp3/solute/webapps/mcp3/" (22110 50095 612117 517000) "../" "main/" "__init__.pyc" "./" "__init__.py")
+
+ ("/home/jku/Instances/mcp3/mcp3/solute/" (22110 49997 688117 202000) "../" "__init__.pyc" "webapps/" "./" "__init__.py")
+
+ ("/home/jku/Instances/mcp3/mcp3/" (22110 50191 760117 825000) "../" "solute/" ".gitignore" "conf/" "README.md" ".git/" "setup.py" "solute_mcp3_frontend.egg-info/" "cron/" "scripts/" "MANIFEST.in" "pk.py" ".eggs/" "./" "robot-test/" "debian/")
+
+ ("/home/jku/Instances/" (22110 50267 980118 70000) "../" "./" "mcp3/")
+
+ ("/home/jku/bin/" (22110 40403 796086 386000) "../" "outlook" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t

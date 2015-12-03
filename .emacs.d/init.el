@@ -1,8 +1,9 @@
-(add-to-list 'load-path "~/.emacs.d")
+(add-to-list 'load-path "~/.emacs.d/lisp")
 
 (package-initialize)
 
-(load-library "packageinstaller")
+(load-library "packageinstaller.el")
+;(load "~/.emacs.d/lisp/packageinstaller.el")
 
 ;; ELPY
 (elpy-enable)
