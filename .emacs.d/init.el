@@ -19,3 +19,4 @@
 (load-library "javascript")
 
 (load-library "testing")
+(load-library "robot-mode")

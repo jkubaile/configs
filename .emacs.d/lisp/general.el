@@ -44,3 +44,8 @@
 (autoload 'w3m-browse-url "w3m" "Ask a WWW browser to show a URL." t)
 ;; optional keyboard short-cut
 (global-set-key "\C-xm" 'browse-url-at-point)
+
+(add-to-list 'auto-mode-alist '("\\.robot\\'" . robot-mode))
+
+;(require 'flymake-puppet)
+;(add-hook puppet-mode-hook 'flymake-puppet-load)

@@ -9,3 +9,9 @@
 (when (require 'flycheck nil t)
   (setq elpy-modules (delq 'elpy-module-flymake elpy-modules))
   (add-hook 'elpy-mode-hook 'flycheck-mode))
+
+;; breaks autocomplete?
+;; (add-hook 'elpy-mode-hook 'fci-mode)
+;; (setq fci-rule-width 1)
+;; (setq fci-rule-color "red")
+;; (setq fci-rule-column 120)
