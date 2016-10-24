@@ -2,8 +2,274 @@
 
 ;; ----- ido-last-directory-list -----
 (
- ("/home/jku/Instances/billigerv5/billiger/conf/" . "webserver/")
- ("/home/jku/Instances/fefw/fefw/solute/webapps/fefw/static/" . "js/")
+ ("/home/jku/Instances/webapps/sucheqs/test/" . "views/")
+ ("/home/jku/Instances/webapps/sofa-components/addon/templates/" . "components/")
+ ("/home/jku/.virtualenvs/ember/local/lib/python2.7/site-packages/SQLAlchemy_JSONAPI-4.0.8-py2.7.egg/" . "sqlalchemy_jsonapi/")
+ ("/home/jku/.virtualenvs/ember/local/lib/python2.7/site-packages/" . "SQLAlchemy_JSONAPI-4.0.8-py2.7.egg/")
+ ("/home/jku/.virtualenvs/ember/local/lib/python2.7/" . "site-packages/")
+ ("/home/jku/.virtualenvs/ember/local/lib/" . "python2.7/")
+ ("/home/jku/.virtualenvs/ember/local/" . "lib/")
+ ("/home/jku/.virtualenvs/ember/" . "local/")
+ ("/home/jku/Instances/webapps/sucheqs/alembic/" . "versions/")
+ ("/home/jku/Instances/webapps/sucheqs/frontend/app/routes/query-sets/query-set/" . "query/")
+ ("/home/jku/Instances/webapps/sucheqs/frontend/app/routes/query-sets/" . "query-set/")
+ ("/home/jku/Instances/webapps/sucheqs/frontend/app/templates/query-sets/query-set/" . "query/")
+ ("/home/jku/Instances/webapps/sucheqs/frontend/app/templates/query-sets/" . "query-set/")
+ ("/home/jku/Instances/webapps/sofa-components/addon/" . "components/")
+ ("/home/jku/Instances/webapps/sofa-components/" . "addon/")
+ ("/home/jku/Instances/webapps/sucheqs/frontend/node_modules/" . "abbrev/")
+ ("/home/jku/Instances/webapps/sucheqs/node_modules/" . "ember-cli-mirage/")
+ ("/home/jku/Instances/ember/rarwe-demo/demo/mirage/" . "models/")
+ ("/home/jku/Instances/ember/rarwe-demo/demo/app/" . "models/")
+ ("/home/jku/Instances/ember/rarwe-demo/demo/" . "app/")
+ ("/home/jku/Instances/ember/rarwe-demo/" . "demo/")
+ ("/home/jku/Instances/webapps/sucheqs/frontend/mirage/" . "serializers/")
+ ("/home/jku/Instances/infrastructure/python-solute/solute/data/mapper/billigerv5/" . "frontend/")
+ ("/home/jku/Instances/infrastructure/python-solute/solute/data/mapper/" . "billigerv5/")
+ ("/home/jku/Instances/webapps/sucheqs/solute/webapps/sucheqs/" . "views/")
+ ("/home/jku/Instances/webapps/sucheqs/solute/webapps/" . "sucheqs/")
+ ("/home/jku/Instances/webapps/sucheqs/solute/" . "webapps/")
+ ("/home/jku/Instances/webapps/sucheqs/frontend/app/routes/" . "jobs/")
+ ("/home/jku/Instances/webapps/sucheqs/frontend/app/templates/" . "query-sets/")
+ ("/home/jku/Instances/ember/Semantic-UI-Ember/tests/dummy/app/templates/" . "modules/")
+ ("/home/jku/GIT/solute/infrastructure/puppetcfg/modules/profile/manifests/proxy/" . "production/")
+ ("/home/jku/Instances/ember/Semantic-UI-Ember/tests/dummy/app/controllers/" . "modules/")
+ ("/home/jku/Instances/ember/Semantic-UI-Ember/tests/dummy/app/" . "templates/")
+ ("/home/jku/Instances/ember/Semantic-UI-Ember/tests/dummy/" . "app/")
+ ("/home/jku/Instances/ember/Semantic-UI-Ember/tests/" . "dummy/")
+ ("/home/jku/Instances/ember/Semantic-UI-Ember/" . "tests/")
+ ("/home/jku/Instances/webapps/sucheqs/frontend/app/" . "templates/")
+ ("/home/jku/Instances/webapps/sucheqs/frontend/" . "app/")
+ ("/home/jku/Instances/infrastructure/python-solute/solute/data/schema/" . "billigerv5/")
+ ("/home/jku/Instances/ember/generic/login/engine/app/" . "services/")
+ ("/home/jku/Instances/ember/generic/login/engine/addon/templates/" . "components/")
+ ("/home/jku/Instances/ember/generic/auth/bower_components/semantic-ui/" . "examples/")
+ ("/home/jku/Instances/ember/generic/auth/bower_components/" . "semantic-ui/")
+ ("/home/jku/Instances/ember/generic/login/solute/webapps/login/" . "views/")
+ ("/home/jku/Instances/ember/generic/login/solute/webapps/" . "login/")
+ ("/home/jku/Instances/ember/generic/login/solute/" . "webapps/")
+ ("/home/jku/Instances/ember/generic/auth/node_modules/ember-simple-auth/addon/" . "session-stores/")
+ ("/home/jku/Instances/ember/generic/auth/node_modules/ember-simple-auth/app/" . "services/")
+ ("/home/jku/Instances/ember/generic/auth/node_modules/ember-simple-auth/" . "addon/")
+ ("/home/jku/Instances/ember/generic/auth/node_modules/" . "ember-simple-auth/")
+ ("/home/jku/Instances/ember/generic/auth/solute/webapps/auth/" . "views/")
+ ("/home/jku/Instances/ember/generic/auth/solute/webapps/" . "auth/")
+ ("/home/jku/Instances/ember/generic/auth/solute/" . "webapps/")
+ ("/home/jku/Instances/ember/generic/auth/frontend/app/" . "templates/")
+ ("/home/jku/Instances/ember/generic/auth/frontend/" . "app/")
+ ("/home/jku/Instances/ember/generic/auth/" . "frontend/")
+ ("/home/jku/Instances/ember/generic/login/engine/addon/" . "templates/")
+ ("/home/jku/Instances/ember/generic/login/engine/" . "app/")
+ ("/home/jku/Instances/ember/generic/login/" . "engine/")
+ ("/home/jku/Instances/ember/generic/" . "auth/")
+ ("/home/jku/Instances/svs/svs/frontend/app/" . "components/")
+ ("/home/jku/Instances/svs/svs/frontend/" . "app/")
+ ("/home/jku/Instances/webapps/sucheqs/" . "frontend/")
+ ("/home/jku/Instances/ember/dealsexample/solute/webapps/dealsexample/" . "views/")
+ ("/home/jku/Instances/ember/dealsexample/solute/webapps/" . "dealsexample/")
+ ("/home/jku/Instances/ember/dealsexample/solute/" . "webapps/")
+ ("/home/jku/Instances/ember/dealsexample/frontend/app/templates/" . "components/")
+ ("/home/jku/Instances/ember/dealsexample/frontend/app/" . "serializers/")
+ ("/home/jku/Instances/ember/dealsexample/frontend/tests/integration/" . "components/")
+ ("/home/jku/Instances/ember/dealsexample/frontend/tests/unit/" . "models/")
+ ("/home/jku/Instances/ember/dealsexample/frontend/tests/" . "integration/")
+ ("/home/jku/Instances/ember/dealsexample/frontend/" . "config/")
+ ("/home/jku/Instances/ember/dealsexample/" . "solute/")
+ ("/home/jku/GIT/solute/infrastructure/python-solute-web/solute/web/pyramid/scaffolds/solute_webapp_ember/solute/webapps/+package+/" . "views/")
+ ("/home/jku/GIT/solute/infrastructure/python-solute-web/solute/web/pyramid/scaffolds/solute_webapp_ember/solute/webapps/" . "+package+/")
+ ("/home/jku/GIT/solute/infrastructure/python-solute-web/solute/web/pyramid/scaffolds/solute_webapp_ember/solute/" . "webapps/")
+ ("/home/jku/Instances/ember/paketierung/somefrontend/solute/webapps/somefrontend/" . "views/")
+ ("/home/jku/Instances/ember/paketierung/somefrontend/solute/webapps/" . "somefrontend/")
+ ("/home/jku/Instances/ember/paketierung/somefrontend/solute/" . "webapps/")
+ ("/home/jku/Instances/ember/paketierung/enginex/engine/addon/" . "templates/")
+ ("/home/jku/Instances/ember/paketierung/enginex/engine/" . "addon/")
+ ("/home/jku/Instances/ember/paketierung/enginex/" . "engine/")
+ ("/home/jku/Instances/ember/paketierung/somefrontend/frontend/app/" . "templates/")
+ ("/home/jku/Instances/ember/paketierung/somefrontend/frontend/" . "app/")
+ ("/home/jku/Instances/ember/paketierung/somefrontend/" . "conf/")
+ ("/home/jku/Instances/ember/paketierung/" . "somefrontend/")
+ ("/home/jku/Instances/ember/letzter/engineexample/engine/addon/" . "templates/")
+ ("/home/jku/Instances/ember/letzter/engineexample/engine/" . "addon/")
+ ("/home/jku/Instances/ember/letzter/foobar/addon/" . "templates/")
+ ("/home/jku/Instances/ember/letzter/foobar/" . "addon/")
+ ("/home/jku/Instances/ember/letzter/engineexample/" . "engine/")
+ ("/home/jku/Instances/ember/letzter/somefrontend/frontend/app/" . "templates/")
+ ("/home/jku/Instances/ember/letzter/somefrontend/frontend/" . "app/")
+ ("/home/jku/Instances/ember/letzter/somefrontend/" . "frontend/")
+ ("/home/jku/Instances/ember/letzter/" . "foobar/")
+ ("/home/jku/Instances/ember/strukturen/tester/engine/addon/" . "templates/")
+ ("/home/jku/Instances/ember/strukturen/tester/engine/" . "addon/")
+ ("/home/jku/GIT/solute/infrastructure/python-solute-web/solute/web/pyramid/scaffolds/solute_webapp_ember_engine/solute/webapps/+package+/" . "views/")
+ ("/home/jku/GIT/solute/infrastructure/python-solute-web/solute/web/pyramid/scaffolds/solute_webapp_ember_engine/solute/webapps/" . "+package+/")
+ ("/home/jku/GIT/solute/infrastructure/python-solute-web/solute/web/pyramid/scaffolds/solute_webapp_ember_engine/solute/" . "webapps/")
+ ("/home/jku/Instances/ember/strukturen/tester/solute/webapps/engine_with_python/" . "views/")
+ ("/home/jku/Instances/ember/strukturen/tester/solute/webapps/" . "engine_with_python/")
+ ("/home/jku/Instances/ember/strukturen/tester/solute/" . "webapps/")
+ ("/home/jku/Instances/ember/strukturen/tester/" . "engine/")
+ ("/home/jku/GIT/solute/infrastructure/python-solute-web/solute/web/pyramid/scaffolds/solute_webapp_ember_engine/engine/" . "addon/")
+ ("/home/jku/GIT/solute/infrastructure/python-solute-web/solute/web/pyramid/scaffolds/solute_webapp_ember_engine/" . "engine/")
+ ("/home/jku/Instances/ember/strukturen/root/frontend/app/" . "templates/")
+ ("/home/jku/Instances/ember/strukturen/root/frontend/" . "app/")
+ ("/home/jku/Instances/ember/strukturen/root/" . "frontend/")
+ ("/home/jku/Instances/ember/strukturen/solute-sample-engine/app/" . "routes/")
+ ("/home/jku/Instances/ember/strukturen/solute-sample-engine/addon/" . "routes/")
+ ("/home/jku/Instances/ember/strukturen/solute-sample-engine/" . "addon/")
+ ("/home/jku/Instances/ember/strukturen/" . "tester/")
+ ("/home/jku/Instances/ember/3rdparty/ember-simple-auth/addon/" . "services/")
+ ("/home/jku/Instances/ember/3rdparty/ember-simple-auth/app/" . "routes/")
+ ("/home/jku/Instances/ember/3rdparty/ember-simple-auth/" . "addon/")
+ ("/home/jku/Instances/ember/3rdparty/" . "ember-simple-auth/")
+ ("/home/jku/Instances/ember/engines/solute-login-engine/addon/" . "templates/")
+ ("/home/jku/Instances/ember/engines/solute-login-engine/" . "addon/")
+ ("/home/jku/Instances/ember/engines/login-engine/addon/" . "templates/")
+ ("/home/jku/Instances/ember/engines/ember-blog-engine/addon/" . "templates/")
+ ("/home/jku/Instances/ember/engines/ember-blog-engine/" . "config/")
+ ("/home/jku/Instances/ember/testing/final/frontend/node_modules/ember-blog-engine/addon/" . "templates/")
+ ("/home/jku/Instances/ember/testing/final/frontend/node_modules/ember-blog-engine/" . "addon/")
+ ("/home/jku/Instances/ember/testing/final/frontend/node_modules/" . "ember-blog-engine/")
+ ("/home/jku/Instances/ember/engines/login-engine/" . "addon/")
+ ("/home/jku/Instances/ember/engines/" . "solute-login-engine/")
+ ("/home/jku/Instances/ember/testing/final/frontend/app/templates/" . "components/")
+ ("/home/jku/Instances/ember/testing/final/solute/webapps/final/" . "views/")
+ ("/home/jku/Instances/ember/testing/final/solute/webapps/" . "final/")
+ ("/home/jku/Instances/ember/testing/final/solute/" . "webapps/")
+ ("/home/jku/Instances/ember/testing/final/frontend/app/" . "serializers/")
+ ("/home/jku/Instances/ember/testing/final/frontend/" . "app/")
+ ("/home/jku/Instances/ember/testing/final/" . "frontend/")
+ ("/home/jku/GIT/solute/infrastructure/python-solute-web/solute/web/pyramid/scaffolds/solute_webapp_ember/frontend/app/" . "templates/")
+ ("/home/jku/Instances/ember/testing/forth/frontend/app/" . "templates/")
+ ("/home/jku/Instances/ember/testing/forth/frontend/" . "app/")
+ ("/home/jku/Instances/ember/testing/forth/" . "frontend/")
+ ("/home/jku/Instances/ember/testing/third/frontend/tests/" . "helpers/")
+ ("/home/jku/Instances/ember/testing/third/frontend/" . "tests/")
+ ("/home/jku/Instances/ember/testing/third/" . "frontend/")
+ ("/home/jku/Instances/ember/testing/first/frontend/app/" . "templates/")
+ ("/home/jku/Instances/ember/testing/first/frontend/" . "app/")
+ ("/home/jku/Instances/ember/testing/first/" . "frontend/")
+ ("/home/jku/Instances/ember/testing/" . "final/")
+ ("/home/jku/Instances/ember/third/" . "frontend/")
+ ("/home/jku/GIT/solute/infrastructure/python-solute-web/solute/web/pyramid/scaffolds/solute_webapp_ember/frontend/" . "app/")
+ ("/nagios.production.solutetech.net:/etc/nagios3/" . "config/")
+ ("/nagios.production.solutetech.net:/etc/" . "nagios3/")
+ ("/nagios.production.solutetech.net:/" . "etc/")
+ ("/home/jku/GIT/solute/infrastructure/python-solute-web/solute/web/pyramid/scaffolds/solute_webapp_ember/+package+_ember/" . "app/")
+ ("/home/jku/GIT/solute/infrastructure/python-solute-web/solute/web/pyramid/scaffolds/solute_webapp_ember/" . "frontend/")
+ ("/home/jku/GIT/solute/infrastructure/python-solute-web/solute/web/pyramid/scaffolds/" . "solute_webapp_ember_engine/")
+ ("/home/jku/Instances/ember/foobar/flint-books/app/templates/" . "components/")
+ ("/home/jku/Instances/ember/foobar/flint-books/app/" . "templates/")
+ ("/home/jku/Instances/ember/foobar/flint-books/" . "mirage/")
+ ("/home/jku/Instances/ember/foobar/foobar/app/templates/" . "components/")
+ ("/home/jku/Instances/ember/foobar/foobar/app/" . "templates/")
+ ("/home/jku/Instances/ember/foobar/foobar/" . "app/")
+ ("/home/jku/Instances/ember/foobar/solute/webapps/foobar/" . "views/")
+ ("/home/jku/Instances/ember/foobar/solute/webapps/" . "foobar/")
+ ("/home/jku/Instances/ember/foobar/solute/" . "webapps/")
+ ("/home/jku/Instances/ember/foobar/" . "solute/")
+ ("/home/jku/Instances/ember/first/solute/webapps/first/" . "views/")
+ ("/home/jku/Instances/ember/first/solute/webapps/" . "first/")
+ ("/home/jku/Instances/ember/first/solute/" . "webapps/")
+ ("/home/jku/Instances/ember/first/" . "conf/")
+ ("/home/jku/Instances/ember/flint-books/app/templates/" . "components/")
+ ("/home/jku/Instances/ember/flint-books/app/" . "styles/")
+ ("/home/jku/Instances/ember/flint-books/" . "app/")
+ ("/scp:mcp2fe.staging.solutetech.net:/etc/apache2/" . "sites-available/")
+ ("/scp:mcp2fe.staging.solutetech.net:/etc/" . "apache2/")
+ ("/scp:mcp2fe.staging.solutetech.net:/" . "etc/")
+ ("/home/jku/Instances/infrastructure/python-autocontent-renderer/" . "debian/")
+ ("/scp:nagios.production.solutetech.net:/etc/nagios3/config/" . "ausu/")
+ ("/scp:nagios.production.solutetech.net:/etc/nagios3/" . "config/")
+ ("/scp:nagios.production.solutetech.net:/etc/" . "nagios3/")
+ ("/scp:nagios.production.solutetech.net:/" . "etc/")
+ ("/home/jku/Schreibtisch/ausu/" . "ausu-125-suche-qs-tool/")
+ ("/home/jku/Instances/infrastructure/python-solute/solute/web/services/" . "multisearch/")
+ ("/home/jku/Instances/infrastructure/nagios/" . "ausu/")
+ ("/home/jku/GIT/solute/infrastructure/puppetcfg/modules/profile/templates/syndication_api/" . "frontend/")
+ ("/home/jku/Instances/static/queries/" . "mafo/")
+ ("/home/jku/Instances/static/" . "queries/")
+ ("/home/jku/Instances/backend/mafo-dataexports/solute/" . "mafo/")
+ ("/home/jku/Instances/backend/mafo-dataexports/" . "files/")
+ ("/home/jku/Instances/infrastructure/python-solute/solute/data/" . "mapper/")
+ ("/home/jku/Instances/webapps/syndication/test/frontend/" . "db/")
+ ("/home/jku/.emacs.d/elpa/yasnippet-20151126.518/snippets/" . "python-mode/")
+ ("/home/jku/.emacs.d/elpa/yasnippet-20151126.518/" . "snippets/")
+ ("/home/jku/.emacs.d/elpa/" . "web-mode-20160424.1356/")
+ ("/home/jku/Instances/mcp3/epflapps-seofilterindexing/solute/epflapps/seofilterindexing/" . "views/")
+ ("/home/jku/Instances/mcp3/epflapps-seofilterindexing/solute/epflapps/" . "seofilterindexing/")
+ ("/home/jku/Instances/mcp3/epflapps-seofilterindexing/solute/" . "epflapps/")
+ ("/home/jku/Instances/mcp3/epflapps-seofilterindexing/" . "solute/")
+ ("/home/jku/GIT/solute/infrastructure/python-solute-testing/solute/testing/" . "helper/")
+ ("/home/jku/GIT/solute/infrastructure/python-solute-testing/solute/" . "testing/")
+ ("/home/jku/GIT/solute/infrastructure/python-solute-testing/" . "solute/")
+ ("/home/jku/Instances/epfl/pyramid_epfl/" . "tester/")
+ ("/home/jku/Instances/epfl/" . "pyramid_epfl/")
+ ("/home/jku/Instances/webapps/syndication/test/" . "frontend/")
+ ("/home/jku/GIT/solute/infrastructure/puppetcfg/modules/profile/manifests/syndication_api/frontend/" . "production/")
+ ("/home/jku/GIT/solute/infrastructure/puppetcfg/modules/profile/manifests/syndication_api/" . "frontend/")
+ ("/home/jku/Instances/webapps/syndication/solute/testing/" . "helper/")
+ ("/home/jku/Instances/infrastructure/python-solute/solute/web/" . "services/")
+ ("/home/jku/.virtualenvs/syndication/lib/python2.7/site-packages/wtf-0.8.29.post1-py2.7-linux-x86_64.egg/wtf/app/" . "services/")
+ ("/home/jku/.virtualenvs/syndication/lib/python2.7/site-packages/wtf-0.8.29.post1-py2.7-linux-x86_64.egg/wtf/" . "ext/")
+ ("/home/jku/.virtualenvs/syndication/lib/python2.7/site-packages/wtf-0.8.29.post1-py2.7-linux-x86_64.egg/" . "wtf/")
+ ("/home/jku/.virtualenvs/syndication/lib/python2.7/site-packages/" . "wtf-0.8.29.post1-py2.7-linux-x86_64.egg/")
+ ("/home/jku/.virtualenvs/syndication/lib/python2.7/" . "site-packages/")
+ ("/home/jku/.virtualenvs/syndication/lib/" . "python2.7/")
+ ("/home/jku/.virtualenvs/syndication/" . "lib/")
+ ("/home/jku/GIT/solute/infrastructure/puppetcfg/modules/profile/manifests/infrastructure/" . "graphite/")
+ ("/home/jku/Instances/webapps/syndication/solute/webapps/syndication_api/frontend/" . "db/")
+ ("/scp:api03.maastricht:/etc/solute/" . "logstash/")
+ ("/scp:api03.maastricht:/etc/" . "solute/")
+ ("/scp:api03.maastricht:/" . "etc/")
+ ("/api01.maastricht:/etc/solute/" . "logstash/")
+ ("/api01.maastricht:/etc/" . "solute/")
+ ("/api01.maastricht:/" . "etc/")
+ ("/home/jku/GIT/solute/infrastructure/puppetcfg/modules/logstash/" . "manifests/")
+ ("/home/jku/GIT/solute/infrastructure/puppetcfg/modules/profile/manifests/syndication/frontend/" . "production/")
+ ("/home/jku/GIT/solute/infrastructure/puppetcfg/modules/profile/manifests/syndication/" . "frontend/")
+ ("/home/jku/GIT/solute/infrastructure/puppetcfg/modules/profile/templates/syndication/" . "frontend/")
+ ("/home/jku/Instances/webapps/syndication/solute/webapps/syndication_api/" . "frontend/")
+ ("/home/jku/Instances/webapps/syndication/solute/webapps/" . "syndication_api/")
+ ("/home/jku/Instances/webapps/syndication/solute/" . "webapps/")
+ ("/home/jku/Instances/webapps/syndication/" . "solute/")
+ ("/home/jku/Instances/mast/fefw-ember/deals/app/" . "templates/")
+ ("/home/jku/Instances/mast/fefw-ember/deals/" . "app/")
+ ("/home/jku/Instances/mast/fefw-ember/" . "deals/")
+ ("/home/jku/Instances/cornice/messaging/frontend/app/templates/" . "components/")
+ ("/home/jku/Instances/cornice/messaging/frontend/app/" . "templates/")
+ ("/home/jku/Instances/cornice/messaging/frontend/" . "app/")
+ ("/home/jku/Instances/cornice/messaging/docs/" . "source/")
+ ("/home/jku/Instances/cornice/messaging/" . "messaging/")
+ ("/home/jku/Instances/cornice/" . "messaging/")
+ ("/home/jku/Instances/webapps/mcp2/solute/webapps/mcp2/lib/" . "matching_jobcenter/")
+ ("/home/jku/Instances/infrastructure/python-wtf-epfl2/" . "debian/")
+ ("/home/jku/.virtualenvs/today/lib/python2.7/site-packages/webassets/" . "filter/")
+ ("/home/jku/.virtualenvs/today/lib/python2.7/site-packages/" . "webassets/")
+ ("/home/jku/.virtualenvs/today/lib/python2.7/" . "site-packages/")
+ ("/home/jku/.virtualenvs/today/lib/" . "python2.7/")
+ ("/home/jku/Instances/infrastructure/python-wtf-epfl/" . "debian/")
+ ("/home/jku/Instances/webapps/mcp2/solute/webapps/mcp2/frontend/" . "query/")
+ ("/home/jku/Instances/webapps/mcp2/solute/webapps/mcp2/" . "frontend/")
+ ("/home/jku/Instances/ember/super-rentals/tests/integration/" . "components/")
+ ("/home/jku/Instances/ember/super-rentals/app/templates/" . "components/")
+ ("/home/jku/Instances/ember/super-rentals/app/" . "controllers/")
+ ("/home/jku/Instances/ember/super-rentals/tests/" . "integration/")
+ ("/home/jku/Instances/ember/super-rentals/" . "app/")
+ ("/home/jku/Instances/ember/ember-quickstart/app/templates/" . "components/")
+ ("/home/jku/Instances/ember/ember-quickstart/app/" . "templates/")
+ ("/home/jku/Instances/ember/ember-quickstart/" . "app/")
+ ("/home/jku/Instances/ember/" . "rarwe-demo/")
+ ("/etc/apache2/" . "sites-available/")
+ ("/etc/" . "apache2/")
+ ("/home/jku/Instances/svs/svs/solute/webapps/frontend_svs/" . "helper/")
+ ("/home/jku/Instances/billigerv5/python-autocontent-renderer/solute/ac_renderer/" . "data/")
+ ("/home/jku/Instances/billigerv5/python-autocontent-renderer/solute/" . "ac_renderer/")
+ ("/home/jku/Instances/billigerv5/python-autocontent-renderer/" . "solute/")
+ ("/home/jku/Instances/fefw/fefw/solute/webapps/fefw/static/jet/libs/webix-mvc-core/" . "plugins/")
+ ("/home/jku/Instances/fefw/fefw/solute/webapps/fefw/static/18_url_params/" . "views/")
+ ("/home/jku/Instances/fefw/fefw/solute/webapps/fefw/static/jet/views/" . "components/")
+ ("/home/jku/Instances/fefw/fefw/solute/webapps/fefw/static/jet/libs/webix/" . "codebase/")
+ ("/home/jku/Instances/fefw/fefw/solute/webapps/fefw/static/jet/libs/" . "webix-mvc-core/")
+ ("/home/jku/Instances/fefw/fefw/solute/webapps/fefw/static/jet/" . "libs/")
+ ("/home/jku/Instances/fefw/fefw/solute/webapps/fefw/static/" . "jet/")
  ("/home/jku/Instances/fefw/fefw/solute/webapps/fefw/" . "static/")
  ("/home/jku/Instances/fefw/fefw/solute/webapps/" . "fefw/")
  ("/home/jku/Instances/fefw/fefw/solute/" . "webapps/")
@@ -19,13 +285,13 @@
  ("/home/jku/.virtualenvs/today/local/lib/python2.7/" . "site-packages/")
  ("/home/jku/.virtualenvs/today/local/lib/" . "python2.7/")
  ("/home/jku/.virtualenvs/today/local/" . "lib/")
- ("/home/jku/.virtualenvs/today/" . "local/")
+ ("/home/jku/.virtualenvs/today/" . "lib/")
  ("/home/jku/Instances/webapps/dealapi/solute/webapps/dealapi/" . "views/")
  ("/home/jku/Instances/webapps/dealapi/solute/webapps/" . "dealapi/")
  ("/home/jku/Instances/webapps/dealapi/solute/" . "webapps/")
  ("/home/jku/Instances/webapps/dealapi/" . "solute/")
  ("/home/jku/Instances/backend/clicklog_maint/" . "scripts/")
- ("/home/jku/Instances/backend/" . "clicklog_maint/")
+ ("/home/jku/Instances/backend/" . "mafo-dataexports/")
  ("/home/jku/GIT_Readonly/webapps/cmsapi/" . "conf/")
  ("/home/jku/Instances/webapps/mcp2/solute/webapps/" . "mcp2/")
  ("/home/jku/Instances/webapps/mcp2/solute/" . "webapps/")
@@ -45,7 +311,7 @@
  ("/home/jku/GIT/solute/infrastructure/puppetcfg/localconf/master/" . "manifests/")
  ("/home/jku/GIT/solute/infrastructure/puppetcfg/localconf/" . "master/")
  ("/home/jku/Instances/svs/svs/jinja_templates/" . "svs/")
- ("/home/jku/Instances/svs/svs/templates/" . "_svs/")
+ ("/home/jku/Instances/svs/svs/templates/" . "_partner/")
  ("/home/jku/Instances/svs/python-pyes/" . "pyes/")
  ("/home/jku/Instances/svs/backend-svs/solute/bo/" . "svs/")
  ("/home/jku/Instances/svs/python-epfl/solute/epfl/wtf_services/" . "epfl_service/")
@@ -76,7 +342,7 @@
  ("/home/jku/.virtualenvs/svs/local/lib/" . "python2.7/")
  ("/home/jku/.virtualenvs/svs/local/" . "lib/")
  ("/home/jku/.virtualenvs/svs/" . "local/")
- ("/home/jku/Instances/svs/svs/" . "jinja_templates/")
+ ("/home/jku/Instances/svs/svs/" . "frontend/")
  ("/home/jku/Instances/svs/" . "svs/")
  ("/scp:bdefeqs01.production.solutetech.net:/home/" . "jku/")
  ("/scp:bdefeqs01.production.solutetech.net:/" . "usr/")
@@ -100,7 +366,7 @@
  ("/home/jku/Instances/mcp3/pyramid_epfl/solute/epfl/components/texteditor/static/ckeditor/plugins/videodetector/" . "dialogs/")
  ("/home/jku/Instances/mcp3/pyramid_epfl/solute/epfl/components/texteditor/static/ckeditor/plugins/" . "videodetector/")
  ("/home/jku/Instances/mcp3/pyramid_epfl/solute/epfl/components/texteditor/static/ckeditor/" . "plugins/")
- ("/home/jku/GIT/solute/infrastructure/python-solute/solute/data/" . "frontend/")
+ ("/home/jku/GIT/solute/infrastructure/python-solute/solute/data/" . "authz/")
  ("/home/jku/GIT/solute/infrastructure/puppetcfg/modules/virtualip/lib/puppet/" . "type/")
  ("/home/jku/GIT/solute/infrastructure/puppetcfg/modules/virtualip/lib/" . "puppet/")
  ("/home/jku/GIT/solute/infrastructure/puppetcfg/modules/virtualip/" . "lib/")
@@ -109,13 +375,13 @@
  ("/home/jku/GIT/solute/infrastructure/puppetcfg/modules/apache2/" . "manifests/")
  ("/home/jku/GIT/solute/infrastructure/puppetcfg/modules/solute/templates/" . "apache2/")
  ("/home/jku/GIT/solute/infrastructure/puppetcfg/modules/solute/files/" . "apache2/")
- ("/home/jku/GIT/solute/infrastructure/python-solute-web/solute/web/pyramid/" . "billiger_session/")
+ ("/home/jku/GIT/solute/infrastructure/python-solute-web/solute/web/pyramid/" . "scaffolds/")
  ("/home/jku/GIT/solute/infrastructure/python-solute/solute/bo/" . "review/")
- ("/home/jku/Instances/today/billiger-today/solute/webapps/billiger_today/static/" . "js/")
- ("/home/jku/Instances/today/billiger-today/solute/webapps/billiger_today/" . "helper/")
+ ("/home/jku/Instances/today/billiger-today/solute/webapps/billiger_today/static/" . "css/")
+ ("/home/jku/Instances/today/billiger-today/solute/webapps/billiger_today/" . "views/")
  ("/home/jku/Instances/today/billiger-today/solute/webapps/" . "billiger_today/")
  ("/home/jku/Instances/today/billiger-today/solute/" . "webapps/")
- ("/home/jku/Instances/today/billiger-today/" . "conf/")
+ ("/home/jku/Instances/today/billiger-today/" . "solute/")
  ("/home/jku/Instances/today/" . "billiger-today/")
  ("/home/jku/GIT/solute/infrastructure/puppetcfg/modules/profile/templates/billiger/" . "frontend/")
  ("/home/jku/GIT/solute/infrastructure/puppetcfg/modules/profile/manifests/billiger6/" . "api/")
@@ -132,10 +398,10 @@
  ("/home/jku/GIT/solute/infrastructure/puppetcfg/modules/profile/manifests/billiger/" . "frontend/")
  ("/home/jku/GIT/solute/infrastructure/puppenkiste-config/debian/" . "source/")
  ("/home/jku/GIT/solute/infrastructure/python-solute/solute/web/" . "services/")
- ("/home/jku/GIT/solute/infrastructure/python-solute/solute/" . "web/")
+ ("/home/jku/GIT/solute/infrastructure/python-solute/solute/" . "auth/")
  ("/home/jku/GIT/solute/infrastructure/python-solute/" . "solute/")
  ("/home/jku/Instances/mcp3/epflapps-qltbmaintain/solute/epflapps/qltbmaintain/models/" . "api/")
- ("/home/jku/Instances/billigerv5/billiger/solute_site/frontend/" . "widgets/")
+ ("/home/jku/Instances/billigerv5/billiger/solute_site/frontend/" . "tools/")
  ("/home/jku/Instances/mcp3/mcp3/packages/0.0.83/amd64/" . "jessie/")
  ("/home/jku/Instances/mcp3/mcp3/packages/0.0.83/" . "amd64/")
  ("/home/jku/Instances/mcp3/mcp3/packages/" . "0.0.83/")
@@ -157,7 +423,7 @@
  ("/home/jku/Instances/thirdparty/webpagetest/www/" . "settings/")
  ("/home/jku/Instances/thirdparty/webpagetest/" . "cron/")
  ("/home/jku/Instances/thirdparty/" . "webpagetest/")
- ("/home/jku/GIT/solute/infrastructure/puppetcfg/modules/profile/files/" . "billiger/")
+ ("/home/jku/GIT/solute/infrastructure/puppetcfg/modules/profile/files/" . "syndication_api/")
  ("/home/jku/GIT/solute/infrastructure/puppetcfg/modules/solute/" . "manifests/")
  ("/home/jku/GIT/solute/infrastructure/puppetcfg/modules/profile/manifests/webpagetest/" . "frontend/")
  ("/home/jku/.virtualenvs/bdms/lib/python2.7/site-packages/pyramid_redis_sessions-1.0.1-py2.7.egg/" . "pyramid_redis_sessions/")
@@ -187,31 +453,31 @@
  ("/home/jku/Instances/mcp3/mcp3-login/solute/epflapps/login/" . "views/")
  ("/home/jku/Instances/mcp3/pyramid_epfl/solute/epfl/components/link_list_layout/" . "static/")
  ("/home/jku/Instances/tutorial/pyramid_epfl/solute/epfl/scaffolds/epfl_tutorial_scaffold/epfl_tutorial/" . "views/")
- ("/home/jku/GIT/solute/infrastructure/puppetcfg/modules/profile/manifests/webapps/" . "identity-admin/")
- ("/home/jku/GIT/solute/infrastructure/puppetcfg/modules/profile/manifests/" . "webpagetest/")
+ ("/home/jku/GIT/solute/infrastructure/puppetcfg/modules/profile/manifests/webapps/" . "mcp2/")
+ ("/home/jku/GIT/solute/infrastructure/puppetcfg/modules/profile/manifests/" . "billiger/")
  ("/home/jku/GIT/solute/infrastructure/puppetcfg/modules/profile/" . "manifests/")
  ("/home/jku/Instances/tester/puppenkiste-config/solute/puppenkiste/" . "backend/")
  ("/home/jku/Instances/tester/puppenkiste-config/solute/" . "puppenkiste/")
  ("/home/jku/Instances/tester/puppenkiste-config/" . "solute/")
  ("/home/jku/GIT/solute/infrastructure/puppenkiste-config/solute/puppenkiste/" . "backend/")
- ("/home/jku/GIT/solute/infrastructure/python-solute-web-common/solute/web/" . "models/")
+ ("/home/jku/GIT/solute/infrastructure/python-solute-web-common/solute/web/" . "helper/")
  ("/home/jku/GIT/solute/infrastructure/python-solute-web-common/solute/" . "web/")
  ("/home/jku/GIT/solute/infrastructure/python-solute-web-common/" . "solute/")
  ("/home/jku/Instances/mcp3/pyramid_epfl/solute/epfl/components/texteditor/static/sceditor/development/" . "plugins/")
  ("/home/jku/Instances/mcp3/pyramid_epfl/solute/epfl/components/texteditor/static/sceditor/minified/" . "plugins/")
  ("/home/jku/Instances/bdms/pyramid_epfl/solute/epfl/components/button/" . "static/")
  ("/home/jku/Instances/bdms/pyramid_epfl/solute/epfl/components/form/" . "static/")
- ("/home/jku/Instances/infrastructure/python-solute-web-common/solute/web/" . "helper/")
+ ("/home/jku/Instances/infrastructure/python-solute-web-common/solute/web/" . "models/")
  ("/home/jku/Instances/infrastructure/python-solute-web-common/solute/" . "web/")
- ("/home/jku/Instances/infrastructure/python-solute-web-common/" . "debian/")
+ ("/home/jku/Instances/infrastructure/python-solute-web-common/" . "solute/")
  ("/home/jku/Instances/infrastructure/" . "python-solute-web-common/")
  ("/home/jku/Instances/mcp3/pyramid_epfl/solute/epfl/components/texteditor/static/sceditor/" . "development/")
- ("/home/jku/Instances/mcp3/pyramid_epfl/solute/epfl/components/texteditor/static/" . "plugins/")
+ ("/home/jku/Instances/mcp3/pyramid_epfl/solute/epfl/components/texteditor/static/" . "ckeditor/")
  ("/home/jku/Instances/mcp3/pyramid_epfl/solute/epfl/components/texteditor/" . "static/")
- ("/home/jku/Instances/mcp3/epflapps-seocms/solute/epflapps/seocms/" . "models/")
+ ("/home/jku/Instances/mcp3/epflapps-seocms/solute/epflapps/seocms/" . "views/")
  ("/home/jku/Instances/mcp3/epflapps-seocms/solute/epflapps/" . "seocms/")
  ("/home/jku/Instances/mcp3/epflapps-seocms/solute/" . "epflapps/")
- ("/home/jku/Instances/mcp3/epflapps-seocms/" . "debian/")
+ ("/home/jku/Instances/mcp3/epflapps-seocms/" . "solute/")
  ("/home/jku/.virtualenvs/mcp3/lib/python2.7/" . "site-packages/")
  ("/home/jku/.virtualenvs/mcp3/lib/" . "python2.7/")
  ("/home/jku/Instances/mcp3/epflapps-rtool/test/" . "__pycache__/")
@@ -290,7 +556,7 @@
  ("/home/jku/Instances/mcp3/epflapps-seoproductfiltertool/solute/epflapps/" . "seoproductfiltertool/")
  ("/home/jku/Instances/mcp3/epflapps-seoproductfiltertool/solute/" . "epflapps/")
  ("/home/jku/Instances/mcp3/epflapps-seoproductfiltertool/" . "solute/")
- ("/home/jku/Instances/mcp3/epflapps-rtool/solute/epflapps/rtool/" . "models/")
+ ("/home/jku/Instances/mcp3/epflapps-rtool/solute/epflapps/rtool/" . "views/")
  ("/home/jku/Instances/mcp3/epflapps-rtool/solute/epflapps/" . "rtool/")
  ("/home/jku/Instances/mcp3/epflapps-rtool/solute/" . "epflapps/")
  ("/home/jku/Instances/mcp3/epflapps-rtool/" . "solute/")
@@ -309,7 +575,7 @@
  ("/home/jku/GIT_Readonly/infrastructure/python-solute-web/solute/" . "web/")
  ("/home/jku/GIT_Readonly/infrastructure/python-solute-web/" . "solute/")
  ("/home/jku/GIT_Readonly/infrastructure/" . "python-solute-testing/")
- ("/home/jku/Instances/webapps/" . "dealapi/")
+ ("/home/jku/Instances/webapps/" . "sofa-components/")
  ("/home/jku/Instances/webapps/communityapi/solute/webapps/communityapi/" . "views/")
  ("/home/jku/Instances/webapps/communityapi/solute/webapps/" . "communityapi/")
  ("/home/jku/.virtualenvs/communityapi/lib/python2.7/site-packages/solute/data/mapper/billigerv5/" . "frontend/")
@@ -330,7 +596,7 @@
  ("/home/jku/Instances/ir/matching-frontend/templates/" . "js/")
  ("/home/jku/Instances/mast/epfl-demo/epfl_pyramid_barebone/" . "views/")
  ("/home/jku/Instances/mast/epfl-demo/" . "epfl_pyramid_barebone/")
- ("/home/jku/Instances/mast/" . "epfl-demo/")
+ ("/home/jku/Instances/mast/" . "fefw-ember/")
  ("/home/jku/Instances/ir/matching-frontend/solute/webapps/" . "matching_frontend/")
  ("/home/jku/Instances/ir/matching-frontend/solute/" . "webapps/")
  ("/home/jku/Instances/ir/matching-frontend/" . "solute/")
@@ -369,7 +635,7 @@
  ("/home/jku/Instances/mcp3/pyramid_epfl/solute/epfl/scaffolds/" . "epfl_tutorial_scaffold/")
  ("/home/jku/Instances/mcp3/pyramid_epfl/solute/epfl/components/codeeditor/" . "static/")
  ("/home/jku/Instances/mcp3/pyramid_epfl/solute/epfl/components/" . "list_layout/")
- ("/home/jku/Instances/mcp3/epflapps-webpagetest/solute/epflapps/webpagetest/" . "views/")
+ ("/home/jku/Instances/mcp3/epflapps-webpagetest/solute/epflapps/webpagetest/" . "models/")
  ("/home/jku/Instances/mcp3/epflapps-webpagetest/solute/epflapps/" . "webpagetest/")
  ("/home/jku/Instances/mcp3/epflapps-webpagetest/solute/" . "epflapps/")
  ("/home/jku/Instances/mcp3/epflapps-webpagetest/" . "solute/")
@@ -386,14 +652,14 @@
  ("/home/jku/Instances/tester/pyramid_epfl/solute/epfl/static/" . "js/")
  ("/home/jku/Instances/mcp3/mcp3-login/solute/epflapps/" . "login/")
  ("/home/jku/Instances/mcp3/mcp3-login/solute/" . "epflapps/")
- ("/home/jku/Instances/mcp3/mcp3-login/" . "solute_mcp3_login.egg-info/")
+ ("/home/jku/Instances/mcp3/mcp3-login/" . "solute/")
  ("/home/jku/Instances/tester/pyramid_epfl/solute/epfl/components/typeahead/" . "static/")
  ("/home/jku/Instances/tester/pyramid_epfl/solute/epfl/components/text_input/" . "static/")
  ("/home/jku/GIT/solute/infrastructure/puppetcfg/modules/packages/files/" . "dbconf/")
  ("/home/jku/GIT/solute/infrastructure/puppetcfg/modules/packages/" . "manifests/")
  ("/home/jku/GIT/solute/infrastructure/puppetcfg/modules/" . "profile/")
  ("/home/jku/GIT/solute/infrastructure/puppetcfg/" . "modules/")
- ("/home/jku/GIT/solute/infrastructure/" . "puppetcfg/")
+ ("/home/jku/GIT/solute/infrastructure/" . "python-solute-web/")
  ("/home/jku/GIT/solute/" . "infrastructure/")
  ("/home/jku/GIT/" . "solute/")
  ("/home/jku/Instances/ir/matching-log/solute/webapps/matching_log/" . "views/")
@@ -447,7 +713,7 @@
  ("/home/jku/Instances/tutorial/pyramid_epfl/solute/epfl/components/selectable_list/" . "static/")
  ("/home/jku/Instances/tutorial/pyramid_epfl/solute/epfl/components/grouped_link_list_layout/" . "static/")
  ("/home/jku/Instances/mcp3/mcp3/robot-test/common/" . "authentication/")
- ("/home/jku/Instances/mcp3/mcp3/robot-test/" . "deals/")
+ ("/home/jku/Instances/mcp3/mcp3/robot-test/" . "common/")
  ("/home/jku/Instances/tutorial/pyramid_epfl/solute/epfl/components/context_list_layout/" . "static/")
  ("/home/jku/Instances/tutorial/pyramid_epfl/solute/epfl/components/table_layout/" . "static/")
  ("/home/jku/Instances/tutorial/pyramid_epfl/solute/epfl/components/text_list/" . "static/")
@@ -458,7 +724,7 @@
  ("/home/jku/Schreibtisch/pyramid_epfl/" . "solute/")
  ("/home/jku/Instances/tutorial/pyramid_epfl/solute/epfl/components/link/" . "static/")
  ("/home/jku/Instances/bdms/bdms-epfl/solute/webapps/bdmsfe/views/portal_whitelist/details/" . "productpreview/")
- ("/home/jku/.emacs.d/" . "lisp/")
+ ("/home/jku/.emacs.d/" . "elpa/")
  ("/home/jku/local/configs/.emacs.d/" . "lisp/")
  ("/home/jku/Instances/tutorial/pyramid_epfl/solute/epfl/components/select/" . "static/")
  ("/home/jku/Instances/tutorial/pyramid_epfl/solute/epfl/components/number_input/" . "static/")
@@ -507,13 +773,13 @@
  ("/home/jku/Instances/bdms/pyramid_epfl/solute/epfl/" . "components/")
  ("/home/jku/Instances/bdms/pyramid_epfl/solute/" . "epfl/")
  ("/home/jku/Instances/bdms/pyramid_epfl/" . "solute/")
- ("/home/jku/Instances/bdms/bdms-epfl/solute/webapps/bdmsfe/views/productdata/" . "details/")
- ("/home/jku/Instances/bdms/bdms-epfl/solute/webapps/bdmsfe/views/" . "dashboard/")
+ ("/home/jku/Instances/bdms/bdms-epfl/solute/webapps/bdmsfe/views/productdata/" . "models/")
+ ("/home/jku/Instances/bdms/bdms-epfl/solute/webapps/bdmsfe/views/" . "productdata/")
  ("/home/jku/Instances/bdms/bdms-epfl/solute/webapps/bdmsfe/" . "views/")
  ("/home/jku/Instances/bdms/bdms-epfl/solute/webapps/" . "bdmsfe/")
  ("/home/jku/Instances/bdms/bdms-epfl/solute/" . "webapps/")
- ("/home/jku/Instances/bdms/bdms-epfl/" . "robot_test/")
- ("/home/jku/Instances/bdms/" . "bdms-epfl/")
+ ("/home/jku/Instances/bdms/bdms-epfl/" . "conf/")
+ ("/home/jku/Instances/bdms/" . "pyramid_epfl/")
  ("/home/" . "jku/")
  ("/home/jku/Instances/mcp3/mcp3-servicepoint/solute/epflapps/servicepoint/" . "views/")
  ("/home/jku/Instances/mcp3/mcp3-servicepoint/solute/epflapps/" . "servicepoint/")
@@ -537,12 +803,12 @@
  ("/home/jku/.virtualenvs/tutorial/lib/python2.7/" . "site-packages/")
  ("/home/jku/.virtualenvs/tutorial/lib/" . "python2.7/")
  ("/home/jku/.virtualenvs/tutorial/" . "lib/")
- ("/home/jku/.virtualenvs/" . "today/")
+ ("/home/jku/.virtualenvs/" . "ember/")
  ("/home/jku/Instances/tutorial/pyramid_epfl/solute/epfl/components/" . "form/")
  ("/home/jku/Instances/tutorial/pyramid_epfl/solute/epfl/" . "scaffolds/")
  ("/home/jku/Instances/tutorial/pyramid_epfl/solute/" . "epfl/")
  ("/home/jku/Instances/tutorial/pyramid_epfl/" . "solute/")
- ("/home/jku/Schreibtisch/" . "epfl/")
+ ("/home/jku/Schreibtisch/" . "ember/")
  ("/home/jku/Instances/tutorial/demo_app/epfl_pyramid_barebone/" . "views/")
  ("/home/jku/Instances/tutorial/demo_app/" . "epfl_pyramid_barebone/")
  ("/home/jku/Instances/tutorial/" . "pyramid_epfl/")
@@ -555,211 +821,115 @@
  ("/home/jku/Instances/mcp3/epflapps-deals/" . "solute/")
  ("/home/jku/Instances/mcp3/pyramid_epfl/solute/epfl/" . "components/")
  ("/home/jku/Instances/mcp3/pyramid_epfl/solute/" . "epfl/")
- ("/home/jku/Instances/mcp3/pyramid_epfl/" . "solute/")
+ ("/home/jku/Instances/mcp3/pyramid_epfl/" . "docs/")
  ("/home/jku/Instances/mcp3/mcp3/solute/webapps/mcp3/" . "main/")
  ("/home/jku/Instances/mcp3/mcp3/solute/webapps/" . "mcp3/")
  ("/home/jku/Instances/mcp3/mcp3/solute/" . "webapps/")
- ("/home/jku/Instances/mcp3/mcp3/" . "debian/")
- ("/home/jku/Instances/mcp3/" . "mcp3/")
- ("/home/jku/Instances/" . "billigerv5/")
- ("/home/jku/" . "Instances/")
+ ("/home/jku/Instances/mcp3/mcp3/" . "conf/")
+ ("/home/jku/Instances/mcp3/" . "epflapps-rtool/")
+ ("/home/jku/Instances/" . "webapps/")
+ ("/home/jku/" . ".emacs.d/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
- "/home/jku/Instances/billigerv5/billiger/conf/webserver/"
- "/home/jku/Instances/billigerv5/billiger/conf/"
- "/home/jku/Instances/billigerv5/billiger/solute_site/"
- "/home/jku/Instances/billigerv5/billiger/solute_site/frontend/"
- "/home/jku/Instances/billigerv5/billiger/solute_site/helper/"
- "/home/jku/Instances/fefw/fefw/solute/webapps/fefw/static/js/"
- "/home/jku/Instances/fefw/fefw/solute/webapps/fefw/views/"
- "/home/jku/Instances/fefw/fefw/solute/webapps/fefw/statics/"
- "/home/jku/Instances/fefw/fefw/solute/webapps/fefw/templates/"
- "/home/jku/Instances/fefw/fefw/solute/"
- "/home/jku/Instances/fefw/fefw/"
- "/home/jku/Instances/fefw/"
- "/home/jku/Schreibtisch/epfl/mithril/"
- "/home/jku/Instances/svs/svs/jinja_templates/svs/"
- "/home/jku/Instances/svs/backend-svs/test/data/svs/"
- "/home/jku/Instances/svs/svs/solute/webapps/frontend_svs/"
- "/home/jku/Instances/svs/backend-svs/solute/data/svs/"
- "/home/jku/Instances/mcp3/mcp3/debian/"
- "/home/jku/Instances/mcp3/mcp3/conf/"
- "/home/jku/Instances/mcp3/epflapps-seocms/"
- "/home/jku/Instances/mcp3/epflapps-seocms/debian/"
- "/home/jku/Instances/infrastructure/python-solute-web-common/debian/"
- "/home/jku/Instances/infrastructure/python-solute-web-common/"
- "/home/jku/Instances/thirdparty/webpagetest/cron/"
- "/home/jku/Instances/mcp3/epflapps-webpagetest/solute/epflapps/webpagetest/views/"
- "/home/jku/Instances/thirdparty/webpagetest/bin/"
- "/home/jku/Instances/thirdparty/webpagetest/www/settings/"
- "/home/jku/Instances/thirdparty/webpagetest/"
- "/home/jku/GIT/solute/infrastructure/puppetcfg/modules/profile/manifests/webpagetest/frontend/"
- "/home/jku/GIT/solute/infrastructure/puppetcfg/modules/profile/manifests/webpagetest/"
- "/home/jku/GIT/solute/infrastructure/puppetcfg/modules/profile/manifests/"
+ "/home/jku/.emacs.d/elpa/web-mode-20160424.1356/"
+ "/home/jku/Instances/webapps/sofa-components/addon/components/"
+ "/home/jku/Instances/webapps/sofa-components/addon/templates/components/"
+ "/home/jku/Instances/webapps/sucheqs/frontend/app/templates/query-sets/query-set/"
+ "/home/jku/Instances/webapps/sucheqs/frontend/app/templates/jobs/"
+ "/home/jku/Instances/webapps/sucheqs/frontend/app/templates/default-queries/"
+ "/home/jku/Instances/webapps/sucheqs/frontend/app/templates/"
+ "/home/jku/Instances/webapps/sucheqs/frontend/app/templates/query-sets/"
+ "/home/jku/Instances/webapps/sucheqs/frontend/app/templates/components/"
+ "/home/jku/Instances/webapps/sucheqs/frontend/app/components/"
+ "/home/jku/Instances/webapps/sofa-components/"
+ "/home/jku/GIT/solute/infrastructure/python-solute-web/solute/web/pyramid/scaffolds/solute_webapp_ember_engine/engine/"
+ "/home/jku/Instances/webapps/sucheqs/"
+ "/home/jku/Instances/webapps/sucheqs/test/views/"
+ "/home/jku/Instances/webapps/sucheqs/test/"
+ "/home/jku/Instances/webapps/sucheqs/solute/webapps/sucheqs/views/"
+ "/home/jku/Instances/webapps/sucheqs/solute/webapps/sucheqs/"
+ "/home/jku/Instances/webapps/sucheqs/frontend/"
+ "/home/jku/Instances/webapps/sucheqs/frontend/app/routes/jobs/"
+ "/home/jku/Instances/webapps/sucheqs/frontend/app/routes/"
+ "/home/jku/Instances/webapps/sucheqs/frontend/config/"
+ "/home/jku/Instances/webapps/sucheqs/frontend/app/serializers/"
+ "/home/jku/Instances/webapps/sucheqs/frontend/mirage/serializers/"
+ "/home/jku/Instances/webapps/sucheqs/frontend/app/routes/query-sets/"
+ "/home/jku/Instances/webapps/sucheqs/frontend/mirage/scenarios/"
+ "/home/jku/Instances/webapps/sucheqs/frontend/mirage/factories/"
+ "/home/jku/Instances/webapps/sucheqs/frontend/mirage/models/"
+ "/home/jku/Instances/webapps/sucheqs/frontend/app/models/"
+ "/home/jku/Instances/webapps/sucheqs/frontend/app/controllers/"
+ "/home/jku/Instances/webapps/sucheqs/frontend/mirage/"
+ "/home/jku/Instances/webapps/sucheqs/frontend/app/routes/query-sets/query-set/query/"
+ "/home/jku/Instances/webapps/sucheqs/frontend/app/routes/default-queries/"
+ "/home/jku/.virtualenvs/ember/local/lib/python2.7/site-packages/SQLAlchemy_JSONAPI-4.0.8-py2.7.egg/sqlalchemy_jsonapi/"
+ "/home/jku/Instances/webapps/sucheqs/alembic/"
+ "/home/jku/Instances/webapps/sucheqs/alembic/versions/"
  "/home/jku/"
- "/home/jku/Instances/billigerv5/billiger/templates/css/"
- "/home/jku/Instances/billigerv5/billiger/solute_site/frontend/widgets/"
- "/home/jku/Instances/billigerv5/billiger/templates/widgets/"
- "/home/jku/Instances/billigerv5/billiger/templates/"
- "/home/jku/Instances/infrastructure/python-solute-web-common/solute/web/helper/"
- "/home/jku/bin/"
- "/home/jku/.i3/"
- "/home/jku/Instances/mcp3/epflapps-deals/solute/epflapps/deals/models/"
- "/home/jku/Instances/mcp3/epflapps-deals/solute/epflapps/deals/models/api/"
- "/home/jku/Instances/mcp3/epflapps-deals/solute/epflapps/deals/views/"
- "/home/jku/Schreibtisch/epfl/"
- "/home/jku/Instances/svs/svs/conf/"
- "/home/jku/Instances/billigerv5/billiger/templates/js/"
- "/home/jku/Instances/billigerv5/billiger/debian/"
- "/home/jku/Instances/mcp3/pyramid_epfl/solute/epfl/components/list_layout/"
- "/home/jku/Instances/mcp3/pyramid_epfl/solute/epfl/components/pretty_list_layout/"
- "/home/jku/Instances/mcp3/pyramid_epfl/solute/epfl/components/paginated_list_layout/"
- "/home/jku/Instances/mcp3/pyramid_epfl/solute/epfl/components/table_layout/"
+ "/home/jku/Instances/webapps/sucheqs/frontend/app/routes/query-sets/query-set/"
+ "/home/jku/Instances/mcp3/epflapps-rtool/solute/epflapps/rtool/views/"
+ "/home/jku/Instances/webapps/sucheqs/frontend/app/"
+ "/home/jku/Schreibtisch/ember/"
+ "/home/jku/Instances/webapps/sucheqs/frontend/app/adapters/"
+ "/home/jku/Instances/webapps/sucheqs/frontend/app/services/"
+ "/home/jku/Instances/webapps/sucheqs/frontend/app/utils/"
+ "/home/jku/Instances/webapps/sucheqs/frontend/app/routes/execution/"
+ "/home/jku/Instances/webapps/sucheqs/frontend/app/templates/execution/"
+ "/home/jku/local/configs/.emacs.d/lisp/"
+ "/home/jku/.emacs.d/"
+ "/home/jku/Instances/webapps/sucheqs/frontend/app/templates/query-sets/query-set/query/"
+ "/home/jku/Instances/webapps/mcp2/solute/webapps/mcp2/frontend/"
+ "/home/jku/Instances/webapps/mcp2/solute/webapps/mcp2/lib/matching_jobcenter/"
 )
 
 ;; ----- ido-work-file-list -----
 (
- "httpd.rewrites.include.in"
- "billiger-prelive01"
- "pagedata.py"
- "module_clickout.py"
- "clickout.py"
- "app.js"
- "example.py"
- "styles.css"
- "__init__.py"
- "home.html"
+ "web-mode.el"
+ "sofa-pagination.js"
+ "sofa-minimal-table.js"
+ "sofa-minimal-table.hbs"
+ "index.hbs"
+ "sofa-table.hbs"
+ "results.hbs"
+ "sofa-pagination.hbs"
+ "sofa-button.hbs"
+ "testem.js"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/home/jku/Instances/billigerv5/billiger/conf/webserver/" (22378 35390 792466 492000) "../" "billiger.de.tar.aes" "nginx_rewrites.conf" "httpd.billiger.de.ssl.conf.in" "httpd-blocked.map" "httpd.application.conf.in" "beta.billiger.de.tar.aes" "varnish.vcl.in" "httpd.application.conf.abtest" "./" "img.billiger.de-lighttpd.conf" "httpd.rewrites.include.in" "nginx_conf_updt.sh" "httpd.proxy.include" "www.billiger.de.tar.aes" "varnish.default.in")
+ ("/home/jku/.emacs.d/elpa/web-mode-20160424.1356/" (22301 49397 716643 828000) "../" "web-mode.elc" "web-mode-autoloads.el" "web-mode.el" "./" "web-mode-pkg.el" "web-mode-pkg.elc")
 
- ("/home/jku/Instances/billigerv5/billiger/debian/" (22378 35390 796466 492000) "../" "compat" "changelog" "postinst" "./" "rules" "control")
+ ("/home/jku/.emacs.d/elpa/" (22528 33189 740006 360000) "find-file-in-project-20151130.2232/" "../" "async-20151123.256/" "ht-20150830.1115/" "puppet-mode-20150730.1208/" "emojify-20160610.111/" "let-alist-1.0.4/" "simple-httpd-20150430.1755/" "crontab-mode-20090510.1355/" "flymake-puppet-20141006.1855/" "gntp-20141024.1950/" "js2-mode-20151130.405/" "elpy-20151101.401/" "multi-web-mode-readme.txt" "archives/" "elpy-20160613.1005/" "lorem-ipsum-20140911.1408/" "swiper-20151129.801/" "yaml-mode-20160101.921/" "elpy-readme.txt" "fill-column-indicator-20151030.1233/" "better-defaults-20150404.223/" "oauth2-0.10/" "dash-20151021.113/" "highlight-indentation-20150307.208/" "apache-mode-readme.txt" "let-alist-1.0.4.signed" "auto-complete-20151112.2030/" "material-theme-20151125.25/" "flymake-easy-20140818.55/" "apache-mode-20150828.714/" "landmark-readme.txt" "log4e-20150105.505/" "skewer-mode-20150914.1304/" "markdown-mode-readme.txt" "circe-20160608.1315/" "pkg-info-20150517.443/" "popup-20151125.542/" "seq-20151121.1017/" "flycheck-20151128.1058/" "git-timemachine-20160323.1240/" "./" "eslint-fix-readme.txt" "lorem-ipsum-readme.txt" "pyvenv-20151105.1519/" "el2markdown-readme.txt" "web-mode-20160424.1356/" "yasnippet-20151126.518/" "w3m-20151013.327/" "company-20151126.1537/" "git-timemachine-readme.txt" "request-20160623.1938/" "markdown-mode-20160303.751/" "iedit-20150915.2022/" "oauth2-0.10.signed" "websocket-20160510.2001/" "ac-js2-20140906.442/" "gnupg/" "epl-20150517.433/" "alert-20160506.1821/")
 
- ("/home/jku/Instances/billigerv5/billiger/templates/js/" (22378 35390 796466 492000) "iframeResizer.min.js" "msdropdown/" "../" "psb_v4_product_offers.js" "emos2_modebill.js" "bde-competition-js-2.js" "jquery.slimscroll.min.js" "icq.js" "jquery.bd.observer.js" "jquery.bd.media.js" "emos2_mobile.js" "jquery.form.js" "BILLIGERDE_cpo.js" "criteo_ld.js" "jquery.fileDownload.js" "jquery.ba-resize.min.js" "calendar__2012_11_30.js" "css3-mediaqueries.min.js" "jquery.ui.touch-punch.js" "jquery.solute.js" "suggest.js" "jquery.bd.overlay.js" "jquery.form-2.63.js" "dom_watcher.js" "bde-competition-js.js" "waypoints.js" "jquery.scrollTo.min.js" "jquery-1.8.2.min.js" "waypoints.min.js" "jquery.snow.js" "jquery.dotdotdot.min.js" "jquery.bd.media.min.js" "jquery.bd.imageZoomInside.js" "jquery.slimscroll.js" "jquery-ui-1.8.24.custom.min.js" "cookies.js" "main.js" "doktor.js" "jquery.strength_password.js" "jquery.ui.touch-punch.min.js" "emos2.js_new" "jquery.solute_formvalidation.js" "jquery.truncate.min.js" "emos2.js" "thickbox.js" "jquery.hoverIntent.js" "widgets.js" "bde-competition-js-ovisto-2.js" "jquery.scrollTo.js" "./" "bde-competition-js-web-de.js" "bde-competition-js-web-de-2.js" "jquery.tipsy.js" "econda_extensions.js" "text_more_helper.js" "jquery.bd.tooltiplayer.js" "jquery.snow__2012_11_30.min.js" "jquery.bd.infolayer.js" "memopad.js" "AC_OETags.js" "econda-nuggad.js" "css3-mediaqueries.js" "underscore-min.js" "jquery.bd.visualNav.js" "jquery.bd.overlay.min.js" "abtest.js" "jquery.carousel.min.js" "bde-competition-js-ovisto-1.js" "emos2_orig.js" "prevscroll_20111025.js" "jquery.color.js" "bde-competition-js-ebay.js")
+ ("/home/jku/Instances/webapps/sofa-components/addon/components/" (22538 5638 497583 761000) "../" "sofa-upload.js" "sofa-test.js" "sofa-button.js" "sofa-minimal-table.js" "sofa-table.js" "sofa-dateinput.js" "sofa-textinput.js" "sofa-checkbox.js" "sofa-searchinput.js" "./" "sofa-pagination.js")
 
- ("/home/jku/bin/" (22369 25828 902571 920000) "down" "../" "yed" "up" "outlook" "./")
+ ("/home/jku/Instances/webapps/sofa-components/addon/templates/components/" (22538 5340 105580 940000) "../" "sofa-checkbox.hbs" "sofa-pagination.hbs" "sofa-dateinput.hbs" "sofa-test.hbs" "sofa-table.hbs" "sofa-searchinput.hbs" "sofa-upload.hbs" "sofa-minimal-table.hbs" "./" "sofa-textinput.hbs" "sofa-button.hbs")
 
- ("/home/jku/Instances/infrastructure/python-solute-web-common/solute/web/helper/" (22370 31162 478799 553000) "../" "ebay.py" "text.py" "har.py" "mediacode.py" "vnu.pyc" "date.py" "cms.pyc" "vnu.py" "__init__.pyc" "mediacode.pyc" "cms.py" "dynimg.pyc" "url_builder.py" "url_builder.pyc" "./" "url.pyc" "__init__.py" "dynimg.py" "ebay.pyc" "text.pyc" "date.pyc" "url.py" "pdbtween.py" "pdbtween.pyc")
+ ("/home/jku/Instances/webapps/sucheqs/frontend/app/templates/components/" (22537 58681 129465 637000) "query-result.hbs" "../" "sofa-pagination.hbs" "query-definition.hbs" "select-searcher.hbs" "delete-confirmation.hbs" "main-menu.hbs" "./" ".gitkeep")
 
- ("/home/jku/Instances/billigerv5/billiger/templates/" (22378 35390 796466 492000) "module_clickout.html" "offercluster/" "api/" "../" "_layout_2column_flex.html" "ajax_v4_product_offers.html" "ajax_gewinnspiel.html" "internals/" "shop_userreviews.html" "imgoverlays/" "product_reviews.html" "community/" "ajax_v4_product_pricehistory.html" "category_offline.html" "_containers.html" "dsl.html" "cert_info.html" "ajax_global_nav.html" "shops.html" "finanzen/" "oauth_popup.html" "echobot.html" "ajax_v4_product_recommendations.html" "searchseo_index.html" "module_ad_tracking_redirect.html" "_snippets.html" "marktjagd_iframe.html" "ajax_v4_product_procontra.html" "searchseo_parent0.html" "shop_info.html" "captcha/" "ajax_layer.html" "service/" "_layout_2column.html" "category_leaf.html" "features/" "ext_topsearch.html" "ajax_pricealarm_activate.html" "errors/" "js/" "index.html" "product_comparison.html" "static/" "categories_parent0category.html" "product_userreviews_details.html" "specials/" "pricehistory/" "users/" "_snippets_layers.html" "newsletter_archiv/" "mobile_redirect.wml" "xxx_widget_test.html" "statics/" "sparberater/" "ajax_v4_product_userreviews.html" "_layout_iframe_econda_tracker.html" "marketing/" "ajax_offer_layer.html" "advertising/" "_layout_print.html" "404.html" "categories_all.html" "oauth_popup_error.html" "_layout_x_common.html" "sparberater_gewinnspiel/" "testing/" "shop_offers.html" "opera_sparberater/" "ajax_review.html" "ajax_product_second_hand_article.html" "_layout.html" "./" "ajax_v4_product_analyses.html" "spreadcommerce.html" "product_abstract.html" "shop_userreviews_details.html" "product_details.html" "ajax_v4_product_media.html" "search_result_items.html" "img/" "searchseo_links.html" "searchseo_result_items.html" "product_procontra.html" "application/" "product_not_found.html" "product_pricelist.html" "warranty_info.html" "_snippets_box_subcategories.html" "ajax_v4_product_reviews.html" "brand.html" "pk.log" "marktjagd_remove.html" "xxx_debug.html" "tariffs/" "search_result_none.html" "category_node.html" "product_userreviews.html" "ajax_suggest.html" "_layout_minimal.html" "413.html" "widgets/" "module_display_voucher_on_shop.html" "notepad.html" "productvariants/" "_layout_extern_debug.html" "ajax_v4_product_testreviews.html" "brands.html" "css/" "offer/" "bildnavigation/")
+ ("/home/jku/Instances/webapps/sucheqs/frontend/app/templates/query-sets/query-set/" (22537 58681 129465 637000) "../" "query/" "query.hbs" "./" "index.hbs")
 
- ("/home/jku/Instances/billigerv5/billiger/templates/widgets/" (22378 35390 796466 492000) "../" "categories_container.html" "community_login_messages.html" "navigation_teasers.html" "category_sonderintegration.html" "tracking.html" "box_recommendation.html" "box_top_products.html" "box_simple_tabs.html" "_snippets.html" "content_big_teaser.html" "testreviews.html" "top_items.html" "_widgets.html" "contentbox.html" "noitems.html" "filterbox_v2.html" "box_seoqueries.html" "incentive_userreviews.html" "products_snippets.html" "ratings.html" "offers_snippets.html" "navigation_community.html" "box_recommendation_home.html" "offers.html" "content_teasers.html" "userreviews.html" "products_procontra.html" "navigation_categories_extern.html" "ads.html" "productvariants.html" "hintbox.html" "twocol_message_body.html" "offer_notes.html" "./" "navigationbox.html" "box_simple_3columns_v2.html" "marketing.html" "navigation_categories.html" "ajax_newsletter.html" "greasemonkey.html" "categories.html" "socialbookmarks.html" "co_branding.html" "offers_container.html" "products.html" "community_user.html" "delivery_time.html" "filters.html" "simple_table.html")
+ ("/home/jku/Instances/webapps/sucheqs/frontend/app/components/" (22537 58681 125465 637000) "../" "select-searcher.js" "delete-confirmation.js" "query-result.js" "main-menu.js" "./" ".gitkeep" "query-definition.js" "sofa-pagination.js")
 
- ("/home/jku/Instances/billigerv5/billiger/solute_site/frontend/widgets/" (22378 36650 80478 399000) "content_big_teaser.pyc" "../" "userreviews.py" "categories.pyc" "box_recommendation.pyc" "top_items.py" "filters.pyc" "box_simple_3columns_v2.py" "box_seoqueries.py" "content_big_teaser.py" "twocol_message_body.py" "simple_table.py" "offer_notes.py" "greasemonkey.pyc" "simple_table.pyc" "productvariants.py" "box_simple_3columns_v2.pyc" "navigation.py" "contentbox.pyc" "community_login_messages.pyc" "community_login_messages.py" "navigationbox.pyc" "navigation_categories.py" "navigation_categories_extern.py" "box_seoqueries.pyc" "socialbookmarks.py" "navigation_community.pyc" "marketing.py" "navigation_categories_extern.pyc" "navigation_categories.pyc" "incentive_userreviews.pyc" "box_simple_tabs.py" "delivery_time.pyc" "community_user.pyc" "filterbox_v2.pyc" "products.pyc" "co_branding.py" "userreviews.pyc" "socialbookmarks.pyc" "testreviews.pyc" "navigation_community.py" "co_branding.pyc" "productvariants.pyc" "greasemonkey.py" "ads.pyc" "__init__.pyc" "community_user.py" "box_recommendation.py" "twocol_message_body.pyc" "filters.py" "offers.py" "noitems.pyc" "navigation_teasers.pyc" "ratings.py" "noitems.py" "content_teasers.py" "testreviews.py" "navigation.pyc" "contentbox.py" "delivery_time.py" "filterbox_v2.py" "products.py" "marketing.pyc" "./" "ratings.pyc" "navigation_teasers.py" "__init__.py" "tracking.pyc" "box_recommendation_home.py" "hintbox.py" "categories.py" "navigationbox.py" "products_procontra.pyc" "incentive_userreviews.py" "offers.pyc" "top_items.pyc" "box_simple_tabs.pyc" "box_top_products.py" "products_procontra.py" "box_top_products.pyc" "ads.py" "offer_notes.pyc" "hintbox.pyc" "content_teasers.pyc" "box_recommendation_home.pyc" "tracking.py")
+ ("/home/jku/Instances/" (22430 59552 955055 299000) "../" "ember/" "svs/" "klemmbrett/" "python-solute-testing/" "fefw/" "tpa/" "today/" "tester/" "backend/" "lamiro/" "static/" "cornice/" "webapps/" "mcp3-buildout/" "mast/" "./" "ir/" "bdms/" "infrastructure/" "tutorial/" "mcp3/" "billigerv5/" "thirdparty/" "python-solute/")
 
- ("/home/jku/Instances/billigerv5/billiger/templates/css/" (22378 35390 796466 492000) "suggest.css" "../" "widgets.css" "style_external.css" "partnerbutton.css" "style_external_v2.css" "ui.slider.patch.css" "calendar.css" "bd.overlay.css" "ui.core.css" "images/" "sparberater_gewinnspiel.css" "ui.slider.css" "thickbox.css" "ie.css" "sprites.css" "v3_style.css" "reset.css" "meinestadt.css" "icq.css" "tipsy.css" "socialshareprivacy.css" "./" "ui.theme.css" "bd.media.css" "v3_topsuche.css" "sparberater.css" "style_v4.css" "style.css")
+ ("/home/jku/GIT/solute/infrastructure/python-solute-web/solute/web/pyramid/scaffolds/solute_webapp_ember_engine/engine/" (22500 62534 928385 620000) "../" "+dot+jshintrc" "testem.js" "app/" "README.md" "bower.json" "+dot+bowerrc" "index.js_tmpl" "+dot+gitignore" "+dot+watchmanconfig" "addon/" "vendor/" "config/" "./" "+dot+ember-cli" "+dot+npmignore" "LICENSE.md" "ember-cli-build.js" "tests/" "package.json_tmpl" "+dot+editorconfig")
 
- ("/home/jku/GIT/solute/infrastructure/puppetcfg/modules/profile/manifests/" (22367 49017 910225 399000) "searchqueue3.pp" "mcp2.pp" "imagecache.pp" "performance_test.pp" "billiger.pp" "../" "svs/" "rpc.pp" "qlx.pp" "shopimport/" "devstation/" "disco_api_statistics.pp" "mapping_matching_service.pp" "mapreduce_ir.pp" "amazon_delta/" "matching_api/" "squidproxy.pp" "mapping/" "matchingdb_delta_export.pp" "ulg-test.pp" "logstash.pp" "qltb_api/" "recommendations.pp" "matching.pp" "imagestore.pp" "snatools.pp" "search_service.pp" "mapping.pp" "imageindex.pp" "disco.pp" "cache.pp" "buildserver.pp" "spreadcommerce/" "tasks.pp" "mmstore.pp" "mmstore/" "mapping_matching_service/" "autocontent.pp" "disco_products_export/" "filtertools.pp" "hostingfe.pp" "testhelen.pp" "amazon_delta.pp" "elasticsearch.pp" "vagrant/" "search_solr/" "search_service_synint/" "testhelen/" "mm_worker.pp" "else/" "recommendations/" "foreman/" "infrastructure.pp" "reviews.pp" "sftp/" "feedstore.pp" "billiger6/" "delta_export.pp" "matching_api.pp" "syndication_api/" "searcher_consistency.pp" "filter_extraction.pp" "index_shops_update.pp" "disco/" "filtertools/" "syndication_api.pp" "billiger/" "devstation.pp" "search_service/" "filter_extraction/" "delta_export/" "disco_products_export.pp" "contextual_recommender/" "imagecache/" "searcher_stats.pp" "testberichte/" "search_solr.pp" "mp_shop_rating/" "database.pp" "webapps.pp" "svs.pp" "searchqueue3/" "mp_shop_rating.pp" "aptly/" "aptly.pp" "category/" "foreman.pp" "elasticsearch/" "testberichte.pp" "image_search_service/" "shopimport.pp" "imgsearch.pp" "infinitedesk.pp" "taskmanager.pp" "performance_test/" "qltb_api.pp" "jenkins/" "imagematching.pp" "rpc/" "init.pp" "webpagetest/" "matchingdb_delta_export/" "imgsearch/" "proxy/" "webapps/" "autocontent/" "clickpath_log/" "database/" "tank.pp" "tmworker/" "qlx/" "sentry/" "tank/" "tmworkerje.pp" "syndication_delta_export.pp" "searcher_stats/" "syndication/" "tasks/" "./" "redaktionstools.pp" "searcher_consistency/" "redis/" "image_search_service.pp" "taskmanager/" "reviews/" "infrastructure/" "tmworkerje/" "matching/" "proxy.pp" "cache/" "sftp.pp" "webpagetest.pp" "redaktionstools/" "clickpath_log.pp" "feedstore/" "spreadcommerce.pp" "syndication_delta_export/" "ir_reports/" "category.pp" "tmworker.pp" "ir_reports.pp" "snatools/" "imagestore/" "sentry.pp" "else.pp" "infinitedesk/" "squidproxy/" "mcp2/" "hostingfe/" "index_shops_update/" "jenkins.pp" "contextual_recommender.pp" "syndication.pp" "billiger6.pp" "search_service_synint.pp" "disco_api_statistics/")
+ ("/home/jku/GIT/solute/infrastructure/python-solute-web/solute/web/pyramid/scaffolds/solute_webapp_ember_engine/" (22500 62534 928385 620000) "../" "solute/" "./" "engine/")
 
- ("/home/jku/GIT/solute/infrastructure/puppetcfg/modules/profile/manifests/webpagetest/frontend/" (22370 29779 34795 110000) "../" "test.pp" "production.pp" "./")
+ ("/home/jku/GIT/solute/infrastructure/python-solute-web/solute/web/pyramid/scaffolds/" (22500 63728 580396 906000) "../" "solute_webapp_ember/" "solute_rpc_service/" "solute_webapp_ember_engine/" "__init__.pyc" "solute_webapp/" "./" "__init__.py" "solute_webapp_epfl/")
 
- ("/home/jku/Instances/infrastructure/python-solute-web-common/" (22370 35246 302812 670000) "../" "solute/" ".gitignore" "tox.ini" ".git/" "setup.py" "python_solute_web_common.egg-info/" "cron/" "packages/" "scripts/" "MANIFEST.in" "test/" "pk.py" ".eggs/" "./" ".editorconfig" "pk.pyc" "pk.log" "debian/")
+ ("/home/jku/GIT/solute/infrastructure/python-solute-web/solute/web/pyramid/" (22501 1529 180428 453000) "../" "util.py" "dogpile_cacheservice.py" "sentry.pyc" "cacheservice.py" "intern_objects.py" "statistics.py" "redis_session_check.py" "crashservice.pyc" "connection.py" "_checks.pyc" "rpc_autodoc.py" "scaffolds/" "redis_cacheservice.py" "site_config.py" "__init__.pyc" "session.py" "oauth.py" "checkservice.pyc" "connection.pyc" "alphonse_search.py" "colanderutil.py" "alphonse.py" "favicon.py" "billiger_session/" "cacheservice.pyc" "./" "__init__.py" "templates/" "checkservice.py" "tweens.py" "security.py" "util.pyc" "_checks.py" "sentry.py" "crashservice.py")
 
- ("/home/jku/Instances/infrastructure/python-solute-web-common/debian/" (22370 35119 190812 262000) "../" "compat" "copyright" "README" "README.source" "changelog" "./" "docs" "rules" "source/" "control" "README.Debian")
+ ("/home/jku/GIT/solute/infrastructure/python-solute-web/solute/web/" (22325 56815 653719 701000) "../" "pyramid/" "auth/" "__init__.pyc" "resources/" "./" "__init__.py")
 
- ("/home/jku/Instances/svs/svs/jinja_templates/svs/" (22371 43352 203049 209000) "../" "scheduled_tasks.html" "shopdatamanagement.html" "invoice_address.html" "shop_traffic.html" "./" "contentad.html" "salestracking.html" "shopcredits.html" "syndication_partner.html" "application_tags.html")
+ ("/home/jku/GIT/solute/infrastructure/python-solute-web/solute/" (22110 49960 60117 81000) "../" "__init__.pyc" "web/" "./" "__init__.py")
 
- ("/home/jku/Schreibtisch/epfl/mithril/" (22375 35725 898610 739000) "../" "components/" "index.html" "./")
-
- ("/home/jku/Instances/fefw/" (22375 44333 178692 120000) "../" "fefw/" "./")
-
- ("/home/jku/Instances/fefw/fefw/" (22376 62834 151486 687000) "../" "solute/" ".gitignore" "conf/" "solute_fefw.egg-info/" ".git/" "setup.py" "README.txt" "cron/" "scripts/" "MANIFEST.in" "pk.py" ".eggs/" "./" "debian/")
-
- ("/home/jku/Instances/fefw/fefw/solute/webapps/fefw/templates/" (22375 41248 498662 955000) "../" "webix.html" "./" "home.html")
-
- ("/home/jku/Instances/fefw/fefw/solute/webapps/fefw/views/" (22378 18152 256303 502000) "../" "example.pyc" "__init__.pyc" "deals.py" "./" "__init__.py" "deals.pyc" "example.py")
-
- ("/home/jku/Instances/billigerv5/billiger/conf/" (22378 35390 796466 492000) "solute-conversion-apply.cron" "../" "billiger-qs03.wsgi" "wtf.svk.local.conf" "wtf.billiger.mvb.conf" "wtf.svk.conf" "wtf.iz.conf" "wtf.lucene-dev.conf" "wtf.billiger.prelive01.conf" "billiger-production.wsgi" "billiger-dev.jay.wsgi" "restart-billiger.cron" "lighty.conf.gb" "wtf.billiger.qs.conf" "webserver/" "local.conf.prelive" "wtf.sw.conf" "billiger-qs02.wsgi" "wtf.billiger.global.conf" "wtf.bes.local.conf" "site.conf" "lighty.conf.jay" "billiger-qs02" "billiger.gb.vnt.wsgi" "wtf.svh.conf" "wtf.billiger.test.conf" "wtf.example.conf" "wtf.billiger.qs03.conf" "wtf.ps.conf" "wtf.gb.vnt.conf" "wtf.al_test.conf" "local.conf.beta" "wtf.jay.conf" "billiger-test.wsgi" "billiger-svk" "wtf.jku.conf" "wtf.development.conf" "wtf.gb.dev03.conf" "wtf.tpa.conf" "wtf.al.local.conf" "nginx.iro.conf" "wtf.al.conf" "lighty" "wtf.billiger.development.conf" "wtf.iro.conf" "billiger-qs04.wsgi" "wtf.billiger.qs04.conf" "billiger-production" "wtf.ros.conf" "billiger-test" "local.conf.production" "billiger-qs04" "solute-clicklog-apply.cron" "wtf.billiger.qs01.conf" "wtf.billiger.production.conf" "wtf.bes.conf" "wtf.billiger.no_master_db.conf" "lighty.conf.template" "wtf.gb.local.conf" "./" "wtf.conf" "billiger-prelive01" "wtf.bes2.local.conf" "wtf.jam.local.conf" "billiger-qs01" "local.conf" "wtf.juw.conf" "billiger.gb.wsgi" "lighty.conf.al" "billiger-dev-jay.apache.conf" "billiger-prelive01.wsgi" "wtf.sw.local.conf" "wtf.lso.conf" "wtf.billiger.qs02.conf" "billiger-qs03" "lighty.conf.iz" "wtf.jam.conf" "reload-apache.cron" "wtf.billiger.beta.conf" "wtf.ros.local.conf" "billiger-qs01.wsgi" "lighty.conf.svh" "wtf.lucene-dev.local.conf" "wtf.al_test2.conf" "billiger-dev-al.apache.conf" "wtf.tpa.conf.b" "wtf.gb.conf" "unittests.conf" "billiger.production.abtest.wsgi" "lighty.conf.lso")
-
- ("/home/jku/Instances/billigerv5/billiger/solute_site/frontend/" (22378 36650 848478 406000) "productvariants_index.pyc" "api/" "ajax_econda.py" "module_benchmark.py" "test_ab.py" "module_clickout.py" "pricehistory.pyc" "brands.py" "marktjagd.py" "ajax_bildnavigation.pyc" "mastercard_microsites.py" "ajax_mail_catcher.pyc" "ajax_validation.py" "category.py" "_newsletter.py" "ajax_v4_product_analyses.pyc" "facebook/" "ajax_v4_product_pricehistory.py" "ajax_review.py" "ajax_v4_product_second_hand_article.pyc" "spreadcommerce.pyc" "notepad.pyc" "finance.pyc" "productvariants.py" "ajax_v4_product_media.pyc" "shop/" "ajax_validation.pyc" "xxx_avatar_test.pyc" "redirects.py" "module_shop_conversions.py" "redirects.pyc" "xxx_internal_helper.py" "ajax_v4_product_offers.pyc" "test_ab.pyc" "categories_all.py" "service.py" "categories_all.pyc" "ajax_v4_product_media.py" "_newsletter.pyc" "static_combine.pyc" "_feedback.pyc" "module_ad_tracking_redirect.pyc" "ajax_navigation_community.py" "ajax_layer.py" "xtern.pyc" "searchseo_links.py" "echobot_frame.pyc" "module_clickout.pyc" "info_layers.py" "ajax_suggest.py" "webmiles.pyc" "sea/" "ajax_review.pyc" "ajax_common.py" "searchseo.pyc" "module_benchmark.pyc" "ajax_v4_product_userreviews.py" "xtern_check.pyc" "categories_parent0category.py" "_contact.pyc" "sis_advisor.pyc" "dsl.py" "_baseprerendermodel.pyc" "oauth/" "search.pyc" "offer_cluster.py" "notepad.py" "t_online.pyc" "t_online.py" "_basemodel.pyc" "module_display_voucher_on_shop.py" "categories_parent0category.pyc" "ajax_gewinnspiel.py" "xxx_avatar_test.py" "xxx_widget_test.pyc" "econda_tracker.py" "module_ad_tracking_redirect.py" "mastercard_microsites.pyc" "productvariants.pyc" "ajax_layer.pyc" "specials/" "ajax_ads.pyc" "__init__.pyc" "info_layers.pyc" "media/" "static.py" "sis_advisor.py" "users/" "xtern_check.py" "ajax_v4_product_recommendations.pyc" "ajax_products.py" "sparberater/" "marketing/" "xxx_debug.py" "search.py" "dynimg.pyc" "advertising/" "service.pyc" "api_mail.py" "spreadcommerce.py" "ajax_gewinnspiel.pyc" "decorators/" "module_redirect.pyc" "tools/" "ajax_v4_product_second_hand_article.py" "api_mail.pyc" "autocontent/" "xxx_widget_test.py" "xxx_internal_helper.pyc" "testing/" "error_handler.py" "module_shop_conversions.pyc" "qs_recommend.pyc" "ajax_common.pyc" "module_dereferrer_ebay.pyc" "static_combine.py" "ajax_mail_catcher.py" "_contact.py" "ajax_econda.pyc" "ajax_newsletter.py" "home.pyc" "ajax_v4_product_pricehistory.pyc" "__init__.py" "_newsletter_recommend.py" "pricehistory.py" "dynimg.py" "bildnavigation.pyc" "ajax_v4_product_analyses.py" "searchseo.py" "finance.py" "ajax_bildnavigation.py" "_newsletter_recommend.pyc" "error_handler.pyc" "dsl.pyc" "ajax_ads.py" "_feedback.py" "application/" "module_display_voucher_on_shop.pyc" "category.pyc" "qs_recommend.py" "ajax_suggest.pyc" "product/" "xtern.py" "marktjagd.pyc" "bildnavigation.py" "ajax_products.pyc" "searchseo_links.pyc" "ajax_v4_product_procontra.pyc" "ajax_newsletter.pyc" "ajax_navigation_community.pyc" "ajax_v4_suggest.pyc" "echobot_frame.py" "ajax_v4_product_userreviews.pyc" "webmiles.py" "brands.pyc" "xxx_debug.pyc" "productvariants_index.py" "__pycache__/" "module_dereferrer_ebay.py" "_baseprerendermodel.py" "iteminfo_ajax.py" "iteminfo_ajax.pyc" "offer_cluster.pyc" "ajax_v4_product_offers.py" "_basemodel.py" "widgets/" "ajax_v4_product_procontra.py" "module_redirect.py" "econda_tracker.pyc" "static.pyc" "offer/" "home.py" "ajax_v4_product_recommendations.py" "../" "./")
-
- ("/home/jku/Instances/billigerv5/billiger/solute_site/helper/" (22378 36650 80478 399000) "../" "newsletter_form.pyc" "shop_conversions.pyc" "seo_filterindexing.pyc" "text.py" "tank.py" "cookies.py" "pdf_creator.py" "echobot.py" "incentive_userreviews.pyc" "clickout.py" "products.pyc" "form.pyc" "clickout.pyc" "facebook.pyc" "uim.pyc" "ads.pyc" "seo_textblobs.py" "__init__.pyc" "cookies.pyc" "pdf_creator.pyc" "econda_shop_special_tracking.pyc" "uim.py" "retargeting.pyc" "echobot.pyc" "form.py" "shop_conversions.py" "products.py" "./" "retargeting.py" "community_validation.py" "__init__.py" "text.pyc" "community.pyc" "econda_shop_special_tracking.py" "seo_filterindexing.py" "tank.pyc" "incentive_userreviews.py" "community_validation.pyc" "facebook.py" "ads.py" "newsletter_form.py" "community.py")
-
- ("/home/jku/Instances/billigerv5/billiger/solute_site/" (22378 36650 80478 399000) "../" "utils.pyc" "models/" "seo_finance.py" "statistics.py" "statistics.pyc" "feedutils.py" "mail.py" "ivw.py" "seo_finance.pyc" "urls.py" "mediacode.py" "frontend/" "pagedata.py" "ars/" "econda.py" "seo.pyc" "pagedata.pyc" "advertising.pyc" "pagedata_facebook.py" "__init__.pyc" "__version__.py.in" "mediacode.pyc" "ivw.pyc" "cookiejar.py" "pagedata_facebook.pyc" "services/" "econda.pyc" "./" "cookiejar.pyc" "__init__.py" "mail.pyc" "advertising.py" "seo.py" "utils.py" "urls.pyc" "helper/")
-
- ("/home/jku/Instances/billigerv5/billiger/" (22378 35390 796466 492000) "Makefile" "../" "documents/" ".gitignore" "dumps/" "conf/" "tox.ini" ".git/" "setup.py" ".cache/" "spool/" "redirects_301.txt" "packages/" "junit-py27.xml" ".tox/" "scripts/" "MANIFEST.in" "test/" "pk.py" "spool_conversions/" "doc/" "pytest.ini" "./" "INSTALL" ".editorconfig" "pk.pyc" "solute_billiger_de.egg-info/" "coverage.xml" "templates/" "pk.log" "junit-{envname}.xml" "debian/" ".coverage" "solute_site/")
-
- ("/home/jku/" (22376 1370 830905 553000) "../" ".dbus/" ".bash_logout" ".install4j" ".emacs.d/" ".mozilla/" ".bash_history" ".w3m/" ".nv/" ".pk.pyc" "*scratch*" ".psql_history-bdedbtest02.test.solute.ka-billigerv5" ".pylintrc" ".thumbnails/" ".flexx/" ".gnome2/" ".psql_history-masterdb.maastricht-billigerv5" ".pgadmin3" ".pgpass" ".npm/" ".pydistutils.cfg" ".virtualenvs/" ".yEd/" ".robotframework/" ".ssh/" ".npmignore" "local/" "bin/" ".thunderbird/" ".cache/" ".oracle_jre_usage/" ".ICEauthority" "GIT_Readonly/" ".v8flags.3.14.5.8.jku.json" "pgadmin.log" ".pylint.d/" ".psqlrc" ".tox/" ".jsonrpc_cli_history" ".gnome2_private/" "Instances/" ".pypirc" ".selected_editor" ".pip/" ".pki/" "VirtualBox VMs/" ".ipython/" ".gimp-2.8/" ".rediscli_history" ".aptitude/" ".bashrc.solute-dev" ".gnome/" ".python-eggs/" ".psql_history-ropg.maastricht-billigerv5" ".pk.py" ".mysql_history" ".bashrc.jku" ".psql_history-bdedbtest01.test.solute.ka-cms" ".psql_history-bdedbtest01.test.solute.ka-deals" ".viminfo" ".config/" "Downloads/" "./" ".local/" ".none/" ".sonar/" ".java/" ".gnupg/" ".cookiecutter_replay/" "Schreibtisch/" ".gconf/" ".remmina/" ".profile" "cifs.credentials" ".i3/" ".purple/" ".gstreamer-0.10/" ".gitconfig" ".vagrant.d/" ".bashrc" ".lesshst" ".psqlrc.local" "GIT/")
-
- ("/home/jku/Instances/fefw/fefw/solute/webapps/fefw/static/js/" (22371 64511 851117 173000) "../" "app.js" "./")
-
- ("/home/jku/Instances/fefw/fefw/solute/webapps/fefw/static/" (22371 63752 695114 735000) "../" "js/" "./" "styles.css")
-
- ("/home/jku/Instances/fefw/fefw/solute/webapps/fefw/" (22371 63391 767113 576000) "../" "README.md" "static/" "__init__.pyc" "views/" "./" "__init__.py" "templates/")
-
- ("/home/jku/Instances/fefw/fefw/solute/webapps/fefw/statics/" (22371 63091 659112 612000) "../" "./")
-
- ("/home/jku/Instances/fefw/fefw/solute/webapps/" (22371 62627 227111 120000) "../" "fefw/" "./" "__init__.py")
-
- ("/home/jku/Instances/fefw/fefw/solute/" (22371 62997 943112 311000) "../" "__init__.pyc" "webapps/" "./" "__init__.py")
-
- ("/home/jku/Instances/" (22371 62433 151110 497000) "../" "svs/" "python-solute-testing/" "fefw/" "tpa/" "today/" "tester/" "backend/" "lamiro/" "webapps/" "mcp3-buildout/" "mast/" "./" "ir/" "bdms/" "infrastructure/" "tutorial/" "mcp3/" "billigerv5/" "thirdparty/" "python-solute/")
-
- ("/home/jku/Schreibtisch/epfl/" (22371 54984 895086 573000) "../" "request-flow.graphml" "board.org" "all_components.graphml" "newstyle.org" "linklist_and_friends.graphml" "themen-übergabe-justus.txt" "mithril/" "alternativen.txt" "all_components.txt" "general.org" "components_usage.ods" "dsg-512.org" "./" "all_components_usage.py" "all_components.png" "testprojekt.txt" "datamodel.graphml" "all_components_usage.png" "all_components_usage.graphml" "FormInputBase.graphml" "render.dot")
-
- ("/home/jku/Schreibtisch/" (22370 25080 778780 19000) "../" "data.json" "mcp3.test.conf" "bild.png" "tmp/" "mit-abstand.png" "wtf.billiger.qs.conf" "puppenkiste.txt" "metrics.py" "epflapps-rtool-robot-branch/" "running_buildout.png" "new_style.py" "epflcomponentbase.py" "ao-liste.png" "ao-grid.png" "dblclick.html" "epfl/" "webpagetest-tobias.txt" "erfühlt.png" "avira_schatten.png" "kanban/" "wtf.billiger.qs01.conf" "v5/" "epfl_pyramid_barebone.egg-info/" "mit-trennzeichen.png" "IMG_20160112_113745.jpg" "screen3_keinbutton.JPG" "./" "clicklog/" "screen1.JPG" "robot-test/" "mcp3/" "vagrant-puppet.cfg" "pdbtween.py" "pyramid_epfl/")
-
- ("/home/jku/Instances/billigerv5/" (22304 36737 997234 670000) "../" "documents/" ".cache/" "billiger/" "./" "python-autocontent-renderer/")
-
- ("/home/jku/Instances/svs/svs/solute/webapps/frontend_svs/" (22371 45871 655057 301000) "export.pyc" "shopcredits.pyc" "../" "syndication_partner.pyc" "utils.pyc" "fake_epfl_user.pyc" "contentad.py" "shoptreeview.pyc" "constants.py" "application_tags.py" "fake_epfl_user.py" "shopstatistics.py" "shopstatistics.pyc" "shopbillingdata.pyc" "generate_pdf.py" "scheduled_tasks.py" "invoice_address.pyc" "urls.py" "shopfeedinfo.pyc" "account.pyc" "pagedata.py" "account.py" "accounting.py" "admin.pyc" "pagedata.pyc" "shopdata_short.py" "no_output.pyc" "shop_traffic.py" "_basemodel.pyc" "shopfeedinfo.py" "shopdatamangement.py" "api_pdf.pyc" "shoptreeview.py" "export.py" "application_tags.pyc" "constants.pyc" "__init__.pyc" "static.py" "generate_pdf.pyc" "shopdatamangement.pyc" "shoptools.py" "login.py" "check.py" "check.pyc" "scheduled_tasks.pyc" "shopdata.pyc" "shoptools.pyc" "ajax_services.py" "admin.py" "services/" "accounting.pyc" "shophistory.py" "api_mail.py" "login.pyc" "shophistory.pyc" "api_mail.pyc" "shopdata.py" "error_handler.py" "invoice_address.py" "shopsearch.py" "shopsearch.pyc" "./" "home.pyc" "api_pdf.py" "__init__.py" "popups.pyc" "syndication_partner.py" "error_handler.pyc" "no_output.py" "popups.py" "salestracking.pyc" "salestracking.py" "shopbillingdata.py" "shopdata_short.pyc" "shopcredits.py" "shop_traffic.pyc" "_basemodel.py" "contactdata.pyc" "contentad.pyc" "ajax_services.pyc" "utils.py" "widgets/" "contactdata.py" "static.pyc" "urls.pyc" "home.py" "helper/")
-
- ("/home/jku/Instances/svs/svs/jinja_templates/" (22325 54644 829712 728000) "../" "svs/" "partner/" "./")
-
- ("/home/jku/Instances/svs/backend-svs/test/data/svs/" (22370 45021 866844 70000) "../" "./" "test_mapper.py")
-
- ("/home/jku/Instances/svs/backend-svs/test/data/" (22325 58290 129724 437000) "../" "svs/" "./" "__init__.py")
-
- ("/home/jku/Instances/svs/backend-svs/test/" (22325 58290 129724 437000) "../" "svs/" "data/" "scripts/" "testing/" "bo/" "./")
-
- ("/home/jku/Instances/svs/backend-svs/solute/data/svs/" (22371 39589 359037 122000) "../" "syndication_shopblacklisted.pyc" "models/" "constants.py" "countries.pyc" "costs.pyc" "index.pyc" "shipping_methods.py" "shop_figures/" "addresses.py" "time_jobs.pyc" "automata.py" "shop_exports.py" "mentasys/" "history.py" "mapper.py" "pvs/" "payment_methods.pyc" "syndication_shopstates.pyc" "shops.py" "comments.pyc" "history.pyc" "applications/" "credits.pyc" "syndication_partners.py" "invoice_addresses.pyc" "shops.pyc" "shop_online_dates.py" "constants.pyc" "__init__.pyc" "eutil.pyc" "users/" "countries.py" "bank_accounts.pyc" "shop_sources.pyc" "syndication_partners.pyc" "credits.py" "mapper.pyc" "addresses.pyc" "systems.py" "global_figures/" "costs.py" "shop_tags.py" "report_mail_addresses.pyc" "./" "payment_methods.py" "__init__.py" "report_mail_addresses.py" "customers/" "shop_tags.pyc" "eutil.py" "syndication_shops.pyc" "syndication_shops.py" "shop_sources.py" "certificates.pyc" "syndication_channels.py" "comments.py" "shop_exports.pyc" "syndication_shopblacklisted.py" "index.py" "systems.pyc" "feeds/" "bank_accounts.py" "contacts/" "invoice_addresses.py" "certificates.py" "shipping_methods.pyc" "status.py" "automata.pyc" "shop_online_dates.pyc" "time_jobs.py" "syndication_shopstates.py" "shop_logos.py" "shop_logos.pyc")
-
- ("/home/jku/Instances/mcp3/mcp3/" (22370 38512 926823 163000) "../" "solute/" ".gitignore" "conf/" "tox.ini" "README.md" "mcp3.pyc" ".git/" "setup.py" "solute_mcp3_frontend.egg-info/" "cron/" "packages/" ".tox/" "scripts/" "MANIFEST.in" "mcp3_git_requirements.txt" "pk.py" ".eggs/" "tester.pyc" "logs/" "./" "pk.pyc" "robot-test/" "pk.log" "tester.py" "debian/")
-
- ("/home/jku/Instances/mcp3/mcp3/conf/" (22370 38382 154822 743000) "../" "mcp3.test.conf" "mcp3-test" "mcp3-development" "mcp3-development.wsgi" "mcp3-production.wsgi" "mcp3-production" "mcp3.development.conf" "./" "mcp3.development_barebone.conf" "mcp3-test.wsgi" "seo.development.conf" "mcp3.production.conf")
-
- ("/home/jku/Instances/mcp3/epflapps-seocms/" (22370 37677 130820 478000) "../" "solute/" ".gitignore" ".git/" "setup.py" "solute_epflapps_seocms.egg-info/" "cron/" "packages/" "scripts/" "MANIFEST.in" "pk.py" ".eggs/" "./" "pk.pyc" "pk.log" "debian/")
-
- ("/home/jku/Instances/mcp3/epflapps-seocms/debian/" (22333 39369 627544 424000) "../" "compat" "copyright" "README" "README.source" "changelog" "./" "docs" "rules" "source/" "control" "README.Debian")
-
- ("/home/jku/Instances/mcp3/mcp3/debian/" (22370 35247 182812 673000) "../" "compat" "copyright" "README" "README.source" "changelog" "./" "docs" "rules" "source/" "control" "README.Debian")
-
- ("/home/jku/Instances/infrastructure/" (22357 31792 188065 50000) "../" "python-solute-web-common/" "frontend-helper/" "scripts/" "./" "python-autocontent-renderer/" "python-solute/")
-
- ("/home/jku/Instances/thirdparty/webpagetest/" (22370 33402 266806 747000) "../" ".gitattributes" ".gitignore" "batchtool/" "agent/" "README.md" "bulktest/" ".git/" "bin/" ".remotes/" "cron/" "packages/" "utils/" "dist/" "www/" "pk.py" "./" "docs/" "pk.pyc" "LICENSE" "pk.log" "debian/" "webpagetest.sln")
-
- ("/home/jku/Instances/thirdparty/webpagetest/cron/" (22370 33268 982806 319000) "../" "solute-webpagetest-clean-results.cron" "solute-webpagetest-run-test.cron" "./" "solute-webpagetest-run-production.cron")
-
- ("/home/jku/Instances/thirdparty/webpagetest/bin/" (22370 31615 854801 9000) "webpagetest-config.yaml" "../" "run_webpagetest.py" "./")
-
- ("/home/jku/Instances/mcp3/epflapps-webpagetest/solute/epflapps/webpagetest/views/" (22259 43780 3069 317000) "../" "__init__.pyc" "yaml_validator.py" "./" "home.pyc" "__init__.py" "yaml_validator.pyc" "home.py")
-
- ("/home/jku/Instances/mcp3/epflapps-webpagetest/solute/epflapps/webpagetest/" (22167 42928 552325 697000) "../" "models/" "__init__.pyc" "views/" "./" "__init__.py")
-
- ("/home/jku/Instances/mcp3/epflapps-webpagetest/solute/epflapps/" (22167 32750 676420 88000) "../" "webpagetest/" "./" "__init__.py")
-
- ("/home/jku/Instances/mcp3/epflapps-webpagetest/solute/" (22167 33003 760417 741000) "../" "epflapps/" "__init__.pyc" "./" "__init__.py")
-
- ("/home/jku/Instances/mcp3/epflapps-webpagetest/" (22210 52901 468653 878000) "../" "solute/" ".gitignore" "solute_epflapps_webpagetest.egg-info/" "README.md" ".git/" "setup.py" "cron/" "packages/" "scripts/" "MANIFEST.in" "pk.py" ".eggs/" "./" "pk.pyc" "pk.log" "debian/")
-
- ("/home/jku/Instances/mcp3/" (22286 17282 76422 684000) "../" "epflapps-matchinglogexport/" "epflapps-webpagetest/" "epflapps-rtool/" "epflapps-imageupload/" "epflapps-presearchtool/" "epflapps-seoproductfiltertool/" "mcp3-servicepoint/" "epflapps-queryrelevance/" "epflapps-seo-text-tool/" "epflapps-seocms/" "epflapps-qltbmaintain/" "epflapps-conversion-pixel-cms/" "epflapps-deals/" "epflapps-servercontrol/" "./" "epflapps-seotextstatistics/" "mcp3/" "mcp3-login/" "pyramid_epfl/")
-
- ("/home/jku/Instances/thirdparty/webpagetest/www/settings/" (22370 30470 194797 330000) "feeds.inc.sample" "../" ".htaccess" "ec2.ini.sample" "locations-test.ini" "connectivity.ini.sample" "connectivity-test.ini" "custom.css.sample" "settings.ini.sample" "adult.txt" "ec2_locations.ini" "keys.ini.sample" "locations-production.ini" "custom_metrics/" "locations.ini.sample" "settings-production.ini" "about.inc.sample" "settings-test.ini" "connectivity-production.ini" "./" "benchmarks/" "pk.log" "locations.ini.EC2-sample")
-
- ("/home/jku/Instances/thirdparty/webpagetest/www/" (22269 1632 209038 958000) "response_body.php" "waterfall.inc" "mobile.php" "pageimages.php" "jpeginfo/" "devtools.inc.php" "../" "check_installer.php" "getLocations.php" "pagestyle.css" ".gitignore" "admin_footer.inc" "work/" "csv.php" ".htaccess" "harTiming.inc" "waterfall_detail.inc" "gettext.php" "getTimeline.php" "tmp/" "header.inc" "screen_shot.php" "import.php" "graph_page_data.inc" "google/" "resultTraceroute.inc" "graph_page_data.php" "common.inc" "cli/" "blank.html" "gettcpdump.php" "traceroute.php" "getTesters.xsl" "checkURLs.php" "head.inc" "import_sample.txt" "updateFeeds.php" "images/" "domains.php" "domains.inc" "page_data.inc" "admin/" "pss.php" "getkey.php" "create_pss.php" "getTesters.php" "oauth/" "aggregate.php" "video/" "export.php" "ec2/" "footer.inc" "viewsqlite.php" "viewlog.php" "readme.nginx" "js/" "blocked.php" "har.inc.php" "stat.inc" "optimizationChecklist.php" "cron/" "ssdiff.php" "breakdown.inc" "graph_page_data.js" "testlog.php" "details.php" "testStatus.inc" "resultSpam.inc.php" "xmlResult.php" "performance_optimization.php" "breakdown.php" "results/" "headersMatch.php" "download.php" "breakdownTimeline.php" "dat/" "video.inc" "customWaterfall.php" "optimization_detail.inc.php" "archive.inc" "optimizationChecklist.inc" "robots.txt" "jsonResult.php" "import_benchmark.php" "about.php" "getNetEvents.php" "tips_data/" "cancelTest.php" "modifytest.php" "pagespeed.inc" "admin_header.inc" "installers/" "logs/" "waterfall.php" "running.inc" "pagespeed.php" "getLocations.xsl" "./" "waterfall.js" "contentColors.inc" "compare_screens.php" "pss2.php" "publish.php" "testStatus.php" "getgzip.php" "optimization.inc" "result.inc" "benchmarks/" "install/" "pssreport.php" "thumbnail.php" "checkIPs.php" "chrome/" "runtest.php" "logging.inc" "tips.php" "templates/" "index.php" "settings/" "getfile.php" "plugins.php.inc" "delete.php" "waterfall.css" "analytics.inc" "common_lib.inc" "lib/" "results.php" "nginx.conf" "tests/" "object_detail.inc" "custom_browsers.php" "testcancelled.inc" "custom_metrics.php" "usage.php" "widgets/" "construction.php" "favicon.ico" "css/" "draw.inc" "imgdiff.php" "speedindex/" "resultBatch.inc")
-
- ("/home/jku/Instances/thirdparty/" (22268 49931 720983 594000) "../" "webpagetest/" "./" "pyramid_epfl/")
-
- ("/home/jku/GIT/solute/infrastructure/puppetcfg/modules/profile/manifests/webpagetest/" (22348 26 170572 985000) "../" "frontend/" "./" "frontend.pp")
-
- ("/home/jku/GIT/solute/infrastructure/puppetcfg/modules/profile/" (22110 45744 68103 539000) "../" "./" "manifests/" "files/" "templates/")
-
- ("/home/jku/GIT/solute/infrastructure/puppetcfg/modules/" (22348 26 170572 985000) "profile/" "../" "pam_limits/" "filedistributor/" "solute/" "configfiles/" "londiste/" "debbuilder/" "motd/" "pgbouncer/" "kernel_modules/" "backup/" "sslsec/" "heartbeat/" "nagios/" "varnish/" "functions/" "cert/" "sudo/" "munin/" "testmodule/" "matchingkeys/" "logstash/" "unattended-upgrades/" "collectd/" "solutefacts/" "systemuser/" "disco/" "vcsrepo/" "line_in_file/" "network/" "packages/" "exim/" "aptly/" "git/" "mount/" "elasticsearch/" "apache2/" "inittab/" "virtualip/" "jenkins/" "graphite/" "rsyslog/" "crond/" "sysctl/" "nginx/" "wtf/" "mogilefs/" "daemontools/" "./" "memcached/" "redis/" "ntp/" "apt_source/" "taskmanager/" "apt/" "leapsecondfix/" "postgresql/" "solr5/" "additionalip/" "samba/" "bugfixes/" "skytools3/" "concat/" "stdlib/" "logclient/" "test-database-keys/" "nginxng/")
-
- ("/home/jku/GIT/solute/infrastructure/puppetcfg/" (22362 25196 997096 376000) "modules/" "../" "Vagrantfile" ".gitignore" "puppet-run.lenny" "profile-init" "README.md" "run-puppet" ".git/" "localconf/" "init-puppet" "puppet-run.jessie" ".vagrant/" "./" "manifests/" "puppet-run.squeeze")
+ ("/home/jku/GIT/solute/infrastructure/python-solute-web/" (22500 62534 928385 620000) "../" "solute/" ".gitignore" "tox.ini" "README.md" ".git/" "setup.py" "dist/" "MANIFEST.in" "pk.py" ".eggs/" "./" "pk.pyc" "build/" "tests/" "python_solute_web.egg-info/" "debian/")
 
  ("/home/jku/GIT/solute/infrastructure/" (22110 45641 268103 209000) "python-solute-web/" "../" "python-solute-web-common/" "python-solute-testing/" "puppenkiste-config/" "scripts/" "./" "puppetcfg/" "devscripts/" "python-solute/")
 
@@ -767,73 +937,169 @@
 
  ("/home/jku/GIT/" (22210 62596 852685 20000) "../" "solute/" "./" "thirdparty/")
 
- ("/home/jku/.i3/" (22109 50973 144789 794000) "../" "i3status.conf" "config" "./")
+ ("/home/jku/Instances/infrastructure/" (22435 16593 161747 319000) "../" "nagios/" "python-solute-web-common/" "frontend-helper/" "solute-python-wtforms/" "scripts/" "python-wtf-epfl/" "./" "python-wtf-epfl2/" "python-autocontent-renderer/" "python-solute/")
 
- ("/home/jku/Instances/today/billiger-today/solute/webapps/billiger_today/templates/" (22366 20742 781924 77000) "../" "tiles.jinja2" "macros.jinja2" "home.jinja2" "assets.sprite.jinja2" "layout.jinja2" "notfound.jinja2" "./" "filter.jinja2" "deal.detail.jinja2" "500.jinja2")
+ ("/home/jku/Instances/webapps/sucheqs/test/views/" (22537 65002 765525 408000) "../" "./" "test_api.py" "__pycache__/")
 
- ("/home/jku/Instances/today/billiger-today/solute/webapps/billiger_today/static/js/" (22366 20742 777924 77000) "../" "jquery.unveil.min.js" "jquery.js" "jquery.cookies.js" "jquery.countdown.js" "solute.js" "jquery.dotdotdot.min.js" "jquery.infinitescroll.js" "jquery.truncate.min.js" "emos2.js" "bootstrap.min.js" "jquery.touchSwipe.js" "./" "min.js")
+ ("/home/jku/Instances/webapps/sucheqs/test/" (22537 64995 437525 338000) "../" "test_models.py" "views/" "./" "conftest.py" "__pycache__/")
 
- ("/home/jku/Instances/webapps/mcp2/" (22361 20640 540871 239000) "../" "solute/" ".gitignore" "local.conf.iz" "dumps/" "conf/" "tox.ini" "pylint.conf" "site.conf" ".git/" "setup.py" "local.conf.al" "packages/" "README" "solute_mcp2.egg-info/" "scripts/" "requirements.txt" "test/" "fake/" "pk.py" "./" "wtf.conf" "pk.pyc" "dummy.xml" "templates/" "pk.log" "jinja_templates/" "debian/" "python-autocontent-renderer/" "local.conf.ros")
+ ("/home/jku/Instances/webapps/sucheqs/" (22537 65002 901525 409000) "../" "solute/" ".gitignore" "alembic.ini" "conf/" "readme.md" "tox.ini" "frontend/" "alembic/" "bower.json" ".git/" "setup.py" ".cache/" "cron/" "scripts/" "MANIFEST.in" "test/" "pk.py" ".eggs/" "./" "pk.pyc" "solute_sucheqs.egg-info/" "pk.log" "package.json" "debian/")
 
- ("/home/jku/Instances/backend/clicklog_maint/scripts/" (22361 27026 648891 751000) "../" "start_clicklog.py" "aggregate_clicks.py" "maintain_tables.py" "clickstat_transfer/" "copy_nobillers.py" "fix_proxy_ips.py" "aggregate_clicks_starter.py" "mark_excessive_clicks.py" "mark_robot_clicks.py" "./" "mark_reclicks.py" "solute-clicklog-extend-conversion-tables")
+ ("/home/jku/Instances/webapps/sucheqs/solute/webapps/sucheqs/views/" (22537 64977 297525 167000) "../" "example.pyc" "mocks.pyc" "api.py" "__init__.pyc" "./" "__init__.py" "api.pyc")
 
- ("/home/jku/Schreibtisch/clicklog/" (22362 34734 61127 10000) "../" "analyse.txt" "billiger.de-access.log-2016-05-28.bdefe01" "billiger.de-access.log-2016-05-28.bdefe02" "./" "billiger.de-access.log-2016-05-28.bdefe04" "billiger.de-access.log-2016-05-28.bdefe03")
+ ("/home/jku/Instances/webapps/sucheqs/solute/webapps/sucheqs/" (22537 64943 437524 847000) "../" "models.py" "README.md" "static/" "__init__.pyc" "views/" "models.pyc" "./" "__init__.py" "templates/")
 
- ("/home/jku/Instances/mcp3/mcp3/robot-test/deals/voucher/" (22366 24928 117937 521000) "../" "all.robot" "keywords.robot" "writing.robot" "./")
+ ("/home/jku/Instances/webapps/sucheqs/solute/webapps/" (22510 706 70800 550000) "../" "__init__.pyc" "./" "__init__.py" "sucheqs/")
 
- ("/home/jku/Instances/mcp3/mcp3/robot-test/deals/deal/" (22366 24928 117937 521000) "../" "all.robot" "keywords.robot" "writing.robot" "./")
+ ("/home/jku/Instances/webapps/sucheqs/solute/" (22507 25580 199398 830000) "../" "__init__.pyc" "webapps/" "./" "__init__.py")
 
- ("/home/jku/.virtualenvs/today/local/lib/python2.7/site-packages/solute/web/services/" (22366 24335 433935 617000) "../" "json_client.pyc" "avatar.py" "check_service.pyc" "crash.pyc" "statistics.py" "database.pyc" "statistics.pyc" "serverad.pyc" "redis_server.py" "auth_service.py" "database.py" "json_client.py" "rpc2.py" "profiling.py" "matching_auth_service.py" "shoppingcom_api.py" "rpc2.pyc" "profiling.pyc" "session_storage/" "template.pyc" "syndication_api.pyc" "serverad.py" "rpc.pyc" "auth_service.pyc" "shoppingcom_api.pyc" "captcha.py" "imgstore.py" "url_scheme_detector.py" "locale_service.py" "__init__.pyc" "pystats_service.pyc" "jinja_service.py" "check_service.py" "redis_server.pyc" "crash.py" "matching_auth_service.pyc" "pystats_service.py" "memcache.py" "recommendations.pyc" "multisearch/" "locale_service.pyc" "rpc.py" "xapian.py" "syndication_api.py" "./" "url_scheme_detector.pyc" "avatar.pyc" "memcache.pyc" "__init__.py" "imgstore.pyc" "template.py" "captcha.pyc" "recommendations.py" "jinja_service.pyc" "xapian.pyc")
+ ("/home/jku/Instances/webapps/sucheqs/frontend/" (22537 62933 57505 839000) "../" ".gitignore" "tmp/" "testem.js" "app/" "bower.json" ".bowerrc" ".watchmanconfig" "dist/" "node_modules/" "vendor/" "config/" "mirage/" "./" "public/" ".ember-cli" "bower_components/" "package.json" "ember-cli-build.js" ".jshintrc" "tests/")
 
- ("/home/jku/Instances/today/billiger-today/solute/webapps/billiger_today/helper/" (22366 30992 993957 1000) "../" "deal_wrapper.pyc" "__init__.pyc" "./" "__init__.py" "assets.pyc" "assets.py")
+ ("/home/jku/Instances/webapps/sucheqs/frontend/app/serializers/" (22537 58681 129465 637000) "../" "application.js" "./")
 
- ("/home/jku/Instances/infrastructure/python-solute-web-common/solute/web/models/" (22368 3326 670289 141000) "../" "vouchers.pyc" "base.pyc" "base.py" "__init__.pyc" "deals.py" "vouchers.py" "./" "__init__.py" "deals.pyc")
+ ("/home/jku/Instances/webapps/sucheqs/alembic/versions/" (22534 11272 183158 465000) "../" "./" "316d4a369ac9_init.pyc" "316d4a369ac9_init.py")
 
- ("/home/jku/GIT/solute/infrastructure/puppetcfg/modules/profile/manifests/billiger/frontend/" (22367 64725 66275 851000) "../" "test.pp" "qs05.pp" "qs02.pp" "qs01.pp" "production.pp" "./" "qs03.pp" "qs04.pp" "prelive01.pp")
+ ("/home/jku/Instances/webapps/sucheqs/alembic/" (22534 11286 187158 597000) "../" "script.py.mako" "README" "env.pyc" "env.py" "./" "versions/")
 
- ("/home/jku/Instances/mcp3/pyramid_epfl/solute/epfl/components/paginated_list_layout/" (22368 1015 78281 716000) "../" "paginated_list_layout.py" "static/" "__init__.pyc" "theme/" "paginated_list_layout.pyc" "./" "__init__.py")
+ ("/home/jku/Instances/webapps/sucheqs/frontend/mirage/serializers/" (22535 6699 3734 866000) "../" "application.js" "./")
 
- ("/home/jku/Instances/svs/svs/conf/" (22369 21669 746558 561000) "wtf.svs.test.conf" "wtf.svs.tpa.conf" "../" "svs-production" "wtf.svs.sh.conf" "wtf.svs.global.conf" "wtf.svs.jku.conf" "wtf.svs.al.local.conf" "svs-test" "wtf.svs.svh.conf" "wtf.svs.production.conf" "wtf.svs.development.relative.conf" "wtf.svs.development.conf" "svs-development" "wtf.svs.jay.conf" "wtf.svs.al.conf" "./" "svs-development.wsgi" "svs-production.wsgi" "wtf.svs.tpa.local.conf" "svs-test.wsgi" "wtf.svs.iro.conf")
+ ("/home/jku/Instances/webapps/sucheqs/frontend/app/controllers/" (22535 21743 359877 110000) "../" "./" ".gitkeep")
 
- ("/home/jku/Instances/billigerv5/billiger/solute_site/frontend/api/" (22287 27009 252664 429000) "../" "module_clickout.py" "fallback.pyc" "module_clickout.pyc" "fallback.py" "__init__.pyc" "./" "__init__.py")
+ ("/home/jku/Instances/webapps/sofa-components/addon/templates/" (22527 9808 776119 807000) "../" "components/" "./")
 
- ("/home/jku/Instances/svs/backend-svs/solute/data/" (22325 58324 297724 547000) "../" "svs/" "__init__.pyc" "./" "__init__.py")
+ ("/home/jku/Instances/webapps/sucheqs/frontend/app/templates/jobs/" (22535 6699 3734 866000) "../" "job.hbs" "./" "index.hbs")
 
- ("/home/jku/Instances/svs/backend-svs/solute/" (22325 58316 641724 522000) "../" "svs/" "schemas/" "data/" "__init__.pyc" "testing/" "bo/" "./" "__init__.py")
+ ("/home/jku/Instances/webapps/sucheqs/frontend/mirage/factories/" (22535 6699 3734 866000) "../" "execution-time.js" "query-set.js" "default-query.js" "./" "query.js" "job.js")
 
- ("/home/jku/Instances/svs/backend-svs/" (22325 58316 825724 523000) "../" "solute/" ".gitignore" "tox.ini" "README.md" "pylint.conf" ".git/" "setup.py" "STICHPROBEN" "cron/" "scripts/" "MANIFEST.in" "test/" "pk.py" "./" "templates/" "solute_svs_backend.egg-info/" "coveragerc" "debian/")
+ ("/home/jku/Instances/webapps/sucheqs/frontend/app/routes/jobs/" (22535 6699 3734 866000) "../" "index.js" "./" "job.js")
 
- ("/home/jku/Instances/mcp3/epflapps-deals/solute/epflapps/deals/models/api/" (22196 47326 94120 323000) "../" "categories.pyc" "syndication.py" "brands.py" "shops.py" "shops.pyc" "__init__.pyc" "deals.py" "voucher.pyc" "./" "__init__.py" "voucher.py" "categories.py" "brands.pyc" "syndication.pyc" "deals.pyc")
+ ("/home/jku/.virtualenvs/ember/local/lib/python2.7/site-packages/SQLAlchemy_JSONAPI-4.0.8-py2.7.egg/sqlalchemy_jsonapi/" (22527 30108 224311 738000) "flaskext.py" "../" "constants.py" "serializer.pyc" "errors.py" "errors.pyc" "constants.pyc" "__init__.pyc" "flaskext.pyc" "./" "__init__.py" "serializer.py")
 
- ("/home/jku/Instances/mcp3/epflapps-deals/solute/epflapps/deals/models/" (22187 25620 246897 0) "api/" "../" "__init__.pyc" "deals.py" "./" "__init__.py" "deals.pyc")
+ ("/home/jku/.virtualenvs/ember/local/lib/python2.7/site-packages/SQLAlchemy_JSONAPI-4.0.8-py2.7.egg/" (22527 30108 216311 738000) "../" "EGG-INFO/" "sqlalchemy_jsonapi/" "./")
 
- ("/home/jku/Instances/mcp3/epflapps-deals/solute/epflapps/deals/views/" (22283 34787 279847 404000) "../" "product_box.py" "__init__.pyc" "create_voucher.pyc" "create_deal.py" "./" "home.pyc" "create_voucher.py" "__init__.py" "product_box.pyc" "create_deal.pyc" "home.py")
+ ("/home/jku/.virtualenvs/ember/local/lib/python2.7/site-packages/" (22534 10393 771150 160000) "wheel-0.24.0.dist-info/" "pep8.pyc" "mock/" "prompt_toolkit/" "astroid/" "bs4/" "coverage-4.2.dist-info/" "decorator.pyc" "py-1.4.31.dist-info/" "mercurial-3.1.2-py2.7-linux-x86_64.egg/" "colander-1.3.1-py2.7.egg/" "webtest/" "autopep8.py" "pyramid_tm-1.0-py2.7.egg/" "coverage/" "jsonrpclib_pelix-0.2.6-py2.7.egg" "importmagic-0.1.7.dist-info/" "wrapt/" "iso8601-0.1.11-py2.7.egg" "Fabric-1.12.0.dist-info/" "solute-python-solute.egg-link" "wheel/" "alembic-0.8.8-py2.7.egg/" "pbr-1.10.0.dist-info/" "nose-1.3.7.dist-info/" "venusian-1.0-py2.7.egg/" "repoze.lru-0.6-py2.7.egg/" "humanfriendly/" "setuptools.pth" "nose/" "SQLAlchemy_JSONAPI-4.0.8-py2.7.egg/" "pyramid_chameleon-0.3-py2.7.egg/" "puppenkiste-0.15.3.dist-info/" "inflection-0.3.1-py2.7.egg/" "enum/" "pytest_cov/" "ipython-5.1.0.dist-info/" "pyramid_jinja2-2.6.2-py2.7.egg/" "ipython_genutils/" "six.py" "docopt.py" "wtf-0.8.29.post1-py2.7-linux-x86_64.egg/" "Crypto/" "sh-1.11.dist-info/" "pyramid_rpc-0.5.2-py2.7.egg/" "decorator-4.0.10.dist-info/" "funcsigs-1.0.2.dist-info/" "ptyprocess-0.5.1.dist-info/" "importmagic/" "paramiko/" "docopt-0.6.2.dist-info/" "pathlib2.pyc" "configparser-3.5.0-py2.7-nspkg.pth" "setuptools-27.3.0.dist-info/" "pip-8.1.2-py2.7.egg/" "easy-install.pth" "humanfriendly-1.44.7.dist-info/" "Beaker-1.8.0-py2.7.egg/" "faker/" "webob/" "psycopg2-2.6.1-py2.7-linux-x86_64.egg/" "yapf-0.11.1.dist-info/" "Mako-1.0.4-py2.7.egg/" "progress/" "pyramid_debugtoolbar-3.0.4-py2.7.egg/" "six-1.10.0.dist-info/" "py_w3c-0.2.0-py2.7.egg/" "six.pyc" "wcwidth/" "fake_factory-0.6.0-py2.7.egg/" "configparser.py" "yapf/" "rope/" "pep8-1.7.0.dist-info/" "stdeb-0.8.5-py2.7.egg" "pycodestyle.py" "traitlets-4.3.0.dist-info/" "py/" "backports/" "pep8.py" "python_solute_web-0.14.0-py2.7.egg/" "autopep8-1.2.4.dist-info/" "solute-sucheqs.egg-link" "pkg_resources/" "pylint-1.6.4.dist-info/" "flake8/" "solute-scripts.egg-link" "pycodestyle.pyc" "debian_bundle/" "blessed-1.14.1.dist-info/" "python-solute-web-common.egg-link" "zope.interface-4.3.2-py2.7-linux-x86_64.egg/" "binaryornot-0.4.0-py2.7.egg/" "poyo-0.4.0-py2.7.egg/" "waitress/" "jinja2_time-0.2.0-py2.7.egg/" "pip/" "click-6.6-py2.7.egg/" "transaction-1.6.1-py2.7.egg/" "deb822.py" "raven/" "lazy_object_proxy-1.2.2.dist-info/" "ipython_genutils-0.1.0.dist-info/" "pyramid_mako-1.0.2-py2.7.egg/" "pexpect/" "arrow-0.8.0-py2.7.egg/" "Jinja2-2.8-py2.7.egg/" "IPython/" "pytest-3.0.2.dist-info/" "python_solute_testing-0.0.112-py2.7.egg/" "pytest_cov-2.3.1.dist-info/" "mock-2.0.0.dist-info/" "_pytest/" "python_dateutil-2.5.3.dist-info/" "simplegeneric.py" "contextlib2.py" "astroid-1.4.8.dist-info/" "mccabe.pyc" "paramiko-1.17.2.dist-info/" "configparser.pyc" "MarkupSafe-0.23-py2.7-linux-x86_64.egg/" "autopep8.pyc" "lxml-3.6.4-py2.7-linux-x86_64.egg/" "pytest-cov.pth" "pycodestyle-2.0.0.dist-info/" "yapftests/" "easy_install.pyc" "pylint/" "setuptools/" "Chameleon-2.24-py2.7.egg/" "future-0.15.2-py2.7.egg/" "harparser-0.2-py2.7.egg" "translationstring-1.3-py2.7.egg/" "MySQL_python-1.2.5-py2.7-linux-x86_64.egg" "requests/" "pycrypto-2.6.1.dist-info/" "pickleshare.py" "pbr/" "rope-0.10.3.dist-info/" "shutil_backports/" "backports.functools_lru_cache-1.2.1-py3.5-nspkg.pth" "cookiecutter-1.4.0-py2.7.egg/" "easy_install.py" "puppenkiste/" "chardet-2.3.0-py2.7.egg" "configparser-3.5.0.dist-info/" "raven-5.10.0.dist-info/" "pytest.pyc" "ipdb/" "wrapt-1.10.8.dist-info/" "WebOb-1.6.1.dist-info/" "mccabe.py" "pycurl-7.19.5.1-py2.7-linux-x86_64.egg" "pyramid-1.7.3-py2.7.egg/" "zope.deprecation-4.1.2-py2.7.egg/" "flake8-3.0.4.dist-info/" "deb822.pyc" "ipdb-0.10.1.dist-info/" "redis-2.8.0-py2.7.egg" "ptyprocess/" "jedi/" "ujson-1.35-py2.7-linux-x86_64.egg" "ecdsa/" "backports.shutil_get_terminal_size-1.0.0.dist-info/" "simplegeneric-0.8.1.dist-info/" "ipaddress.pyc" "python_editor-1.0.1-py2.7.egg" "PasteDeploy-1.5.2-py2.7.egg/" "requests-2.11.1.dist-info/" "prompt_toolkit-1.0.7.dist-info/" "isodate-0.5.4-py2.7.egg" "simplegeneric.pyc" "ipaddress.py" "solute_SQLAlchemy_JSONAPI-4.0.10-py2.7.egg/" "pickleshare-0.7.4.dist-info/" "solute-puppenkiste-config.egg-link" "fake_factory-0.7.2.dist-info/" "contextlib2-0.5.4.dist-info/" "pyflakes/" "waitress-1.0.0.dist-info/" "funcsigs/" "blessed/" "solute-login.egg-link" "pathlib2.py" "isort/" "fabric/" "pickleshare.pyc" "python-solute-testing.egg-link" "whichcraft-0.4.0-py2.7.egg/" "ipaddress-1.0.17.dist-info/" "pip-7.1.2.dist-info/" "enum34-1.1.6.dist-info/" "traitlets/" "contextlib2.pyc" "pexpect-4.2.1.dist-info/" "sh.py" "ecdsa-0.13.dist-info/" "pytest.py" "sh.pyc" "lazy_object_proxy/" "dateutil/" "isort-4.2.5.dist-info/" "backports.functools_lru_cache-1.2.1.dist-info/" "Pygments-2.1.3-py2.7.egg/" "WebTest-2.0.23.dist-info/" "decorator.py" "mccabe-0.5.2.dist-info/" "jedi-0.9.0.dist-info/" "wcwidth-0.1.7.dist-info/" "progress-1.2.dist-info/" "pathlib2-2.1.0.dist-info/" "docopt.pyc" "debian/" "python_debian-0.1.28.dist-info/" "SQLAlchemy-1.1.0b3-py2.7-linux-x86_64.egg" "beautifulsoup4-4.5.1.dist-info/" "importlib-1.0.4-py2.7.egg" "solute-auth.egg-link" "pyflakes-1.3.0.dist-info/" "python-solute-web.egg-link" "../" "./")
 
- ("/home/jku/Instances/mcp3/epflapps-deals/solute/epflapps/deals/" (22110 55169 352133 813000) "../" "models/" "static/" "__init__.pyc" "views/" "./" "__init__.py")
+ ("/home/jku/.virtualenvs/ember/local/lib/python2.7/" (22504 47807 301016 70000) "linecache.py" "../" "posixpath.py" "copy_reg.py" "stat.py" "warnings.pyc" "sre_parse.pyc" "site.py" "ntpath.pyc" "fnmatch.py" "codecs.py" "_abcoll.pyc" "re.pyc" "warnings.py" "abc.py" "locale.pyc" "genericpath.py" "UserDict.py" "sre_compile.pyc" "_abcoll.py" "UserDict.pyc" "fnmatch.pyc" "posixpath.pyc" "ntpath.py" "os.py" "os.pyc" "lib-dynload/" "distutils/" "re.py" "_weakrefset.py" "stat.pyc" "sre_constants.py" "copy_reg.pyc" "sre_constants.pyc" "orig-prefix.txt" "abc.pyc" "types.pyc" "locale.py" "no-global-site-packages.txt" "./" "genericpath.pyc" "sre_compile.py" "sre_parse.py" "site-packages/" "linecache.pyc" "site.pyc" "encodings/" "sre.py" "codecs.pyc" "types.py" "_weakrefset.pyc")
 
- ("/home/jku/Instances/mcp3/epflapps-deals/solute/epflapps/" (22110 52498 444125 235000) "../" "deals/" "./" "__init__.py")
+ ("/home/jku/.virtualenvs/ember/local/lib/" (22500 52907 400294 592000) "../" "python2.7/" "./")
 
- ("/home/jku/Instances/mcp3/epflapps-deals/solute/" (22110 52509 964125 272000) "../" "epflapps/" "__init__.pyc" "./" "__init__.py")
+ ("/home/jku/.virtualenvs/ember/local/" (22500 52907 428294 592000) "../" "include/" "bin/" "./" "lib/")
 
- ("/home/jku/Instances/mcp3/epflapps-deals/" (22284 39590 264073 334000) "../" "solute/" ".gitignore" "README.md" ".git/" "setup.py" "cron/" "packages/" "scripts/" "MANIFEST.in" "pk.py" ".eggs/" "./" "pk.pyc" "solute_epflapps_deals.egg-info/" "pk.log" "tests/" "debian/")
+ ("/home/jku/.virtualenvs/ember/" (22501 6479 324475 257000) "../" "share/" "include/" "local/" "bin/" "pip-selfcheck.json" "./" "man/" "lib/")
 
- ("/home/jku/Instances/svs/svs/solute/webapps/" (22325 58180 537724 85000) "../" "frontend_partner/" "__init__.pyc" "./" "__init__.py" "frontend_svs/")
+ ("/home/jku/.virtualenvs/" (22500 52907 400294 592000) "../" "ember/" "svs/" "postmkproject" "get_env_details" "sonar/" "fefw/" "today/" "lamiro/" "robot/" "cornice/" "postactivate" "flexx/" "initialize" "v5/" "mod_wsgi/" "postrmvirtualenv" "preactivate" "premkvirtualenv" "syndication/" "./" "bdms/" "tox_mcp3_robot/" "runsnakerun/" "postmkvirtualenv" "communityapi/" "infrastructure/" "predeactivate" "premkproject" "tutorial/" "mafo/" "mcp3/" "prermvirtualenv" "postdeactivate" "buildout/" "mcp2/" "identityadmin/")
 
- ("/home/jku/Instances/svs/svs/solute/" (22325 54689 285712 871000) "../" "__init__.pyc" "webapps/" "./" "__init__.py")
+ ("/home/jku/" (22534 10986 859155 767000) "../" ".dbus/" ".bash_logout" "grafana-memcache.png" ".install4j" ".emacs.d/" ".mozilla/" ".bash_history" "grafana-tendenz-real.png" ".w3m/" ".nv/" ".psql_history-mmdb01.maastricht-matching" ".npmrc" ".pk.pyc" "*scratch*" ".psql_history-bdedbtest02.test.solute.ka-billigerv5" ".pylintrc" ".thumbnails/" ".klemmbrett.conf" ".node-gyp/" "api.search.profile" "Testdaten/" ".flexx/" ".gnome2/" ".psql_history-masterdb.maastricht-billigerv5" ".pgadmin3" ".psql_history-backenddb.maastricht-billigerv5" ".pgpass" ".npm/" ".sentrycli" ".pydistutils.cfg" ".virtualenvs/" ".yEd/" ".robotframework/" ".ssh/" ".npmignore" "grafana-tendenz-aktuell.png" "local/" "bin/" ".thunderbird/" ".cache/" ".oracle_jre_usage/" ".ICEauthority" "GIT_Readonly/" ".v8flags.3.14.5.8.jku.json" "pgadmin.log" ".pylint.d/" ".psqlrc" ".tox/" ".jsonrpc_cli_history" ".gnome2_private/" ".puppet-lint.rc" "Instances/" ".pypirc" ".selected_editor" ".pip/" ".pki/" "VirtualBox VMs/" ".ipython/" ".gimp-2.8/" ".rediscli_history" ".aptitude/" ".bashrc.solute-dev" ".gnome/" ".python-eggs/" "default-requirements.txt" ".psql_history-ropg.maastricht-billigerv5" ".pk.py" ".db.conf" ".mysql_history" ".bashrc.jku" ".psql_history-bdedbtest01.test.solute.ka-cms" ".psql_history-bdedbtest01.test.solute.ka-deals" ".viminfo" ".config/" "Downloads/" "./" "grafana-tendenz.png" ".gem/" ".local/" ".none/" ".sonar/" ".java/" ".gnupg/" ".cookiecutter_replay/" "Schreibtisch/" ".gconf/" ".remmina/" ".profile" "cifs.credentials" ".i3/" ".purple/" ".gstreamer-0.10/" ".gitconfig" ".vagrant.d/" ".bashrc" ".lesshst" "npm-debug.log" ".psqlrc.local" "GIT/")
 
- ("/home/jku/Instances/mcp3/pyramid_epfl/solute/epfl/components/list_layout/" (22158 17607 106030 670000) "../" "list_layout.py" "__init__.pyc" "list_layout.html" "./" "__init__.py" "list_layout.pyc" "default_theme/")
+ ("/home/jku/Instances/webapps/mcp2/conf/" (22507 30575 539352 502000) "wtf.mcp2.al.conf" "../" "wtf.mcp2.mast.conf" "wtf.mcp2.mvb.conf" "wtf.mcp2.iro.local.conf" "wtf.mcp2.production.conf" "wtf.mcp2.mvb.local.conf" "wtf.mcp2.production.local.conf" "wtf.mcp2.jku.local.conf" "wtf.mcp2.svk.conf" "jessie-migration.txt" "wtf.mcp2.mih.conf" "wtf.mcp2.mih.local.conf" "wtf.mcp2.staging.local.conf" "wtf.mcp2.example.conf" "wtf.mcp2.svk.local.conf" "wtf.mcp2.jay.conf" "wtf.mcp2.example.local.conf" "mcp2-production.wsgi" "mcp2-production" "wtf.mcp2.jku.conf" "wtf.mcp2.prelive.local.conf" "wtf.mcp2.csch.conf" "mcp2-staging.wsgi" "mcp2-prelive" "wtf.mcp2.gb.dev03.conf" "wtf.mcp2.iz.conf" "wtf.mcp2.gb.local.conf" "mcp2-prelive.wsgi" "./" "wtf.mcp2.iro.conf" "wtf.mcp2.prelive.conf" "#mcp2-production#" "wtf.mcp2.fl.conf" "wtf.mcp2.csch.local.conf" "wtf.mcp2.iz.local.conf" "wtf.mcp2.jay.local.conf" "mcp2-staging" "wtf.mcp2.al.local.conf" "wtf.mcp2.global.conf" "wtf.mcp2.fl.local.conf" "wtf.mcp2.development.conf" "wtf.mcp2.staging.conf" "wtf.mcp2.gb.conf" "mcp2-svk" "wtf.mcp2.mast.local.conf" "mcp2-mvb")
 
- ("/home/jku/Instances/mcp3/pyramid_epfl/solute/epfl/components/pretty_list_layout/" (22158 17607 106030 670000) "../" "static/" "__init__.pyc" "pretty_list_layout.py" "theme/" "./" "__init__.py" "pretty_list_layout.pyc")
+ ("/home/jku/Instances/webapps/sucheqs/frontend/app/templates/query-sets/query-set/query/" (22534 10253 491148 833000) "../" "./" "index.hbs")
 
- ("/home/jku/Instances/mcp3/pyramid_epfl/solute/epfl/components/table_layout/" (22325 29097 269630 669000) "../" "static/" "__init__.pyc" "table_layout.py" "table_layout.pyc" "theme/" "table_layout.html" "./" "__init__.py")
+ ("/home/jku/.emacs.d/" (22528 60065 248260 467000) "../" "ac-comphist.dat" "backups/" "lisp/" "tramp" "#ido.last#" "README.txt" "auto-save-list/" "init.el" "elpa/" "places" "ido.last" "./" "ember-mode/")
 
- ("/home/jku/Instances/mcp3/pyramid_epfl/solute/epfl/core/" (22325 29097 229630 669000) "../" "epflvalidators.py" "epfltransaction.pyc" "epflconfig.py" "epflacl.pyc" "epfll10n.pyc" "epflvalidators.pyc" "epflacl.py" "epfltempdata.py" "epflclient.py" "epflassets.py" "epflutil.py" "epflcomponentbase.py" "epflconfig.pyc" "epfltempdata.pyc" "__init__.pyc" "epflmodel.pyc" "epflclient.pyc" "epfli18n.pyc" "epflpage.pyc" "epfli18n.py" "epflassets.pyc" "epfldescriptor.pyc" "epfltransaction.py" "epflcomponentbase.pyc" "./" "__init__.py" "epflutil.pyc" "epfldescriptor.py" "epflmodel.py" "epflpage.py" "epfll10n.py")
+ ("/home/jku/Instances/webapps/sucheqs/frontend/app/templates/query-sets/" (22534 10253 491148 833000) "../" "query-set/" "query-set.hbs" "./" "index.hbs")
 
- ("/home/jku/Instances/mcp3/pyramid_epfl/solute/epfl/components/" (22270 17240 209299 593000) "../" "context_list_layout/" "breadcrumb/" "number_input/" "embedded_video/" "link/" "col_layout/" "placeholder/" "radio/" "password_input/" "progress/" "recursive_tree/" "link_list_layout/" "popover/" "button/" "nav_layout/" "list_layout/" "texteditor/" "text/" "badge/" "paginated_list_layout/" "__init__.pyc" "selectable_list/" "hover_link_list_layout/" "table_layout/" "download/" "checkbox/" "buttonradio/" "box/" "upload/" "codeeditor/" "plain_html/" "login_box/" "image/" "colorpicker/" "tabs_layout/" "stacked_progress/" "text_list/" "toggle/" "colorthief/" "pretty_list_layout/" "./" "textarea/" "__init__.py" "typeahead/" "form/" "diagram/" "text_input/" "select/" "autocomplete_input/" "cardinal_layout/" "carousel/" "dropdown/" "simpletoggle/" "modal_box/" "grouped_link_list_layout/" "datetime_input/")
+ ("/home/jku/Schreibtisch/ember/" (22532 27416 2071 823000) "../" "./" "ntoes.txt" "ember-simple-auth/")
 
- ("/home/jku/Instances/mcp3/pyramid_epfl/solute/epfl/" (22227 61184 168259 15000) "../" "validators/" "core/" "components/" "scaffolds/" "static/" "__init__.pyc" "jinja/" "test/" "./" "__init__.py" "templates/")
+ ("/home/jku/Instances/webapps/sucheqs/frontend/app/templates/default-queries/" (22534 10253 491148 833000) "default-query.hbs" "../" "./" "index.hbs")
 
- ("/home/jku/Instances/mcp3/pyramid_epfl/solute/" (22195 1202 57064 581000) "../" "epfl/" "__init__.pyc" "./" "__init__.py")
+ ("/home/jku/Instances/webapps/sucheqs/frontend/mirage/models/" (22534 10253 491148 833000) "../" "execution-time.js" "query-set.js" "default-query.js" "./" "query.js" "job.js")
+
+ ("/home/jku/Instances/webapps/sucheqs/frontend/mirage/" (22534 10253 491148 833000) "../" "models/" "fixtures/" "serializers/" "config.js" "factories/" "./" "scenarios/")
+
+ ("/home/jku/Instances/webapps/sucheqs/frontend/app/models/" (22534 10253 491148 833000) "../" "execution-time.js" "query-set.js" "default-query.js" "./" "query.js" ".gitkeep" "job.js")
+
+ ("/home/jku/Instances/webapps/sucheqs/frontend/app/routes/query-sets/" (22534 10253 491148 833000) "../" "query-set/" "query-set.js" "index.js" "./")
+
+ ("/home/jku/Instances/mcp3/epflapps-rtool/solute/epflapps/rtool/views/" (22395 29490 833257 676000) "../" "constants.py" "shop_review.py" "shop_review_details.py" "shop_review.pyc" "reasons.pyc" "product_review.py" "product_review.pyc" "constants.pyc" "__init__.pyc" "product_review_details.pyc" "components.py" "./" "product_review_details.py" "mails.pyc" "__init__.py" "reasons.py" "components.pyc" "shop_review_details.pyc")
+
+ ("/home/jku/Instances/mcp3/epflapps-rtool/solute/epflapps/rtool/" (22278 13855 254648 29000) "../" "models/" "main.pyc" "main.py" "__init__.pyc" "views/" "./" "__init__.py")
+
+ ("/home/jku/Instances/mcp3/epflapps-rtool/solute/epflapps/" (22209 51161 672437 788000) "../" "__init__.pyc" "./" "__init__.py" "rtool/")
+
+ ("/home/jku/Instances/mcp3/epflapps-rtool/solute/" (22177 60259 524903 242000) "../" "epflapps/" "__init__.pyc" "./" "__init__.py")
+
+ ("/home/jku/Instances/mcp3/epflapps-rtool/" (22395 29540 997258 150000) "../" "solute/" ".gitignore" "README.md" ".git/" "setup.py" "pk.log.old" ".cache/" "cron/" "packages/" "scripts/" "MANIFEST.in" "test/" "pk.py" "testing.ini" ".eggs/" "./" "pk.pyc" ".sonar/" "sonar-project.properties" "pk.log" "debian/" "solute_epflapps_rtool.egg-info/")
+
+ ("/home/jku/Instances/webapps/sofa-components/addon/" (22527 9808 776119 807000) "../" "components/" "./" "templates/" ".gitkeep")
+
+ ("/home/jku/Instances/webapps/sucheqs/frontend/app/routes/" (22532 27373 822071 424000) "../" "results.js" "execution.js" "default-queries/" "solute.js" "jobs/" "index.js" "./" "jobs.js" "execution/" ".gitkeep" "default-queries.js" "query-sets/")
+
+ ("/home/jku/Instances/webapps/sucheqs/frontend/app/templates/" (22532 27373 822071 424000) "../" "execution.hbs" "jobs.hbs" "components/" "default-queries/" "results.hbs" "jobs/" "application.hbs" "default-queries.hbs" "solute.hbs" "./" "execution/" "index.hbs" "query-sets/")
+
+ ("/home/" (22109 41797 610923 666000) "../" "./" "jku/")
+
+ ("/home/jku/Schreibtisch/" (22516 40256 665704 261000) "../" "ember/" "data.json" "mcp3.test.conf" "bild.png" "today-modal-1.png" "tmp/" "mit-abstand.png" "wtf.billiger.qs.conf" "puppenkiste.txt" "metrics.py" "fefw-readme-notes.txt" "epflapps-rtool-robot-branch/" "running_buildout.png" "new_style.py" "epflcomponentbase.py" "ao-liste.png" "Beauftragung von Domänen.mp4" "ao-grid.png" "dblclick.html" "epfl/" "webpagetest-tobias.txt" "erfühlt.png" "avira_schatten.png" "kanban/" "wtf.billiger.qs01.conf" "v5/" "epfl_pyramid_barebone.egg-info/" "ausu/" "pdfIB4Sek.pdf" "mit-trennzeichen.png" "IMG_20160112_113745.jpg" "screen3_keinbutton.JPG" "sentry/" "./" "solute.hta" "clicklog/" "screen1.JPG" "robot-test/" "mcp3/" "vagrant-puppet.cfg" "pdbtween.py" "bdms.txt" "pyramid_epfl/")
+
+ ("/home/jku/Instances/webapps/sucheqs/frontend/app/" (22528 48936 60155 241000) "../" "helpers/" "models/" "routes/" "serializers/" "adapters/" "components/" "index.html" "utils/" "app.js" "services/" "router.js" "./" "templates/" "tests/" "resolver.js" "styles/" "controllers/")
+
+ ("/home/jku/Instances/webapps/sucheqs/frontend/app/adapters/" (22528 48831 744154 255000) "../" "application.js" "./")
+
+ ("/home/jku/Instances/webapps/sucheqs/frontend/app/services/" (22528 39779 832068 669000) "../" "query-defaults.js" "./")
+
+ ("/home/jku/local/" (22464 21275 597275 501000) "../" "sonarqube-5.4.zip" "sonar-scanner-2.5.1/" "sonarqube-5.4/" "bin/" "etc/" "node_modules/" "yEd/" "configs/" "sonar-scanner-2.5.1.zip" "./" "selenium/" "lib/")
+
+ ("/home/jku/local/configs/" (22111 60028 616359 923000) "../" ".gitignore" ".emacs.d/" ".git/" "./" "dot-bashrc" ".i3/")
+
+ ("/home/jku/local/configs/.emacs.d/lisp/" (22507 50134 859171 105000) "../" "javascript.el" "testing.el" "packageinstaller.el" "fontsize.el" "./" "robot-mode.el" "general.el")
+
+ ("/home/jku/local/configs/.emacs.d/" (22528 31568 295991 30000) "../" "ac-comphist.dat" "backups/" "lisp/" "tramp" "#ido.last#" "README.txt" "auto-save-list/" "init.el" "elpa/" "places" "ido.last" "./" "ember-mode/")
+
+ ("/home/jku/.emacs.d/lisp/" (22507 50134 859171 105000) "../" "javascript.el" "testing.el" "packageinstaller.el" "fontsize.el" "./" "robot-mode.el" "general.el")
+
+ ("/home/jku/Instances/webapps/sucheqs/frontend/app/utils/" (22527 33013 224339 205000) "../" "form-helper.js" "./")
+
+ ("/home/jku/Instances/webapps/sucheqs/frontend/app/helpers/" (22507 25561 175399 6000) "../" "./" ".gitkeep")
+
+ ("/home/jku/Instances/webapps/sucheqs/conf/" (22527 29975 368310 482000) "../" "sucheqs-production" "sucheqs.test.conf" "sucheqs-test.wsgi" "sucheqs.production.conf" "sucheqs-production.wsgi" "sucheqs.development.conf" "./" "sucheqs-test")
+
+ ("/home/jku/Instances/webapps/mcp2/solute/webapps/mcp2/lib/matching_jobcenter/" (22525 56809 991324 921000) "../" "__init__.pyc" "./" "__init__.py")
+
+ ("/home/jku/Instances/webapps/mcp2/solute/webapps/mcp2/frontend/" (22525 56810 47324 921000) "module_productvariants_index.pyc" "../" "module_productvariants_edit.pyc" "module_api_channels.py" "module_tank.pyc" "module_home_promoproducts.pyc" ".gitignore" "module_featuredbrands.py" "module_matchingclassifier.pyc" "constants.py" "query/" "module_brands_modify.py" "module_monkeybussiness.pyc" "module_matchinginverse.pyc" "module_categories_matching.py" "module_categories_modify.py" "module_brands_modify.pyc" "module_instantmatchingpreview.py" "module_drbillig.pyc" "module_categories_ajax.pyc" "module_mediacodes.py" "module_clickstats.py" "module_http_status_mapping.py" "module_categories_ajax.py" "module_seocentric.pyc" "module_user.pyc" "module_test_gb.pyc" "module_filters.pyc" "_baseprerendermodel.pyc" "module_keyword_export.py" "module_marketing.py" "module_test_gb.py" "_basemodel.pyc" "module_matchinglog.pyc" "module_home_promoproducts.py" "module_fakeaccounts.py" "module_filtertool.py" "module_marketing.pyc" "module_testberichte.py" "constants.pyc" "module_queries.py" "__init__.pyc" "static.py" "module_matching_jobcenter.py" "module_categories.pyc" "module_autocontent.py" "ajax.py" "check.py" "module_monkeybussiness.py" "check.pyc" "module_seocentric.py" "module_matchinglog.py" "module_filtertool.pyc" "module_brands_ajax.py" "module_tank.py" "module_matchinginverse.py" "module_drbillig.py" "module_brands.py" "module_api_channels.pyc" "module_productvariants_edit.py" "module_categories_similar_import.pyc" "error_handler.py" "module_seo_filterindexing.py" "module_fextool.py" "module_keyword_export.pyc" "module_seo_filterindexing.pyc" "./" "module_http_status_mapping.pyc" "module_matchingclassifier.py" "module_brands.pyc" "__init__.py" "module_fextool.pyc" "module_productvariants_index.py" "model/" "ajax.pyc" "module_categories.py" "error_handler.pyc" "module_featuredbrands.pyc" "module_autocontent.pyc" "module_queries.pyc" "module_categories_modify.pyc" "module_categories_matching.pyc" "module_matching_jobcenter.pyc" "module_brands_ajax.pyc" "_baseprerendermodel.py" "_basemodel.py" "widgets/" "module_user.py" "module_instantmatchingpreview.pyc" "module_categories_similar_import.py" "static.pyc" "module_fakeaccounts.pyc" "module_mediacodes.pyc" "module_testberichte.pyc" "module_filters.py" "module_clickstats.pyc")
+
+ ("/home/jku/Instances/webapps/sucheqs/frontend/app/routes/query-sets/query-set/" (22527 16030 672178 635000) "../" "query/" "index.js" "./" "query.js")
+
+ ("/home/jku/Instances/webapps/sucheqs/frontend/app/routes/query-sets/query-set/query/" (22527 11160 488132 588000) "../" "index.js" "./")
+
+ ("/home/jku/Instances/webapps/sofa-components/" (22526 17575 751573 603000) "../" ".gitignore" "jsconfig.json" "testem.js" "app/" "README.md" "bower.json" ".bowerrc" ".git/" ".npmignore" ".watchmanconfig" "node_modules/" "addon/" "vendor/" "config/" "index.js" "./" ".editorconfig" ".ember-cli" "LICENSE.md" ".travis.yml" "bower_components/" "package.json" "ember-cli-build.js" ".jshintrc" "tests/" "typings/" ".vscodeignore")
+
+ ("/home/jku/Instances/webapps/" (22526 16966 179567 840000) "../" "sofa-components/" "robotframework/" "syndication/" "./" "communityapi/" "sucheqs/" "identity-admin/" "mcp2/" "dealapi/")
+
+ ("/home/jku/Instances/webapps/sucheqs/frontend/config/" (22510 3212 826777 301000) "../" "environment.js" "./")
+
+ ("/home/jku/Instances/webapps/mcp2/solute/webapps/mcp2/lib/" (22525 55389 183311 487000) "client.py" "../" ".gitignore" "menuitems.py" "query/" "ldapsearch.pyc" "binrpc/" "ordereddict.py" "bdms_api.py" "bdms_api.pyc" "form.pyc" "tasks.pyc" "matching_instantpreview/" "seo_topicpages.py" "menuitems.pyc" "json.py" "ldapsearch.py" "client.pyc" "__init__.pyc" "form.py" "seo_topicpages.pyc" "matching_jobcenter/" "./" "__init__.py" "ownusers/" "ordereddict.pyc" "productvariants/" "tasks.py")
+
+ ("/home/jku/Instances/webapps/mcp2/solute/webapps/mcp2/" (22525 55289 379310 544000) "../" "utils.pyc" ".gitignore" "decorators.pyc" "__init__.py.in" "urls.py" "frontend/" "pagedata.py" "pagedata.pyc" "__init__.pyc" "./" "decorators.py" "__init__.py" "lib/" "utils.py" "urls.pyc")
+
+ ("/home/jku/Instances/webapps/mcp2/solute/webapps/" (22357 30673 864061 458000) "../" "__init__.pyc" "./" "__init__.py" "mcp2/")
+
+ ("/home/jku/Instances/webapps/mcp2/solute/" (22357 9255 31992 661000) "../" "__init__.pyc" "webapps/" "./" "__init__.py")
+
+ ("/home/jku/Instances/webapps/mcp2/" (22507 30626 535352 29000) "../" "solute/" ".gitignore" "local.conf.iz" "dumps/" "conf/" "tox.ini" "pylint.conf" "site.conf" ".git/" "setup.py" "local.conf.al" "packages/" "README" "solute_mcp2.egg-info/" "scripts/" "requirements.txt" "test/" "kan-4592-error-matching.txt" "fake/" "pk.py" "./" "wtf.conf" "pk.pyc" "dummy.xml" "templates/" "pk.log" "jinja_templates/" "debian/" "python-autocontent-renderer/" "local.conf.ros" "dev-requirements.debian.txt")
+
+ ("/home/jku/GIT/solute/infrastructure/puppetcfg/modules/profile/manifests/billiger/frontend/" (22507 40013 891264 969000) "../" "test.pp" "qs05.pp" "qs02.pp" "qs01.pp" "production.pp" "./" "qs03.pp" "qs04.pp" "prelive01.pp")
+
+ ("/home/jku/Instances/webapps/sucheqs/frontend/app/routes/execution/" (22515 44353 541123 356000) "../" "two-query-one-searcher.js" "./" "one-query-one-searcher.js" "one-query-two-searcher.js")
+
+ ("/home/jku/Instances/infrastructure/python-solute/solute/web/services/" (22453 24605 591831 223000) "../" "avatar.py" "check_service.pyc" "crash.pyc" "statistics.py" "database.pyc" "statistics.pyc" "redis_server.py" "auth_service.py" "database.py" "json_client.py" "rpc2.py" "profiling.py" "matching_auth_service.py" "shoppingcom_api.py" "session_storage/" "template.pyc" "serverad.py" "captcha.py" "imgstore.py" "url_scheme_detector.py" "locale_service.py" "__init__.pyc" "jinja_service.py" "check_service.py" "crash.py" "pystats_service.py" "memcache.py" "multisearch/" "rpc.py" "xapian.py" "syndication_api.py" "./" "memcache.pyc" "__init__.py" "template.py" "recommendations.py")
+
+ ("/home/jku/Instances/webapps/sucheqs/frontend/app/templates/execution/" (22518 22240 806773 203000) "../" "./" "one-query-two-searcher.hbs" "one-query-one-searcher.hbs" "two-query-one-searcher.hbs")
+
+ ("/home/jku/Instances/ember/rarwe-demo/demo/app/routes/" (22523 31288 725844 337000) "../" "bands.js" "bands/" "./" ".gitkeep")
+
+ ("/home/jku/Instances/webapps/sucheqs/node_modules/ember-cli-mirage/" (22525 53772 375296 200000) "../" "app/" "README.md" "blueprints/" "bower.json" ".bowerrc" "testem.json" "CONTRIBUTING.md" ".npmignore" "CHANGELOG.md" ".watchmanconfig" "node_modules/" "addon/" "vendor/" "config/" "index.js" "./" ".editorconfig" ".ember-cli" "LICENSE.md" ".travis.yml" ".jscsrc" "package.json" "ember-cli-build.js" ".jshintrc" "tests/")
+
+ ("/home/jku/Instances/webapps/sucheqs/frontend/node_modules/abbrev/" (22525 53765 155296 132000) "../" "abbrev.js" "README.md" "./" "LICENSE" "package.json")
+
+ ("/home/jku/Instances/webapps/sucheqs/frontend/node_modules/" (22525 53774 315296 219000) "htmlparser2/" "rx/" "trim-right/" "object-component/" "ember-cli/" "depd/" "lodash.istypedarray/" "js-yaml/" "bower/" "pretender/" "assert-plus/" "domelementtype/" "has-cors/" "is-obj/" "broccoli-source/" "ws/" "dot-prop/" "broccoli-asset-rewrite/" "broccoli-viz/" "esprima-fb/" "requires-port/" "nopt/" "underscore/" "ee-first/" "string_decoder/" "md5-o-matic/" "lodash.isarray/" "domhandler/" "ember-try-config/" "ast-traverse/" "tiny-lr/" "lodash.isarguments/" "verror/" "ember-cli-preprocess-registry/" "ember-cli-lodash-subset/" "os-shim/" "cliui/" "ember-cli-string-utils/" "get-stdin/" "yeast/" "bcrypt-pbkdf/" "findup-sync/" "cross-spawn/" "fs.realpath/" "right-align/" "strip-json-comments/" "async-disk-cache/" "spawn-args/" "gauge/" "klaw/" "hash-for-dep/" "console-browserify/" "commoner/" "argparse/" "base64-arraybuffer/" "broccoli-clean-css/" "ember-cli-htmlbars-inline-precompile/" "pseudomap/" "content-disposition/" "lodash.uniq/" "lodash/" "babel-plugin-member-expression-literals/" "fast-sourcemap-concat/" "lcid/" "fs-tree-diff/" "asn1/" "broccoli-config-replace/" "pinkie-promise/" "setprototypeof/" "qunitjs/" "tough-cookie/" "defined/" "fs-extra/" "extsprintf/" "babel-plugin-remove-console/" "ember-engines/" "testem/" "ember-lodash/" "lodash._arrayeach/" "indexof/" "minimist/" "lodash._baseassign/" "caseless/" "tmp/" "get-caller-file/" "asynckit/" "websocket-driver/" "isarray/" "abbrev/" "broccoli-config-loader/" "through/" "once/" "mime-db/" "destroy/" "blob/" "component-inherit/" "is-fullwidth-code-point/" "tmpl/" "bower-config/" "window-size/" "os-homedir/" "broccoli-writer/" "acorn/" "clean-css-promise/" "invert-kv/" "source-map/" "styled_string/" "statuses/" "lru-cache/" "body-parser/" "to-fast-properties/" "forwarded/" "lodash._arraycopy/" "exit/" "amd-name-resolver/" "heimdalljs/" "ember-router-generator/" "broccoli-slow-trees/" "align-text/" "path-exists/" "tunnel-agent/" "wrappy/" "arraybuffer.slice/" "generate-function/" "is-utf8/" "detective/" "ember-cli-version-checker/" "ansi-regex/" "chalk/" "lodash._basecopy/" "lodash.template/" "ember-cli-test-loader/" "cli/" "json-schema/" "serve-static/" "babel-plugin-eval/" "component-bind/" "semver/" "concat-stream/" "cli-usage/" "readable-stream/" "repeating/" "shelljs/" "accepts/" "faker/" "core-object/" "is-promise/" "proxy-addr/" "hosted-git-info/" "slide/" "socket.io-adapter/" "textextensions/" "ember-qunit/" "loader.js/" "websocket-extensions/" "recast/" "eventemitter3/" "bluebird/" "route-recognizer/" "is-my-json-valid/" "broccoli-sane-watcher/" "growly/" "send/" "json-stable-stringify/" "after/" "klassy/" "xdg-basedir/" "ember-data/" "fb-watchman/" "sri-toolbox/" "unpipe/" "generate-object-property/" "lodash.assign/" "babel-plugin-react-constant-elements/" "strip-ansi/" "fast-ordered-set/" "rsvp/" "promise-map-series/" "delayed-stream/" "jsesc/" "cryptiles/" "lodash.omit/" "broccoli-file-creator/" "signal-exit/" "git-tools/" "options/" "http-proxy/" "har-validator/" "socket.io/" "broccoli-jshint/" "delegates/" "http-signature/" "has-binary/" "request/" "backo2/" "compressible/" "charm/" "amdefine/" "broccoli-caching-writer/" "npm-git-info/" "npm/" "leek/" "y18n/" "ember-cli-broccoli/" "ember-cli-sri/" "boom/" "node-emoji/" "ember-cli-qunit/" "ipaddr.js/" "aproba/" "ember-ajax/" "npm-package-arg/" "walk-sync/" "broccoli-stew/" "spawn-sync/" "bytes/" "wide-align/" "cookie-signature/" "ecc-jsbn/" "babel-plugin-undeclared-variables-check/" "ansicolors/" "supports-color/" "heimdalljs-logger/" "utf8/" "md5-hex/" "longest/" "content-type/" "balanced-match/" "clean-css/" "dashdash/" "parsejson/" "find-up/" "ember-cli-valid-component-name/" "lodash.clonedeep/" "babel-plugin-filter-imports/" "mkdirp/" "to-array/" "encodeurl/" "buffer-shims/" "concat-map/" "date-now/" "benchmark/" "is-finite/" "string.prototype.codepointat/" "livereload-js/" "node-uuid/" "is-property/" "qs/" "exit-hook/" "ensure-posix-path/" "lodash.find/" "are-we-there-yet/" "parseqs/" "array-flatten/" "tree-sync/" "encoding/" "finalhandler/" "graceful-readlink/" "string-width/" "bl/" "breakable/" "kind-of/" "path-to-regexp/" "socket.io-client/" "ora/" "ember-cli-htmlbars/" "is-stream/" "xmlhttprequest-ssl/" "font-awesome/" "base64id/" "mute-stream/" "exec-sh/" "babel-plugin-inline-environment-variables/" "copy-dereference/" "lodash-es/" "set-blocking/" "inflight/" "basic-auth/" "broccoli-kitchen-sink-helpers/" "ember-json-pretty/" "jsbn/" "combined-stream/" "moment-timezone/" "better-assert/" "shebang-regex/" "exists-sync/" "ember-cli-is-package-missing/" "engine.io/" "binaryextensions/" "cli-spinners/" "ember-cli-get-component-path-option/" "hoek/" "mout/" "xtend/" "mdurl/" "fs-readdir-recursive/" "ember-resolver/" "markdown-it/" "alter/" "number-is-nan/" "regexpu/" "onetime/" "private/" "socket.io-parser/" "json-stringify-safe/" "convert-source-map/" "ember-cli-mirage/" "clone/" "jshint/" "typedarray/" "morgan/" "node-modules-path/" "escape-string-regexp/" "engine.io-parser/" "oauth-sign/" "stable/" "mustache/" "portfinder/" "cli-width/" "ember-inflector/" "babel-plugin-remove-debugger/" "camelcase/" "tryor/" "form-data/" "raw-body/" "qunit-notifications/" "tweetnacl/" "type-is/" "redeyed/" "ember-cli-app-version/" "lodash._getnative/" "sntp/" "iconv-lite/" "lodash.keysin/" "git-repo-info/" "ember-load-initializers/" "range-parser/" "slash/" "faye-websocket/" "lodash.isplainobject/" "has-color/" "source-map-support/" "domutils/" "compression/" "babel-core/" "os-tmpdir/" "editions/" "babel-plugin-htmlbars-inline-precompile/" "parseurl/" "core-util-is/" "events-to-array/" "graceful-fs/" "optimist/" "yallist/" "code-point-at/" "babel-plugin-runtime/" "lodash._createassigner/" "stringset/" "semantic-ui-ember/" "stringstream/" "uc.micro/" "inherits/" "ember-cli-dependency-checker/" "quick-temp/" "ember-runtime-enumerable-includes-polyfill/" "lodash.templatesettings/" "glob/" "figures/" "fake-xml-http-request/" "inflection/" "entities/" "lodash.keys/" "sshpk/" "json3/" "lodash._basefor/" "babel-plugin-dead-code-elimination/" "isbinaryfile/" "babel-plugin-undefined-to-void/" "did_it_work/" "jodid25519/" "findup/" "moment/" "lodash.assignin/" "regjsparser/" "jsonify/" "array-to-error/" "temp/" ".bin/" "connect/" "broccoli-filter/" "output-file-sync/" "aws4/" "lodash._baseclone/" "leven/" "broccoli-funnel/" "istextorbinary/" "isexe/" "bower-endpoint-parser/" "ember-export-application-global/" "rimraf/" "aws-sign2/" "cardinal/" "source-map-url/" "tap-parser/" "is-git-url/" "ember-cli-jshint/" "babel-plugin-constant-folding/" "minimatch/" "fs-monitor-stack/" "mime-types/" "jsonpointer/" "vary/" "ember-cli-legacy-blueprints/" "yargs/" "callsite/" "broccoli-uglify-sourcemap/" "write-file-atomic/" "lodash.toplainobject/" "array-to-sentence/" "path-is-absolute/" "http-errors/" "imurmurhash/" "os-locale/" "shellwords/" "merge-descriptors/" "methods/" "handlebars/" "blank-object/" "babel-plugin-feature-flags/" "broccoli-merge-trees/" "core-js/" "babel-plugin-jscript/" "ember-try/" "js-tokens/" "express/" "printf/" "memory-streams/" "inline-source-map-comment/" "has-ansi/" "ember-cli-test-info/" "backbone/" "colors/" "strip-bom/" "debug/" "decamelize/" "lodash.flatten/" "uglify-js/" "is-integer/" "mime/" "node-fetch/" "regjsgen/" "broccoli-funnel-reducer/" "regenerator/" "broccoli-babel-transpiler/" "ember-cli-path-utils/" "markdown-it-terminal/" "ember-cli-font-awesome/" "makeerror/" "media-typer/" "json5/" "component-emitter/" "osenv/" "node-int64/" "lodash.merge/" "wordwrap/" "commander/" "process-relative-require/" "xmldom/" "simple-fmt/" "lodash._baseflatten/" "utils-merge/" "regenerate/" "marked-terminal/" "ember-cli-babel/" "uuid/" "lazy-cache/" "user-home/" "inquirer/" "babel-plugin-react-display-name/" "stringmap/" "broccoli-plugin/" "on-finished/" "jsprim/" "home-or-tmp/" "ansi-styles/" "spawnback/" "silent-error/" "ember-cli-get-dependency-depth/" "pinkie/" "lodash._bindcallback/" "marked/" "configstore/" "ember-cli-release/" "ember-test-helpers/" "watch/" "forever-agent/" "broccoli-unwatched-tree/" "make-array/" "q/" "cli-table2/" "untildify/" "util-deprecate/" "is-type/" "broccoli-sri-hash/" "sync-exec/" "matcher-collection/" "run-async/" "center-align/" "clean-base-url/" "restore-cursor/" "symlink-or-copy/" "negotiator/" "cookie/" "ms/" "is-typedarray/" "can-symlink/" "broccoli-asset-rev/" "detect-indent/" "mktemp/" "ember-cli-normalize-entity-name/" "esutils/" "jsonfile/" "brace-expansion/" "babylon/" "globals/" "fireworm/" "resolve/" "external-editor/" "underscore.string/" "yam/" "npmlog/" "repeat-string/" "path-posix/" "node-notifier/" "getpass/" "lodash._isiterateecall/" "parseuri/" "hawk/" "cli-cursor/" "git-repo-version/" "sprintf-js/" "merge/" "bser/" "ast-types/" "filesize/" "etag/" "ember-cli-inject-live-reload/" "ultron/" "console-control-strings/" "engine.io-client/" "lodash.debounce/" "which/" "uglify-to-browserify/" "array-equal/" "async/" "babel-plugin-proto-to-assign/" "cli-table/" "is-buffer/" "ember-cli-node-assets/" "lodash._reinterpolate/" "process-nextick-args/" "babel-plugin-property-literals/" "linkify-it/" "escape-html/" "dom-serializer/" "sane/" "isstream/" "ansi-escapes/" "broccoli-persistent-filter/" "object-assign/" "defs/" "extend/" "lodash.restparam/" "try-resolve/" "diff/" "simple-is/" "on-headers/" "walker/" "has-unicode/" "sum-up/" "ember-cli-uglify/" "consolidate/" "fresh/" "broccoli-concat/" "../" "./")
+
+ ("/home/jku/Instances/webapps/sucheqs/frontend/app/routes/default-queries/" (22524 37209 750519 961000) "../" "default-query.js" "index.js" "./")
+
+ ("/home/jku/Instances/webapps/sucheqs/frontend/mirage/scenarios/" (22524 36999 630517 974000) "../" "default.js" "./")
+
+ ("/home/jku/Instances/ember/rarwe-demo/demo/mirage/models/" (22524 36361 942511 945000) "../" "band.js" "song.js" "./")
+
+ ("/home/jku/Instances/ember/rarwe-demo/demo/mirage/factories/" (22523 32012 137851 177000) "../" "band.js" "./")
 )
 
 ;; ----- ido-unc-hosts-cache -----
