@@ -53,3 +53,5 @@
 ;; disable autosave
 (setq auto-save-default nil)
 (setq create-lockfiles nil)
+
+(global-auto-revert-mode t)
