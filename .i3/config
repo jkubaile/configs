@@ -212,8 +212,3 @@ exec ssh-add
 exec --no-startup-id nm-applet
 
 #### RULES FOR SPECIFIC APPLICATIONS ####
-## class ist einfach der Titel des Programms im Programmfenster
-for_window [class="Buddy-Liste"] floating enable, border normal
-
-# for_window [class="Psi+"] floating enable, border normal
-exec pidgin

@@ -55,3 +55,6 @@
 (setq create-lockfiles nil)
 
 (global-auto-revert-mode t)
+
+;; disable vc-git
+(setq vc-handled-backends ())

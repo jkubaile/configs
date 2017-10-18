@@ -27,6 +27,6 @@ Return a list of installed packages or nil for every skipped package."
     (package-refresh-contents))
 
 ;; define our packages
-(ensure-package-installed 'elpy 'js2-mode 'ac-js2 'auto-complete 'iedit 'w3m 'better-defaults 'material-theme 'flycheck)
+(ensure-package-installed 'elpy 'js2-mode 'ac-js2 'auto-complete 'iedit 'w3m 'better-defaults 'material-theme 'flycheck 'json-reformat)
 
 ;;  'magit -> requires 24.4
