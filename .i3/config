@@ -67,7 +67,7 @@ bindsym $mod+h split h
 bindsym $mod+v split v
 
 # enter fullscreen mode for the focused container
-bindsym $mod+f fullscreen
+bindsym $mod+Shift+f fullscreen
 
 # change container layout (stacked, tabbed, toggle split)
 bindsym $mod+s layout stacking
@@ -180,7 +180,7 @@ bindsym $mod+Control+c exec google-chrome-stable
 bindsym $mod+Control+n exec "nautilus --no-desktop --new-window"
 bindsym $mod+Control+f exec firefox
 bindsym $mod+Control+t exec thunderbird
-bindsym $mod+Control+e exec emacs
+bindsym $mod+Control+e exec emacs-snapshot
 bindsym $mod+Control+l exec i3lock
 
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +10% && killall -SIGUSR1 i3status

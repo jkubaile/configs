@@ -1,6 +1,6 @@
 (add-to-list 'load-path "~/.emacs.d/lisp")
 
-(package-initialize)
+;; (package-initialize)
 
 (load-library "packageinstaller.el")
 ;(load "~/.emacs.d/lisp/packageinstaller.el")
@@ -14,6 +14,8 @@
 (define-key global-map (kbd "C-c o") 'iedit-mode)
 
 ; (load-library "python")
+(load-library "blacken.el")
+
 
 (load-library "general")
 (load-library "javascript")
@@ -30,10 +32,14 @@
  '(ansi-color-names-vector
    ["black" "#d55e00" "#009e73" "#f8ec59" "#0072b2" "#cc79a7" "#56b4e9" "white"])
  '(background brightwhite)
+ '(blacken-executable "/home/jku/local/Python-3.6.5/bin/black")
  '(column-number-mode t)
+ '(custom-enabled-themes (quote (material-light)))
  '(custom-safe-themes
    (quote
     ("870a63a25a2756074e53e5ee28f3f890332ddc21f9e87d583c5387285e882099" "0aa12caf6127772c1a38f7966de8258e7a0651fb6f7220d0bbb3a0232fba967f" default)))
+ '(elpy-test-compilation-function (quote compile))
+ '(elpy-test-runner (quote elpy-test-pytest-runner))
  '(fci-rule-color "#ECEFF1")
  '(flycheck-eslintrc "eslint")
  '(font-use-system-font t)
