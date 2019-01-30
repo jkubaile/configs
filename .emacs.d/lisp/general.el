@@ -59,3 +59,5 @@
 
 ;; disable vc-git
 (setq vc-handled-backends ())
+
+(global-set-key (kbd "C-c c") 'magit-status)
