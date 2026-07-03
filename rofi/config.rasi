@@ -1,0 +1,112 @@
+
+configuration {
+    /* Integration deines gewünschten Foot-Terminals für den SSH-Modus */
+    terminal: "foot";
+    ssh-command: "{terminal} {ssh-client} {host}";
+
+    /* Aktiviert die Modus-Leiste am unteren Rand zum interaktiven Wechseln */
+    sidebar-mode: true;
+
+    modi: "drun,ssh,window";
+}
+
+/* KSC Farbvariablen und Theme */
+* {
+    /* Farbpalette */
+    bg-dark:      #0f172a;  /* Sehr dunkles Slate-Grau für das Hauptfenster */
+    grey-deep:    #1e293b;  /* Tieferes Schiefergrau für inaktive Elemente */
+    grey-medium:  #475569;  /* Mittleres Grau für Rahmen und Suchleisten-Hintergrund */
+    ksc-blue:     #004b93;  /* Das offizielle KSC-Blau */
+    ksc-white:    #ffffff;  /* KSC-Weiß für Text und Highlights */
+    text-dim:     #94a3b8;  /* Gedimmter Text für inaktive Einträge */
+
+    /* Globale Layout-Einstellungen */
+    background-color: transparent;
+    text-color:       @text-dim;
+    font:             "DejaVu Sans 12";
+}
+
+window {
+    background-color: @bg-dark;
+    border:           2px;
+    border-color:     @grey-medium;
+    border-radius:    6px;
+    padding:          15px;
+    width:            30%; /* Breite des Fensters auf dem Bildschirm */
+}
+
+mainbox {
+    spacing:    10px;
+    children:   [ inputbar, listview, mode-switcher ];
+}
+
+/* Suchleiste oben */
+inputbar {
+    background-color: @grey-deep;
+    text-color:       @ksc-white;
+    border-radius:    4px;
+    padding:          8px 12px;
+    children:         [ prompt, entry ];
+}
+
+prompt {
+    text-color:       @ksc-blue;
+    font:             "DejaVu Sans Bold 12";
+    margin:           0px 8px 0px 0px;
+}
+
+entry {
+    text-color:       @ksc-white;
+}
+
+/* Liste der Einträge (Apps, SSH-Hosts etc.) */
+listview {
+    fixed-height: 0;
+    lines:        8; /* Zeigt standardmäßig 8 Einträge an */
+    spacing:      4px;
+    scrollbar:    false;
+}
+
+element {
+    padding:       6px 12px;
+    border-radius: 4px;
+}
+
+/* Normaler, inaktiver Eintrag */
+element normal.normal {
+    background-color: @bg-dark;
+    text-color:       @text-dim;
+}
+
+/* Aktuell ausgewählter Eintrag (KSC-Blau / Weiß) */
+element selected.normal {
+    background-color: @bg-dark;
+    text-color:       @ksc-white;
+}
+
+element alternate.normal {
+    background-color: @bg-dark;
+    text-color:       @text-dim;
+}
+
+
+/* Modus-Wechsler / Sidebar ganz unten */
+mode-switcher {
+    border:       1px 0px 0px 0px;
+    border-color: @grey-medium;
+    padding:      10px 0px 0px 0px;
+}
+
+button {
+    padding:          5px;
+    border-radius:    4px;
+    background-color: @grey-deep;
+    text-color:       @text-dim;
+    horizontal-align: 0.5;
+}
+
+/* Aktiver Modus in der Sidebar (z.B. drun) */
+button selected {
+    background-color: @ksc-blue;
+    text-color:       @ksc-white;
+}
