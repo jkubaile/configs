@@ -1,0 +1,36 @@
+# single
+profile {
+  output "AU Optronics 0x45B2 Unknown" mode 1920x1200@60.003Hz position 0,0 transform normal scale 1.2 scale_filter smart adaptive_sync off
+}
+
+# home
+profile {
+    output "AU Optronics 0x45B2 Unknown" {
+        mode 1920x1200@60.003Hz
+        position 2304,2230
+        transform normal
+        scale 1.25
+        adaptive_sync off
+    }
+    output "Samsung Electric Company C49HG9x HTRK400215" {
+        mode 3840x1080@143.999Hz
+        position 0,1150
+        transform normal
+        scale 1.0
+        adaptive_sync off
+    }
+    output "Dell Inc. DELL U2515H 9X2VY55P01JL" {
+        mode 2560x1440@59.951Hz
+        position 3840,0
+        transform 90
+        scale 1.0
+        adaptive_sync off
+    }
+    output "Dell Inc. DELL U2515H 9X2VY55R0BAL" {
+        mode 2560x1440@59.951Hz
+        position 5280,0
+        transform 90
+        scale 1.0
+        adaptive_sync off
+    }
+}
