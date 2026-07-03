@@ -1,0 +1,64 @@
+/* KSC Farbbasis (Direkt definiert) */
+@define-color bg_dark #0f172a;
+@define-color grey_deep #1e293b;
+@define-color grey_medium #475569;
+@define-color ksc_blue #004b93;
+@define-color ksc_white #ffffff;
+@define-color text_dim #94a3b8;
+
+/* Hauptleiste */
+window#waybar {
+    background-color: @bg_dark;
+    color: @ksc_white;
+    font-family: "DejaVu Sans", "Helvetica", Arial, sans-serif;
+    font-size: 14px;
+    border-bottom: 2px solid @grey_medium;
+}
+
+/* Arbeitsflächen (Workspaces) */
+#workspaces button {
+    padding: 0 8px;
+    color: @text_dim;
+    background-color: @grey_deep;
+    border-bottom: 3px solid transparent;
+    border-radius: 0;
+}
+
+#workspaces button.focused {
+    background-color: @ksc_blue;
+    color: @ksc_white;
+    border-bottom: 3px solid @ksc_white;
+}
+
+#workspaces button:hover {
+    background-color: @grey_medium;
+    color: @ksc_white;
+}
+
+/* Standard-Infomodule (Uhrzeit, Batterie, Audio, Netzwerk) */
+#clock,
+#battery,
+#pulseaudio,
+#network,
+#cpu,
+#memory,
+#temperature,
+#window,
+#tray {
+    padding: 0 4px;
+    margin: 4px 2px;
+    background-color: @ksc_blue;
+    color: @ksc_white;
+    border-radius: 4px;
+}
+
+/* Warnungs-Zustände (z.B. Batterie fast leer) */
+#battery.critical:not(.charging) {
+    background-color: #ef4444;
+    color: @ksc_white;
+    animation-name: blink;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
