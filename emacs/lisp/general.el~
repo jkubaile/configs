@@ -1,0 +1,25 @@
+;; ido mode - better files choosing
+(require 'ido)
+(ido-mode t)
+
+;; change fontsize with C-+/C--
+(load-library "fontsize")
+
+;; language server 
+(require 'eglot)
+(add-hook 'python-mode-hook 'eglot-ensure)
+(add-hook 'python-mode-hook (lambda () (add-hook 'before-save-hook 'eglot-format-buffer)))
+
+;; enable auto completion for all
+(add-hook 'after-init-hook 'global-company-mode)
+
+;; disable autosave
+(setq auto-save-default nil)
+(setq create-lockfiles nil)
+
+(require 'prettier-mode)
+(add-hook 'js-mode-hook 'prettier-mode)
+(add-hook 'web-mode-hook 'prettier-mode)
+
+;; configure prettier to use the project prettier, we have no global one
+(setq prettier-js-use-modules-bin t)

@@ -1,0 +1,6 @@
+emacs/auto-save-list
+emacs/.cache
+emacs/eln-cache
+emacs/elpa
+emacs/ido.last
+emacs/.lsp.session-v1
