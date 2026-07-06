@@ -21,7 +21,6 @@ set $term foot
 
 set $menu rofi -show drun -show-icons --sidebar-mode
 
-
 include /etc/sway/config-vars.d/*
 
 # KSC-Farbschema
@@ -38,10 +37,10 @@ client.focused_inactive $grey_deep    $grey_deep    $text_dim     $grey_medium  
 client.unfocused        $grey_deep    $grey_deep    $text_dim     $grey_deep    $grey_deep
 client.urgent           #ef4444       #ef4444       $ksc_white    #ef4444       #ef4444
 
-default_border pixel 4
+default_border pixel 2
 
-gaps inner 4
-gaps outer 4
+gaps inner 2
+gaps outer 2
 smart_gaps off
 
 # include outputs
@@ -288,7 +287,7 @@ bindsym $mod+Control+e exec emacs
 bindsym $mod+Control+l exec hyprlock
 
 # past middleclick
-bindsym --whole-window button2 exec wl-paste --primary | wtype -
+# bindsym --whole-window button2 exec wl-paste --primary | wtype -
 
 # Create Log out, Reboot, Poweroff bindings
 mode "Exit (L)ogout, (R)eboot, (P)oweroff" {

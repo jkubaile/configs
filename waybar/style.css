@@ -46,8 +46,8 @@ window#waybar {
 #window,
 #tray {
     padding: 0 4px;
-    margin: 4px 2px;
-    background-color: @ksc_blue;
+    margin: 4px 12px;
+    background-color: transparent;
     color: @ksc_white;
     border-radius: 4px;
 }
