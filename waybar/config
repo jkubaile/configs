@@ -20,7 +20,8 @@
 
     "modules-left": [
         "sway/workspaces",
-        "sway/mode"
+        "sway/mode",
+	"custom/weather",
     ],
     "modules-center": [
         "sway/window"
@@ -42,7 +43,14 @@
     // -------------------------------------------------------------------------
     // Modules
     // -------------------------------------------------------------------------
-
+    "custom/weather": {
+        "format": "{}",
+        "tooltip": true,
+        "interval": 1800, // Aktualisiert alle 30 Minuten
+        "exec": "~/.config/waybar/weather.py",
+        "return-type": "json"
+    },
+    
     "battery": {
         "interval": 10,
         "states": {
