@@ -1,6 +1,13 @@
 # single
 profile {
-  output "AU Optronics 0x45B2 Unknown" mode 1920x1200@60.003Hz position 0,0 transform normal scale 1.2 scale_filter smart adaptive_sync off
+  output "AU Optronics 0x45B2 Unknown" {
+    mode 1920x1200@60.003Hz
+    position 0,0
+    transform normal
+    scale 1.2
+    adaptive_sync off
+  }
+  exec swaymsg 'output "AU Optronics 0x45B2 Unknown" scale_filter smart'
 }
 
 # home
@@ -9,9 +16,10 @@ profile {
         mode 1920x1200@60.003Hz
         position 2304,2230
         transform normal
-        scale 1.25
-        adaptive_sync off
+        scale 1.2
+	adaptive_sync off
     }
+    exec swaymsg 'output "AU Optronics 0x45B2 Unknown" scale_filter smart'
     output "Samsung Electric Company C49HG9x HTRK400215" {
         mode 3840x1080@143.999Hz
         position 0,1150
@@ -33,4 +41,27 @@ profile {
         scale 1.0
         adaptive_sync off
     }
+}
+
+# office default
+profile {
+    output "Iiyama North America PL2793Q 12308415A1105" {
+        mode 2560x1440@59.961Hz
+	position 4512,951
+	scale 1.0
+    }
+    output "Iiyama North America PL2793Q 12308415A1106" {
+        mode 2560x1440@59.961Hz
+	position 1952,951
+	scale 1.0
+    }
+    output "AU Optronics 0x45B2 Unknown" {
+        mode 1920x1200@60.003Hz
+	position 2268,2391
+        transform normal
+        scale 1.2
+ 	adaptive_sync off
+    }
+
+    exec swaymsg 'output "AU Optronics 0x45B2 Unknown" scale_filter smart'
 }
