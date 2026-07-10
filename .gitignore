@@ -2,5 +2,8 @@ emacs/auto-save-list
 emacs/.cache
 emacs/eln-cache
 emacs/elpa
-emacs/ido.last
-emacs/.lsp.session-v1
+emacs/ido.last*
+emacs/.lsp-session*
+emacs/glnt-ts-mode
+sway/outputs
+sway/workspaces
