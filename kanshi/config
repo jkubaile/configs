@@ -14,7 +14,7 @@ profile {
 profile {
     output "AU Optronics 0x45B2 Unknown" {
         mode 1920x1200@60.003Hz
-        position 2304,2230
+        position 2240,2230
         transform normal
         scale 1.2
 	adaptive_sync off
