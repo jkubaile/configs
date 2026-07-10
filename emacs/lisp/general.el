@@ -5,8 +5,6 @@
 ;; change fontsize with C-+/C--
 (load-library "fontsize")
 
-(require 'lsp-mode)
-
 ;; language server
 (require 'eglot)
 (add-hook 'python-mode-hook 'eglot-ensure)
@@ -37,6 +35,26 @@
 (add-hook 'html-mode-hook 'prettier-mode)
 (add-hook 'markdown-mode-hook 'prettier-mode)
 (add-hook 'css-mode-hook 'prettier-mode)
+(require 'glint-ts-mode)
+(require 'glint-ts-mode-lsp)
+
+(defun jku/glint-ts-mode-disable-lsp-completion ()
+  "Use Glint LSP without completion."
+  (setq-local lsp-completion-provider 'none))
+
+(defun jku/glint-ts-mode-ensure-lsp ()
+  "Start Glint LSP when glint-language-server is available."
+  (condition-case nil
+      (progn (glint-ts-mode-lsp--server-command)
+             (unless (bound-and-true-p lsp-mode)
+               (lsp)))
+    (error nil)))
+
+(add-hook 'glint-ts-mode-hook #'jku/glint-ts-mode-disable-lsp-completion)
+(add-hook 'glint-ts-mode-hook #'glint-ts-mode-lsp--disable-ts-ls)
+(add-hook 'glint-ts-mode-hook #'jku/glint-ts-mode-ensure-lsp)
+(add-to-list 'lsp-disabled-clients 'semgrep-ls t)
+
 (add-hook 'glint-ts-mode-hook 'prettier-mode)
 (add-hook 'glint-ts-mode-hook 'ember-mode)
 

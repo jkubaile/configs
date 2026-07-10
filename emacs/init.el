@@ -1,5 +1,7 @@
 (add-to-list 'load-path "~/.config/emacs/lisp")
 
+(setq package-vc-register-as-project nil)
+
 (load-library "packageinstaller")
 (load-library "general")
 (load-library "javascript-modern")
@@ -13,7 +15,7 @@
  '(custom-enabled-themes '(modus-vivendi))
  '(font-use-system-font t)
  '(menu-bar-mode t)
- '(package-selected-packages nil)
+ '(package-selected-packages '(glnt-ts-mode))
  '(package-vc-selected-packages
    '((glnt-ts-mode :vc-backend Git :url
 		   "https://github.com/overcast-software/glnt-ts-mode")))
@@ -21,6 +23,8 @@
  '(tool-bar-mode nil)
  '(uniquify-buffer-name-style 'forward nil (uniquify))
  '(use-file-dialog nil))
+
+(package-vc-install-selected-packages)
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
