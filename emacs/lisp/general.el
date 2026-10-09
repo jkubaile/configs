@@ -58,6 +58,59 @@
 (add-hook 'glint-ts-mode-hook 'prettier-mode)
 (add-hook 'glint-ts-mode-hook 'ember-mode)
 
+;; ESLint language server for Jinja/HTML (project flat config)
+(require 'lsp-eslint)
+(setq lsp-eslint-validate '("html" "svelte")
+      lsp-eslint-format nil
+      lsp-eslint-quiet t
+      lsp-eslint-options (ht ("overrideConfigFile" "frontend/eslint.config.mjs")))
+
+(defun jku/html-disable-lsp-completion ()
+  "Use ESLint LSP without completion."
+  (setq-local lsp-completion-provider 'none))
+
+(defun jku/html-ensure-eslint-lsp ()
+  "Start lsp-mode so the ESLint add-on client can attach."
+  (unless (bound-and-true-p lsp-mode)
+    (lsp)))
+
+(add-hook 'html-mode-hook #'jku/html-disable-lsp-completion)
+(add-hook 'html-mode-hook #'jku/html-ensure-eslint-lsp)
+(add-hook 'web-mode-hook #'jku/html-disable-lsp-completion)
+(add-hook 'web-mode-hook #'jku/html-ensure-eslint-lsp)
+
+;; Show LSP diagnostic text in the sideline; list all with C-c e
+(require 'lsp-ui)
+(setq lsp-ui-sideline-enable t
+      lsp-ui-sideline-show-diagnostics t
+      lsp-ui-sideline-show-hover nil
+      lsp-ui-sideline-show-code-actions t
+      lsp-ui-doc-enable t
+      lsp-ui-doc-show-with-cursor nil
+      lsp-ui-doc-show-with-mouse t)
+(add-hook 'lsp-mode-hook #'lsp-ui-mode)
+(with-eval-after-load 'lsp-mode
+  (define-key lsp-mode-map (kbd "C-c e") #'flymake-show-buffer-diagnostics))
+
+(defun jku/lsp-maybe-show-diagnostics-list ()
+  "Open the Flymake diagnostics list when this buffer has issues.
+Close it again when the buffer is clean."
+  (when (and (bound-and-true-p flymake-mode)
+             (get-buffer-window (current-buffer) 'visible))
+    (if (flymake-diagnostics)
+        (flymake-show-buffer-diagnostics)
+      (when-let* ((diag-buf (get-buffer (flymake--diagnostics-buffer-name)))
+                  (diag-win (get-buffer-window diag-buf)))
+        (quit-window nil diag-win)))))
+
+(defun jku/lsp-enable-auto-diagnostics-list ()
+  "Auto-toggle the diagnostics list for the current LSP buffer."
+  (add-hook 'lsp-diagnostics-updated-hook
+            #'jku/lsp-maybe-show-diagnostics-list
+            nil t))
+
+(add-hook 'lsp-mode-hook #'jku/lsp-enable-auto-diagnostics-list)
+
 ;; configure prettier to use the project prettier, we have no global one
 (setq prettier-js-use-modules-bin t)
 

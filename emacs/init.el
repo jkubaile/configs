@@ -15,7 +15,7 @@
  '(custom-enabled-themes '(modus-vivendi))
  '(font-use-system-font t)
  '(menu-bar-mode t)
- '(package-selected-packages '(glnt-ts-mode))
+ '(package-selected-packages '(glnt-ts-mode puppet-mode))
  '(package-vc-selected-packages
    '((glnt-ts-mode :vc-backend Git :url
 		   "https://github.com/overcast-software/glnt-ts-mode")))
@@ -32,3 +32,4 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  )
+(put 'scroll-left 'disabled nil)

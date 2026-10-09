@@ -26,4 +26,4 @@ Return a list of installed packages or nil for every skipped package."
 
 ;; define our packages
 ;; (ensure-package-installed 'elpy 'js2-mode 'ac-js2 'auto-complete 'iedit 'w3m 'better-defaults 'material-theme 'flycheck 'json-reformat 'magit 'web-mode 'rjsx-mode 'add-node-modules-path 'prettier 'lsp-mode 'company-lsp 'lsp-ui 'eglot)
-(ensure-package-installed 'ido 'eglot 'pyvenv-auto 'company 'prettier-js 'git-timemachine 'handlebars-mode 'ember-mode 'magit 'yasnippet 'yasnippet-snippets 'diff-hl 'tree-sitter 'lsp-mode 'add-node-modules-path 'prettier 'corfu 'rjsx-mode 'web-mode)
+(ensure-package-installed 'ido 'eglot 'pyvenv-auto 'company 'prettier-js 'git-timemachine 'handlebars-mode 'ember-mode 'magit 'yasnippet 'yasnippet-snippets 'diff-hl 'tree-sitter 'lsp-mode 'lsp-ui 'add-node-modules-path 'prettier 'corfu 'rjsx-mode 'web-mode)
