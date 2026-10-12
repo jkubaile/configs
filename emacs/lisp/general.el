@@ -26,6 +26,8 @@
 (add-to-list 'auto-mode-alist '("\\.mjs\\'" . js-mode))
 (add-to-list 'auto-mode-alist '("\\.cjs\\'" . js-mode))
 (add-to-list 'auto-mode-alist '("\\.gjs\\'" . glint-ts-mode))
+(add-to-list 'auto-mode-alist '("\\.html\\'" . web-mode))
+(setq web-mode-engines-alist '(("django" . "\\.html\\'")))
 
 (add-hook 'js-mode-hook 'prettier-mode)
 (add-hook 'js-mode-hook 'ember-mode)
@@ -78,6 +80,123 @@
 (add-hook 'html-mode-hook #'jku/html-ensure-eslint-lsp)
 (add-hook 'web-mode-hook #'jku/html-disable-lsp-completion)
 (add-hook 'web-mode-hook #'jku/html-ensure-eslint-lsp)
+
+;; Jump to Jinja include/extends/import targets with M-.
+(require 'cl-lib)
+(require 'subr-x)
+(require 'xref)
+
+(defun jku/jinja--find-named-ancestor (dir name)
+  "Return DIR or an ancestor directory whose basename is NAME, or nil."
+  (let ((d (expand-file-name dir))
+        (target (concat "/" name)))
+    (while (and d
+                (not (string-suffix-p target (directory-file-name d)))
+                (not (member d '("" "/"))))
+      (let ((parent (file-name-directory (directory-file-name d))))
+        (setq d (if (or (null parent) (string-equal parent d))
+                    nil
+                  parent))))
+    (when (and d (string-suffix-p target (directory-file-name d)))
+      (file-name-as-directory d))))
+
+(defun jku/jinja-template-roots ()
+  "Return Jinja template search roots for the current buffer."
+  (let* ((file (or buffer-file-name default-directory))
+         (dir (file-name-directory (expand-file-name file)))
+         roots)
+    (dolist (name '("templates" "components"))
+      (when-let* ((root (jku/jinja--find-named-ancestor dir name)))
+        (push root roots)
+        (let* ((sibling-name (if (string= name "templates")
+                                 "components"
+                               "templates"))
+               (sibling (expand-file-name
+                         sibling-name
+                         (file-name-directory (directory-file-name root)))))
+          (when (file-directory-p sibling)
+            (push (file-name-as-directory sibling) roots)))))
+    (unless roots
+      (when-let* ((found (locate-dominating-file dir "templates")))
+        (push (file-name-as-directory (expand-file-name "templates" found))
+              roots)
+        (let ((comp (expand-file-name "components" found)))
+          (when (file-directory-p comp)
+            (push (file-name-as-directory comp) roots)))))
+    (delete-dups (nreverse roots))))
+
+(defun jku/jinja-template-at-point ()
+  "Return template path from include/extends/import at point, or nil."
+  (save-excursion
+    (let ((pt (point))
+          (bound (line-end-position))
+          path)
+      (goto-char (line-beginning-position))
+      (while (and (not path)
+                  (re-search-forward
+                   "{%-?\\s-*\\(?:include\\|extends\\|import\\)\\s-+[\"']\\([^\"']+\\)[\"']"
+                   bound t))
+        (let ((beg (match-beginning 1))
+              (end (match-end 1)))
+          (when (and (<= beg pt) (<= pt end))
+            (setq path (match-string-no-properties 1)))))
+      path)))
+
+(defun jku/jinja-resolve-template (path)
+  "Resolve Jinja template PATH to an absolute filename, or nil."
+  (let ((rel (string-remove-prefix "/" path)))
+    (cl-loop for root in (jku/jinja-template-roots)
+             for candidate = (expand-file-name rel root)
+             when (file-regular-p candidate)
+             return candidate)))
+
+(defun jku/jinja-xref-backend ()
+  "Xref backend for Jinja template includes.
+Only claim the backend when point is on an include/extends/import path,
+so other backends (e.g. LSP) still handle everything else."
+  (when (jku/jinja-template-at-point)
+    'jku/jinja))
+
+(cl-defmethod xref-backend-identifier-at-point ((_backend (eql jku/jinja)))
+  (jku/jinja-template-at-point))
+
+(cl-defmethod xref-backend-definitions ((_backend (eql jku/jinja)) identifier)
+  (when-let* ((file (jku/jinja-resolve-template identifier)))
+    (list (xref-make identifier (xref-make-file-location file 1 0)))))
+
+(cl-defmethod xref-backend-identifier-completion-table ((_backend (eql jku/jinja)))
+  nil)
+
+(defun jku/jinja--prefer-xref-backend ()
+  "Keep the Jinja xref backend ahead of lsp--xref-backend.
+lsp-managed-mode prepends lsp--xref-backend when the server attaches,
+which would otherwise steal M-. for quoted template paths."
+  (setq-local xref-backend-functions
+              (cons #'jku/jinja-xref-backend
+                    (delq #'jku/jinja-xref-backend
+                          (copy-sequence xref-backend-functions)))))
+
+(defun jku/jinja-goto-template-or-xref ()
+  "Jump to Jinja template at point; otherwise use normal xref."
+  (interactive)
+  (if-let* ((path (jku/jinja-template-at-point))
+            (file (jku/jinja-resolve-template path)))
+      (progn
+        (xref-push-marker-stack)
+        (find-file file))
+    (call-interactively #'xref-find-definitions)))
+
+(defun jku/jinja-enable-xref ()
+  "Prefer Jinja template xref before other backends in this buffer."
+  (jku/jinja--prefer-xref-backend)
+  ;; lsp-managed-mode (not lsp-mode) is what prepends lsp--xref-backend,
+  ;; and it runs asynchronously after the ESLint server attaches.
+  (add-hook 'lsp-managed-mode-hook #'jku/jinja--prefer-xref-backend nil t)
+  ;; Direct binding: bypasses xref backend order entirely for M-.
+  (local-set-key (kbd "M-.") #'jku/jinja-goto-template-or-xref))
+
+(add-hook 'web-mode-hook #'jku/jinja-enable-xref)
+(add-hook 'html-mode-hook #'jku/jinja-enable-xref)
 
 ;; Show LSP diagnostic text in the sideline; list all with C-c e
 (require 'lsp-ui)
