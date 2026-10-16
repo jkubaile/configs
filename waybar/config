@@ -29,8 +29,9 @@
     "modules-right": [
         "pulseaudio",
         "pulseaudio#microphone",
-        "network",
+        "custom/network",
         "memory",
+        "disk",
         "cpu",
         "temperature",
         "battery",
@@ -51,6 +52,16 @@
         "return-type": "json"
     },
 
+    "custom/network": {
+        "exec": "~/.config/waybar/network-status.sh",
+        "return-type": "json",
+        "interval": 5,
+        "format": "{}",
+        "tooltip": true,
+        "on-click": "~/.config/waybar/network-menu.sh",
+        "on-click-right": "nm-connection-editor"
+    },
+
     "battery": {
         "interval": 10,
         "states": {
@@ -62,18 +73,18 @@
         // Not connected to AC
         "format-discharging": "{icon}  {capacity}%",
         "format-icons": [
-            "", // Icon: battery-full
-            "", // Icon: battery-three-quarters
-            "", // Icon: battery-half
-            "", // Icon: battery-quarter
-            ""  // Icon: battery-empty
+            "", // empty
+            "", // quarter
+            "", // half
+            "", // three-quarters
+            ""  // full
         ],
         "tooltip": true
     },
 
     "clock#time": {
-        "interval": 1,
-        "format": "{:%H:%M:%S}",
+        "interval": 60,
+        "format": "{:%H:%M}",
         "tooltip": false
     },
 
@@ -120,18 +131,22 @@
     "memory": {
         "interval": 5,
         "format": "⛃ {}%", // Icon: memory
+        "tooltip-format": "RAM: {used:0.1f}GiB / {total:0.1f}GiB ({percentage}%)",
         "states": {
             "warning": 70,
             "critical": 90
         }
     },
 
-    "network": {
-        "interval": 5,
-        "format-wifi": "  {essid} ({signalStrength}%) - ⇩ {bandwidthDownBytes} ⇧ {bandwidthUpBytes}", // Icon: wifi
-        "format-ethernet": "☍ {ifname}: {ipaddr}/{cidr} - ⇩ {bandwidthDownBytes} ⇧ {bandwidthUpBytes}", // Icon: ethernet
-        "format-disconnected": "⚠  Disconnected",
-        "tooltip-format": "{ifname}: {ipaddr}"
+    "disk": {
+        "path": "/",
+        "interval": 30,
+        "format": "🖴 {percentage_used}%",
+        "tooltip-format": "Platte (/): {used} / {total} ({percentage_used}%)",
+        "states": {
+            "warning": 70,
+            "critical": 90
+        }
     },
 
     "sway/mode": {
