@@ -1,0 +1,58 @@
+#!/usr/bin/env bash
+# Enrich xdg-desktop-portal-wlr dmenu lines with Sway workspace.
+# Must echo back an original stdin line unchanged.
+set -euo pipefail
+
+mapfile -t lines
+displays=()
+declare -A original_for
+
+tree=$(swaymsg -t get_tree 2>/dev/null || echo '{}')
+
+for line in "${lines[@]}"; do
+	[[ -n "$line" ]] || continue
+	display=$line
+
+	if [[ "$line" == Window:\ * ]]; then
+		rest=${line#Window: }
+		title=${rest% (*}
+		ident=${rest##*(}
+		ident=${ident%)}
+		short=${ident:0:8}
+
+		# Prefer match by foreign_toplevel_identifier (unique), fall back to title.
+		read -r ws app_id < <(
+			jq -r --arg id "$ident" --arg t "$title" '
+				first(
+					.. | objects | select(.type? == "workspace")
+					| . as $ws
+					| (
+						[.. | objects | select(.foreign_toplevel_identifier? == $id)]
+						+ [.. | objects | select(.name? == $t)]
+					) as $wins
+					| select(($wins | length) > 0)
+					| "\($ws.name) \($wins[0].app_id // "?")"
+				) // "? ?"
+			' <<<"$tree" 2>/dev/null || echo '? ?'
+		)
+
+		# Avoid "foot · foot" when title == app_id.
+		if [[ -n "$title" && "$title" != "${app_id:-}" && "${app_id:-}" != "?" ]]; then
+			display=$(printf 'WS%s · %s · %s · %s' "${ws:-?}" "$app_id" "$title" "$short")
+		else
+			display=$(printf 'WS%s · %s · %s' "${ws:-?}" "${title:-${app_id:-window}}" "$short")
+		fi
+	elif [[ "$line" == Monitor:\ * ]]; then
+		display="Monitor · ${line#Monitor: }"
+	fi
+
+	if [[ -n "${original_for[$display]+x}" ]]; then
+		display+=" · $RANDOM"
+	fi
+	original_for["$display"]=$line
+	displays+=("$display")
+done
+
+selected=$(printf '%s\n' "${displays[@]}" | rofi -dmenu -i -p Share || true)
+[[ -n "${selected:-}" ]] || exit 0
+printf '%s\n' "${original_for[$selected]}"

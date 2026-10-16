@@ -24,7 +24,7 @@
 	"custom/weather",
     ],
     "modules-center": [
-        "sway/window"
+        "custom/window"
     ],
     "modules-right": [
         "pulseaudio",
@@ -154,9 +154,14 @@
         "tooltip": false
     },
 
-    "sway/window": {
+    "custom/window": {
+        "exec": "~/.config/waybar/focused-window.sh",
+        "return-type": "json",
+        "interval": 1,
         "format": "{}",
-        "max-length": 120
+        "max-length": 120,
+        "tooltip": true,
+        "escape": true
     },
 
     "sway/workspaces": {

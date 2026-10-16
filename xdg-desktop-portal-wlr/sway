@@ -1,4 +1,4 @@
 [screencast]
 max_fps=60
 chooser_type=dmenu
-chooser_cmd=/usr/bin/rofi -dmenu -i -p Share
+chooser_cmd=/home/jku/.config/xdg-desktop-portal-wlr/share-chooser

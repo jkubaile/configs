@@ -99,7 +99,7 @@ window#waybar {
 #memory,
 #disk,
 #temperature,
-#window,
+#custom-window,
 #custom-weather,
 #custom-network,
 #tray {
@@ -109,7 +109,7 @@ window#waybar {
     border-radius: 4px;
 }
 
-#window {
+#custom-window {
     color: @text_dim;
 }
 
