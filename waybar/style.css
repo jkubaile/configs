@@ -1,4 +1,13 @@
-/* KSC Farbbasis (Direkt definiert) */
+/* Reset */
+* {
+    border: none;
+    border-radius: 0;
+    min-height: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/* KSC Farbbasis */
 @define-color bg_dark #0f172a;
 @define-color grey_deep #1e293b;
 @define-color grey_medium #475569;
@@ -6,16 +15,49 @@
 @define-color ksc_white #ffffff;
 @define-color text_dim #94a3b8;
 
+/* Modul-Akzente */
+@define-color accent_audio #38bdf8;
+@define-color accent_mic #a78bfa;
+@define-color accent_net #34d399;
+@define-color accent_vpn #22d3ee;
+@define-color accent_mem #fbbf24;
+@define-color accent_disk #a3e635;
+@define-color accent_cpu #f472b6;
+@define-color accent_temp #fb923c;
+@define-color accent_bat #4ade80;
+@define-color accent_clock #e2e8f0;
+@define-color accent_date #60a5fa;
+@define-color accent_weather #7dd3fc;
+@define-color warn #f59e0b;
+@define-color crit #ef4444;
+
+@keyframes blink {
+    to {
+        background-color: @crit;
+        color: @ksc_white;
+    }
+}
+
+@keyframes blink-critical {
+    70% {
+        color: @ksc_white;
+    }
+    to {
+        color: @ksc_white;
+        background-color: @crit;
+    }
+}
+
 /* Hauptleiste */
 window#waybar {
     background-color: @bg_dark;
     color: @ksc_white;
     font-family: "DejaVu Sans", "Helvetica", Arial, sans-serif;
     font-size: 14px;
-    border-bottom: 2px solid @grey_medium;
+    border-bottom: 2px solid @ksc_blue;
 }
 
-/* Arbeitsflächen (Workspaces) */
+/* Arbeitsflächen */
 #workspaces button {
     padding: 0 8px;
     color: @text_dim;
@@ -30,32 +72,143 @@ window#waybar {
     border-bottom: 3px solid @ksc_white;
 }
 
+#workspaces button.urgent {
+    background-color: @crit;
+    color: @ksc_white;
+    border-bottom: 3px solid @warn;
+}
+
 #workspaces button:hover {
     background-color: @grey_medium;
     color: @ksc_white;
 }
 
-/* Standard-Infomodule (Uhrzeit, Batterie, Audio, Netzwerk) */
-#clock,
-#battery,
-#pulseaudio,
-#network,
-#cpu,
-#memory,
-#temperature,
-#window,
-#custom-weather,
-#tray {
-    padding: 0 4px;
-    margin: 4px 12px;
-    background-color: transparent;
+#mode {
+    background-color: @ksc_blue;
     color: @ksc_white;
+    padding: 0 10px;
+    margin: 4px 6px;
     border-radius: 4px;
 }
 
-/* Warnungs-Zustände (z.B. Batterie fast leer) */
+/* Basis-Module */
+#clock,
+#battery,
+#pulseaudio,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#window,
+#custom-weather,
+#custom-network,
+#tray {
+    padding: 0 8px;
+    margin: 4px 4px;
+    background-color: transparent;
+    border-radius: 4px;
+}
+
+#window {
+    color: @text_dim;
+}
+
+#custom-weather {
+    color: @accent_weather;
+}
+
+#custom-network {
+    color: @accent_net;
+}
+
+#custom-network.vpn {
+    color: @accent_vpn;
+}
+
+#custom-network.disconnected {
+    color: @warn;
+}
+
+#pulseaudio {
+    color: @accent_audio;
+}
+
+#pulseaudio.muted {
+    color: @grey_medium;
+}
+
+#pulseaudio.microphone {
+    color: @accent_mic;
+}
+
+#pulseaudio.microphone.muted {
+    color: @grey_medium;
+}
+
+#memory {
+    color: @accent_mem;
+}
+
+#memory.warning {
+    color: @warn;
+}
+
+#memory.critical {
+    color: @crit;
+    animation-name: blink-critical;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#disk {
+    color: @accent_disk;
+}
+
+#disk.warning {
+    color: @warn;
+}
+
+#disk.critical {
+    color: @crit;
+}
+
+#cpu {
+    color: @accent_cpu;
+}
+
+#cpu.warning {
+    color: @warn;
+}
+
+#cpu.critical {
+    color: @crit;
+}
+
+#temperature {
+    color: @accent_temp;
+}
+
+#temperature.critical {
+    color: @crit;
+}
+
+#battery {
+    color: @accent_bat;
+}
+
+#battery.charging,
+#battery.plugged {
+    color: @accent_bat;
+}
+
+#battery.warning:not(.charging) {
+    color: @warn;
+}
+
 #battery.critical:not(.charging) {
-    background-color: #ef4444;
+    background-color: @crit;
     color: @ksc_white;
     animation-name: blink;
     animation-duration: 0.5s;
@@ -64,16 +217,27 @@ window#waybar {
     animation-direction: alternate;
 }
 
+#clock.date {
+    color: @accent_date;
+}
 
+#clock.time {
+    color: @accent_clock;
+    font-weight: bold;
+}
 
-/* Gestaltet das Hover-Fenster */
+#tray {
+    color: @ksc_white;
+}
+
 tooltip {
-    background: #2f343f;
-    border: 1px solid #5294e2;
+    background: @grey_deep;
+    border: 1px solid @ksc_blue;
     border-radius: 5px;
 }
+
 tooltip label {
-    color: #ffffff;
-    font-family: monospace; /* Garantiert, dass die Abstände gleich bleiben */
+    color: @ksc_white;
+    font-family: monospace;
     padding: 6px;
 }
