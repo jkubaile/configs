@@ -302,11 +302,14 @@ mode "Exit (L)ogout, (R)eboot, (P)oweroff" {
 
 bindsym $mod+Shift+e mode "Exit (L)ogout, (R)eboot, (P)oweroff"
 
+# Export compositor env BEFORE portals/apps (xdg-desktop-portal-wlr needs WAYLAND_DISPLAY)
+exec systemctl --user import-environment DISPLAY WAYLAND_DISPLAY SWAYSOCK XDG_CURRENT_DESKTOP XDG_SESSION_TYPE
+exec dbus-update-activation-environment --systemd DISPLAY WAYLAND_DISPLAY SWAYSOCK XDG_CURRENT_DESKTOP XDG_SESSION_TYPE
+exec systemctl --user restart xdg-desktop-portal.service xdg-desktop-portal-wlr.service
+
 exec_always "pkill kanshi; kanshi &"
 
 exec kanshi
 exec waybar
 exec nm-applet --indicator
 # exec --no-startup-id pasystray
-
-exec systemctl --user import-environment XDG_CURRENT_DESKTOP WAYLAND_DISPLAY DISPLAY
