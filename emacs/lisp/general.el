@@ -60,27 +60,6 @@
 (add-hook 'glint-ts-mode-hook 'prettier-mode)
 (add-hook 'glint-ts-mode-hook 'ember-mode)
 
-;; ESLint language server for Jinja/HTML (project flat config)
-(require 'lsp-eslint)
-(setq lsp-eslint-validate '("html" "svelte")
-      lsp-eslint-format nil
-      lsp-eslint-quiet t
-      lsp-eslint-options (ht ("overrideConfigFile" "frontend/eslint.config.mjs")))
-
-(defun jku/html-disable-lsp-completion ()
-  "Use ESLint LSP without completion."
-  (setq-local lsp-completion-provider 'none))
-
-(defun jku/html-ensure-eslint-lsp ()
-  "Start lsp-mode so the ESLint add-on client can attach."
-  (unless (bound-and-true-p lsp-mode)
-    (lsp)))
-
-(add-hook 'html-mode-hook #'jku/html-disable-lsp-completion)
-(add-hook 'html-mode-hook #'jku/html-ensure-eslint-lsp)
-(add-hook 'web-mode-hook #'jku/html-disable-lsp-completion)
-(add-hook 'web-mode-hook #'jku/html-ensure-eslint-lsp)
-
 ;; Jump to Jinja include/extends/import targets with M-.
 (require 'cl-lib)
 (require 'subr-x)
@@ -152,8 +131,7 @@
 
 (defun jku/jinja-xref-backend ()
   "Xref backend for Jinja template includes.
-Only claim the backend when point is on an include/extends/import path,
-so other backends (e.g. LSP) still handle everything else."
+Only claim the backend when point is on an include/extends/import path."
   (when (jku/jinja-template-at-point)
     'jku/jinja))
 
@@ -167,15 +145,6 @@ so other backends (e.g. LSP) still handle everything else."
 (cl-defmethod xref-backend-identifier-completion-table ((_backend (eql jku/jinja)))
   nil)
 
-(defun jku/jinja--prefer-xref-backend ()
-  "Keep the Jinja xref backend ahead of lsp--xref-backend.
-lsp-managed-mode prepends lsp--xref-backend when the server attaches,
-which would otherwise steal M-. for quoted template paths."
-  (setq-local xref-backend-functions
-              (cons #'jku/jinja-xref-backend
-                    (delq #'jku/jinja-xref-backend
-                          (copy-sequence xref-backend-functions)))))
-
 (defun jku/jinja-goto-template-or-xref ()
   "Jump to Jinja template at point; otherwise use normal xref."
   (interactive)
@@ -187,12 +156,8 @@ which would otherwise steal M-. for quoted template paths."
     (call-interactively #'xref-find-definitions)))
 
 (defun jku/jinja-enable-xref ()
-  "Prefer Jinja template xref before other backends in this buffer."
-  (jku/jinja--prefer-xref-backend)
-  ;; lsp-managed-mode (not lsp-mode) is what prepends lsp--xref-backend,
-  ;; and it runs asynchronously after the ESLint server attaches.
-  (add-hook 'lsp-managed-mode-hook #'jku/jinja--prefer-xref-backend nil t)
-  ;; Direct binding: bypasses xref backend order entirely for M-.
+  "Enable Jinja template jump with M-."
+  (add-hook 'xref-backend-functions #'jku/jinja-xref-backend nil t)
   (local-set-key (kbd "M-.") #'jku/jinja-goto-template-or-xref))
 
 (add-hook 'web-mode-hook #'jku/jinja-enable-xref)
