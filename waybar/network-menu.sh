@@ -34,6 +34,24 @@ done < <(nmcli -t -f DEVICE,TYPE,STATE,CONNECTION device status 2>/dev/null || t
 
 entries=()
 
+entries+=("── VPN ──")
+mapfile -t vpn_conns < <(
+    nmcli -t -f NAME,TYPE connection show 2>/dev/null \
+        | awk -F: '$2 == "vpn" || $2 == "wireguard" { print $1 }'
+)
+
+if ((${#vpn_conns[@]} == 0)); then
+    entries+=("(keine VPN-Profile)")
+else
+    for c in "${vpn_conns[@]}"; do
+        if vpn_active "$c"; then
+            entries+=("V✓ ${c}")
+        else
+            entries+=("V○ ${c}")
+        fi
+    done
+fi
+
 entries+=("── WLAN ──")
 if [[ -n "$wifi_dev" ]]; then
     nmcli device wifi rescan ifname "$wifi_dev" >/dev/null 2>&1 || true
@@ -58,24 +76,6 @@ if [[ -n "$wifi_dev" ]]; then
     fi
 else
     entries+=("(kein WLAN-Gerät)")
-fi
-
-entries+=("── VPN ──")
-mapfile -t vpn_conns < <(
-    nmcli -t -f NAME,TYPE connection show 2>/dev/null \
-        | awk -F: '$2 == "vpn" || $2 == "wireguard" { print $1 }'
-)
-
-if ((${#vpn_conns[@]} == 0)); then
-    entries+=("(keine VPN-Profile)")
-else
-    for c in "${vpn_conns[@]}"; do
-        if vpn_active "$c"; then
-            entries+=("V✓ ${c}")
-        else
-            entries+=("V○ ${c}")
-        fi
-    done
 fi
 
 choice=$(printf '%s\n' "${entries[@]}" | rofi -dmenu -i -p "Netzwerk" -no-custom) || exit 0
