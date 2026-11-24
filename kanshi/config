@@ -65,3 +65,27 @@ profile {
 
     exec swaymsg 'output "AU Optronics 0x45B2 Unknown" scale_filter smart'
 }
+
+# office pb
+profile {
+    output "Iiyama North America PL2793Q 12308421A1778" {
+        mode 2560x1440@59.961Hz
+        position 2283,1200
+        transform normal
+        scale 1.0
+    }
+    output "Iiyama North America PL2793Q 12308421A1767" {
+        mode 2560x1440@59.961Hz
+        position 4843,1200
+        transform normal
+        scale 1.0
+    }
+    output "AU Optronics 0x45B2 Unknown" {
+        mode 1920x1200@60.003Hz
+        position 3461,2640
+        transform normal
+        scale 1.2
+        adaptive_sync off
+    }
+    exec swaymsg 'output "AU Optronics 0x45B2 Unknown" scale_filter smart'
+}
